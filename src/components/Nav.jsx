@@ -52,23 +52,23 @@ export default function Nav({ page, wide, onNav, isAbout, isServices }) {
           alignItems: 'center',
           justifyContent: 'space-between',
           gap: 16,
-          minHeight: 74,
+          minHeight: 78,
         }}
       >
         <a href="#home" onClick={go('home')} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <img src={logo} alt="United Community Foundation" style={{ height: 44, width: 'auto', flexShrink: 0 }} />
+          <img src={logo} alt="United Community Foundation" style={{ height: 48, width: 'auto', flexShrink: 0 }} />
           <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.15 }}>
-            <span style={{ fontSize: 16, fontWeight: 900, letterSpacing: '-.02em', color: '#1e3d42' }}>
+            <span style={{ fontSize: 17.5, fontWeight: 900, letterSpacing: '-.02em', color: '#1e3d42' }}>
               United Community Foundation
             </span>
-            <span style={{ fontSize: 11.5, fontWeight: 600, letterSpacing: '.12em', textTransform: 'uppercase', color: '#4a8d96' }}>
+            <span style={{ fontSize: 12.5, fontWeight: 600, letterSpacing: '.12em', textTransform: 'uppercase', color: '#4a8d96' }}>
               Health · Equity · Texas
             </span>
           </span>
         </a>
 
         {wide && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 14, fontWeight: 600, color: '#1e293b', whiteSpace: 'nowrap' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 15, fontWeight: 600, color: '#1e293b', whiteSpace: 'nowrap' }}>
             <NavLink page="home" current={page} onNav={go}>Home</NavLink>
 
             <div
@@ -145,7 +145,7 @@ export default function Nav({ page, wide, onNav, isAbout, isServices }) {
             href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=KXUXZ2T5BTEEU&source=url"
             target="_blank"
             rel="noopener"
-            style={{ padding: '11px 22px', borderRadius: 999, background: '#2D5A61', color: '#fff', fontSize: 14, fontWeight: 700, boxShadow: '0 8px 20px -8px rgba(45,90,97,.7)', transition: 'transform .3s' }}
+            style={{ padding: '11px 22px', borderRadius: 999, background: '#2D5A61', color: '#fff', fontSize: 15, fontWeight: 700, boxShadow: '0 8px 20px -8px rgba(45,90,97,.7)', transition: 'transform .3s' }}
             hoverStyle={{ background: '#1e3d42', color: '#fff', transform: 'translateY(-2px)' }}
           >
             Donate
