@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #faf9f6;
+  font-family: 'Figtree', sans-serif;
+  color: #334155;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #2D5A61;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e3d42;
+}
+
+::selection {
+  background: #2D5A61;
+  color: #fff;
+}
+
+@keyframes ucfFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+.ucf-in {
+  animation: ucfFade .4s ease-out both;
+}
+
+@keyframes ucfDropdown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.ucf-dropdown {
+  animation: ucfDropdown .18s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ucf-in {
+    animation: none;
+  }
+}
