@@ -16,7 +16,7 @@ function Socials({ className }) {
   );
 }
 
-export default function Header() {
+export default function Header({ path = '/' }) {
   const [open, setOpen] = useState(false);
   const [openSub, setOpenSub] = useState(null);
 
@@ -64,7 +64,7 @@ export default function Header() {
             <nav className="nav-pill" aria-label="sanorra menu">
               <ul className="nav-menu">
                 {NAV.map((item) => (
-                  <li key={item.label} className={item.href === '/' ? 'current' : ''}>
+                  <li key={item.label} className={(item.href === path || (item.children && item.children.some((c) => c.href.replace(/\/$/, '') === path))) ? 'current' : ''}>
                     <a href={item.href} aria-label={item.label}>
                       {item.label}
                       {item.children && <AngleDownIcon />}
