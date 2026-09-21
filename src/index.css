@@ -1765,8 +1765,7 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 .post-main { width: 75%; }
 .post-main .gv-col-wrap { margin-right: 40px; }
 .post-body { width: 100%; font-size: 15px; line-height: 1.7; color: #000000; }
-.post-body p { margin: 0 0 19.2px; }
-.post-body p:last-child { margin-bottom: 0; }
+.post-body p { margin: 0; }
 .post-body blockquote { margin: 15px 40px; }
 .post-body blockquote p { margin: 0; }
 .post-body h2, .post-body h3, .post-body h4 { margin: 8px 0 16px; font-weight: 700; color: #000000; }
@@ -1782,9 +1781,9 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 .post-tags a { display: inline-block; font-family: var(--font-ps); font-size: 16px; line-height: 1.5em; color: var(--gv-text); }
 .post-share { display: flex; align-items: center; }
 .post-share p { font-family: var(--font-ps); font-size: 16px; line-height: 1.5em; color: var(--gv-text); margin-right: 18px; text-align: right; }
-.post-share a { display: flex; width: 18px; height: 18px; margin-left: 18px; color: #ffffff; }
+.post-share a { display: flex; width: 18px; height: 18px; margin-left: 18px; color: #111111; }
 .post-share a:first-of-type { margin-left: 0; }
-.post-share svg { width: 18px; height: 18px; fill: #ffffff; }
+.post-share svg { width: 18px; height: 18px; fill: #111111; }
 .post-divider { width: 100%; margin-top: 40px; border-bottom: 1px solid var(--gv-border); }
 .post-side { width: 25%; }
 .post-side .gv-col-wrap { margin-left: 20px; }
