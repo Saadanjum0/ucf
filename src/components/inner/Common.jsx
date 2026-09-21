@@ -32,9 +32,9 @@ export function PageHero({ image, tag, sub, title, intro, overlayStop = '20%', t
 }
 
 /* Banner used by the plain WordPress pages (Patient Center, Doctors & Staff) */
-export function PageBanner({ title }) {
+export function PageBanner({ title, noImage = false }) {
   return (
-    <section className="page-banner">
+    <section className={`page-banner${noImage ? ' no-image' : ''}`}>
       <div className="page-banner-overlay" />
       <div className="gv-container"><h1>{title}</h1></div>
     </section>
