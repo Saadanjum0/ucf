@@ -1,40 +1,39 @@
 import { useEffect } from 'react';
 
-// Replicates the reference's scroll-reveal trigger: an element stays hidden
-// until its top edge is at or above 75% of the viewport height (or the page is
-// scrolled to the bottom), then its entrance animation plays once.
+// Scroll-reveal trigger: an element plays its entrance animation every time it
+// scrolls into view (top edge at or above 75% of viewport height), and resets
+// so it plays again on re-entry after scrolling away and back.
 export function useReveal(deps = []) {
   useEffect(() => {
-    const els = Array.from(document.querySelectorAll('.gv-anim:not(.gv-played)'));
+    const els = Array.from(document.querySelectorAll('.gv-anim'));
     if (!els.length) return undefined;
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let pending = els;
-    let raf = 0;
-    const check = () => {
-      raf = 0;
-      const vh = window.innerHeight;
-      const atBottom = vh + Math.ceil(window.pageYOffset) >= document.body.offsetHeight - 0.25 * vh;
-      pending = pending.filter((el) => {
-        const top = el.getBoundingClientRect().top;
-        if (top <= 0.75 * vh || (top > 0 && atBottom)) {
-          el.classList.add('gv-played');
-          if (reduce) el.style.animation = 'none';
-          return false;
-        }
-        return true;
-      });
-      if (!pending.length) detach();
-    };
-    const onScroll = () => { if (!raf) raf = requestAnimationFrame(check); };
-    const detach = () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
-    check();
-    const t = setTimeout(check, 300);
-    return () => { detach(); clearTimeout(t); if (raf) cancelAnimationFrame(raf); };
+    if (reduce) {
+      els.forEach((el) => el.classList.add('gv-played'));
+      return undefined;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const el = entry.target;
+          if (entry.isIntersecting) {
+            if (!el.classList.contains('gv-played')) {
+              el.classList.add('gv-played');
+            }
+          } else {
+            el.classList.remove('gv-played');
+            // eslint-disable-next-line no-void
+            void el.offsetWidth; // force reflow so the animation restarts on re-entry
+          }
+        });
+      },
+      { threshold: 0, rootMargin: '0px 0px -25% 0px' }
+    );
+
+    els.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 }
