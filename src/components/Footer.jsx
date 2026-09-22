@@ -83,12 +83,10 @@ export default function Footer() {
 
         <section className="footer-copy">
           <div className="gv-col">
-            <div className="gv-col-wrap"><h4>Copyright © 2026 Community Health &amp; Life Center. All rights reserved.</h4></div>
+            <div className="gv-col-wrap"><h4>© 2026 {SITE.name}. All rights reserved.</h4></div>
           </div>
           <div className="gv-col right">
             <div className="gv-col-wrap" style={{ flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-              <h4>Community Health &amp; Life Center</h4>
-              <h4><a href="https://communityhealthandlifecenter.com">communityhealthandlifecenter.com</a></h4>
               <h4>Healthcare &amp; Hospital</h4>
             </div>
           </div>
