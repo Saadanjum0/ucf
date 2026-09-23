@@ -7,7 +7,7 @@ const LIST = ['Title V Child Health & Dental Program', 'Primary Health Care (PHC
 
 const CARDS = [
   { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.1s' },
-  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'male-doctor-using-recovery-medication-to-give-pres.webp', delay: '0.15s' },
+  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
   { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.2s' },
   { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
   { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'female-doctor-hugging-her-little-male-patient.webp', delay: '0.2s' },
@@ -16,7 +16,7 @@ const CARDS = [
 
 const SPECIALISTS = [
   { name: 'Salman Aly, M.D.', role: 'Medical Director' },
-  { img: 'male-doctor-using-recovery-medication-to-give-pres.webp', name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer' },
+  { img: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer' },
   { img: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', name: 'Liaquat Khowaja', role: 'Chief Executive Officer' },
 ];
 

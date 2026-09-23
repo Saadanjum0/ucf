@@ -37,10 +37,10 @@ export default function Hero() {
 
             <div className="hero-cards">
               <div className="hero-cards-row">
-                <HeroCard icon="waiting-room-replace.webp" alt="waiting room" title="Clinic Hours" delay="0s">
+                <HeroCard icon="time-medicine-icon-replace.webp" alt="waiting room" title="Clinic Hours" delay="0s">
                   Mon–Fri : 9:00 AM – 2:00 PM<br />Saturday : Select Locations
                 </HeroCard>
-                <HeroCard icon="emergency-call-replace.webp" alt="emergency call" title="Need Care Today?" delay="0.15s">
+                <HeroCard icon="emergency-call-icon-replace.webp" alt="emergency call" title="Need Care Today?" delay="0.15s">
                   Most locations welcome walk-ins. For emergencies, call 911.<br />{SITE.phone}
                 </HeroCard>
               </div>

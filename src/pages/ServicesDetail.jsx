@@ -18,7 +18,7 @@ const FAQ = [
 export default function ServicesDetail() {
   return (
     <>
-      <PageHero image="male-doctor-using-recovery-medication-to-give-pres.webp" tag="SERVICES" sub="Medical Service Overview" title="Medical Consultation" intro="Comprehensive medical consultations that connect you to screenings, referrals, and preventive care under one roof." />
+      <PageHero image="balance-exercise-with-bosu-ball-woman-and-doctor.webp" tag="SERVICES" sub="Medical Service Overview" title="Medical Consultation" intro="Comprehensive medical consultations that connect you to screenings, referrals, and preventive care under one roof." />
       <section className="detail-page">
         <div className="gv-container">
           <div className="gv-col detail-main">
