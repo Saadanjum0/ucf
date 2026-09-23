@@ -55,12 +55,12 @@ export const FUN_FACTS = [
 
 export const DEPARTMENTS = {
   left: [
-    { icon: 'heart-icon-replace.webp', title: 'Medical Services', desc: 'Preventive & primary care with a care-coordination approach.', hover: 'two-black-medical-doctors-standing-in-hospital-smiling_eke8msjt-e_thumbnail-full01.png', anim: 'fadeInRight', delay: '0.1s' },
-    { icon: 'dna-icon-replace.webp', title: 'Dental Services', desc: 'Exams, cleanings, hygiene education & dental procedures.', hover: 'medical-staff-e1491527907551.jpg', anim: 'fadeInRight', delay: '0.15s' },
+    { icon: 'heart-icon-replace.webp', title: 'Medical Services', desc: 'Preventive & primary care with a care-coordination approach.', hover: 'medical-specialist-consulting-senior-woman-in-waiting-room.webp', anim: 'fadeInRight', delay: '0.1s' },
+    { icon: 'dna-icon-replace.webp', title: 'Dental Services', desc: 'Exams, cleanings, hygiene education & dental procedures.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', anim: 'fadeInRight', delay: '0.15s' },
   ],
   right: [
-    { icon: 'bone-icon-replace.webp', title: 'Social Services', desc: 'Food assistance, employment resources & senior services.', hover: 'multiracial_medical_team.jpeg', anim: 'fadeInLeft', delay: '0.1s' },
-    { icon: 'pacifier-icon-replace.webp', title: 'Educational Programs', desc: 'Mentorship, financial literacy & job-skills training.', hover: 'Foster-care-family.jpg', anim: 'fadeInLeft', delay: '0.15s' },
+    { icon: 'bone-icon-replace.webp', title: 'Social Services', desc: 'Food assistance, employment resources & senior services.', hover: 'caucasian-senior-woman-consulting-black-middle-age.webp', anim: 'fadeInLeft', delay: '0.1s' },
+    { icon: 'pacifier-icon-replace.webp', title: 'Educational Programs', desc: 'Mentorship, financial literacy & job-skills training.', hover: 'women-doctors-standing-on-medical-conference-talk.webp', anim: 'fadeInLeft', delay: '0.15s' },
   ],
 };
 
@@ -72,9 +72,9 @@ export const OFFER = [
 ];
 
 export const PROMISE = {
-  chronic: { img: 'mixed-family-1.jpg', tag: 'Free Programs', title: 'Title V Program', desc: 'Free and low-cost preventive, primary, and dental care for children and adolescents under 21 from low-income families.', height: 520 },
-  family: { img: 'PHOTO_wellnessvisit.jpg', tag: 'Medical', title: 'Preventive Focus', desc: 'Annual visits, immunizations, and screenings delivered with a care-coordination approach for every family member.', height: 470 },
-  oncology: { img: 'multiracial_medical_team.jpg', tag: 'Educational Programs', title: 'Skills for Life', desc: 'Mentorship, financial literacy, language classes, and job-training programs that open doors for our community.', height: 485 },
+  chronic: { img: 'female-doctor-hugging-her-little-male-patient.webp', tag: 'Free Programs', title: 'Title V Program', desc: 'Free and low-cost preventive, primary, and dental care for children and adolescents under 21 from low-income families.', height: 520 },
+  family: { img: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', tag: 'Medical', title: 'Preventive Focus', desc: 'Annual visits, immunizations, and screenings delivered with a care-coordination approach for every family member.', height: 470 },
+  oncology: { img: 'five-young-multiethnic-doctors-scientists-bioenge.webp', tag: 'Educational Programs', title: 'Skills for Life', desc: 'Mentorship, financial literacy, language classes, and job-training programs that open doors for our community.', height: 485 },
   text: 'We combine quality, coordinated health care with education and social services to redefine what it means to serve an underserved community — with equity, dignity, and excellence.',
 };
 
@@ -98,10 +98,10 @@ export const LOGOS = [
 
 // All 5 real UCF locations from ucftexas.org/locations.
 export const LOCATIONS = [
-  { img: 'multiracial_medical_team.jpg', title: 'Main Location', sub: 'Rosenberg, TX', desc: 'Health and Wellness Center — 4114 Avenue H, Rosenberg, Texas 77471. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.05s' },
-  { img: 'mixed-family-1.jpg', title: 'Wharton Location', sub: 'Wharton, TX', desc: 'Health and Wellness Center — 416 N Alabama Rd, Wharton, TX 77488. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.1s' },
-  { img: 'Diverse-health-care.jpeg', title: 'Sugar Land Location', sub: 'Sugar Land, TX', desc: 'Health and Wellness Center — 6903 Brisbane Ct, Suite 100-A, Sugar Land, Texas 77479. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.15s' },
-  { img: 'banner-diverse-group-of-people-2.jpg', title: 'Houston Location', sub: 'Houston, TX', desc: 'Health and Wellness Center — 9100 Southwest Freeway, Suite 114-A, Houston, Texas 77074. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.2s' },
+  { img: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', title: 'Main Location', sub: 'Rosenberg, TX', desc: 'Health and Wellness Center — 4114 Avenue H, Rosenberg, Texas 77471. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.05s' },
+  { img: 'group-of-doctors-and-nurses-consulting-about-a-com.webp', title: 'Wharton Location', sub: 'Wharton, TX', desc: 'Health and Wellness Center — 416 N Alabama Rd, Wharton, TX 77488. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.1s' },
+  { img: 'group-of-doctors-standing-in-hospital-on-medical-center.webp', title: 'Sugar Land Location', sub: 'Sugar Land, TX', desc: 'Health and Wellness Center — 6903 Brisbane Ct, Suite 100-A, Sugar Land, Texas 77479. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.15s' },
+  { img: 'doctor-orthopedist-points-to-the-anatomical-model-replace.webp', title: 'Houston Location', sub: 'Houston, TX', desc: 'Health and Wellness Center — 9100 Southwest Freeway, Suite 114-A, Houston, Texas 77074. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.2s' },
   { img: 'diverse-group-of-healthcare-workers-clearing-the-way-replace.webp', title: 'Wilcrest Community Medical Center', sub: 'Houston, TX', desc: 'Medical Clinic — 11226 S. Wilcrest Dr., Houston, TX 77099. Phone 281-977-7462, Fax 281-977-7472. Mon–Sat 7:00am–5:00pm (patients accepted until 4pm). Walk-ins welcome.', delay: '0.25s' },
 ];
 
@@ -109,9 +109,9 @@ export const LOCATIONS = [
 // real programs (Title V, free medical/dental days, back-to-school health fairs),
 // reusing existing clinic-photo assets already in public/img.
 export const POSTS = [
-  { img: 'chlc-care-team-huddle.jpg', cat: 'Programs', title: 'Title V Program Brings Free Medical & Dental Care to Fort Bend County Kids', href: '/2015/10/18/grid-gallery-post/' },
-  { img: 'chlc-pediatric-visit.jpg', cat: 'Community', title: 'Back-to-School Health Fair Screens Families Across Our Locations', href: '/2015/09/20/top-health-tips/' },
-  { img: 'composition-of-fruits-and-vegetables-in-rainbow-82DUL49-min.jpg', cat: 'Education', title: 'Free Financial Literacy & Job-Skills Classes Open This Fall', href: '/2015/09/24/educational-video/' },
+  { img: 'in-the-hospital-office-a-medical-explains.webp', cat: 'Programs', title: 'Title V Program Brings Free Medical & Dental Care to Fort Bend County Kids', href: '/2015/10/18/grid-gallery-post/' },
+  { img: 'hospital-story-pediatrics.webp', cat: 'Community', title: 'Back-to-School Health Fair Screens Families Across Our Locations', href: '/2015/09/20/top-health-tips/' },
+  { img: 'meeting-team-of-doctor-and-medical-staff-consultant.webp', cat: 'Education', title: 'Free Financial Literacy & Job-Skills Classes Open This Fall', href: '/2015/09/24/educational-video/' },
 ];
 
 // UCF's live site has no published Google reviews to pull. Plausible, unmarked
@@ -126,7 +126,7 @@ export const REVIEWS = [
 ];
 
 // No gallery on the live site — reusing existing clinic-photo assets.
-export const GALLERY = ['chlc-gallery-01.jpg', 'chlc-gallery-02.jpg', 'chlc-gallery-03.jpg', 'chlc-gallery-04.jpg', 'chlc-gallery-06.jpg', 'chlc-gallery-07.jpg', 'chlc-gallery-08.jpg', 'chlc-gallery-10.jpg'];
+export const GALLERY = ['team-of-female-doctor-check-on-scan-results-paper.webp', 'group-of-doctors-talking-about-corona-virus-on-conference.webp', 'women-doctors-standing-on-medical-conference-talk.webp', 'male-doctor-using-recovery-medication-to-give-pres.webp', 'pregnant-woman-having-an-ultrasound-scan-performed.webp', 'young-neurologists-reading-brain-mri-at-hospital-lab.webp', 'confident-female-doctor-therapist-sitting-at-desk.webp', 'in-the-hospital-office-a-medical-explains-abou.webp'];
 
 export const FOOTER_CARDS = [
   { icon: 'doctor-icon-replace.webp', title: 'About Us', href: '/about-us/' },

@@ -6,18 +6,18 @@ import { PortalCta } from '../components/Extras';
 const LIST = ['Title V Child Health & Dental Program', 'Primary Health Care (PHC) Program', 'Family Planning Program', 'Specialist Referrals', 'Mental Health Evaluation', 'Low-Cost Lab & Imaging'];
 
 const CARDS = [
-  { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'group-of-doctors-and-nurses-consulting-about-a-com.webp', delay: '0.1s' },
-  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'doctor-orthopedist-points-to-the-anatomical-model-replace.webp', delay: '0.15s' },
-  { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'team-of-female-doctor-check-on-scan-results-paper.webp', delay: '0.2s' },
-  { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'young-neurologists-reading-brain-mri-at-hospital-replace.webp', delay: '0.15s' },
-  { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'hospital-story-pediatrics.webp', delay: '0.2s' },
-  { icon: 'sanitary-pad-icon-replace.webp', title: 'Family Planning & PHC Programs', desc: 'Free and low-cost primary and reproductive health services for qualifying families.', hover: 'pregnant-woman-having-an-ultrasound-scan-performed.webp', delay: '0.25s' },
+  { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.1s' },
+  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'male-doctor-using-recovery-medication-to-give-pres.webp', delay: '0.15s' },
+  { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.2s' },
+  { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
+  { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'female-doctor-hugging-her-little-male-patient.webp', delay: '0.2s' },
+  { icon: 'sanitary-pad-icon-replace.webp', title: 'Family Planning & PHC Programs', desc: 'Free and low-cost primary and reproductive health services for qualifying families.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', delay: '0.25s' },
 ];
 
 const SPECIALISTS = [
-  { img: 'docpic.png', name: 'Salman Aly, M.D.', role: 'Medical Director' },
-  { img: 'in-the-hospital-office-a-medical-explains.webp', name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer' },
-  { img: 'team-of-female-doctor-check-on-scan-results-paper.webp', name: 'Liaquat Khowaja', role: 'Chief Executive Officer' },
+  { name: 'Salman Aly, M.D.', role: 'Medical Director' },
+  { img: 'male-doctor-using-recovery-medication-to-give-pres.webp', name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer' },
+  { img: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', name: 'Liaquat Khowaja', role: 'Chief Executive Officer' },
 ];
 
 export default function Departments() {
@@ -29,14 +29,14 @@ export default function Departments() {
       <section className="dept-intro">
         <div className="gv-container">
           <div className="gv-col intro-photo-col">
-            <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/group-of-doctors-standing-on-stairs-on-medical-conferences.webp)' }} />
+            <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/medical-team-pair-smiling.png)' }} />
           </div>
           <div className="gv-col intro-mid-col">
             <div className="gv-col-wrap">
               <Subhead tag="Introduction" sub="Dedicated to Your Well" center={false} />
               <h2 className="gv-h2 left intro-h2">Shaped Around Your Well-Being</h2>
               <div className="intro-img gv-anim" data-anim="fadeInDown" style={{ '--delay': '0.05s' }}>
-                <img src="/img/diverse-group-of-healthcare-workers-clearing-the-way-replace.webp" alt="" />
+                <img src="/img/female-doctor-hugging-her-little-male-patient.webp" alt="" />
               </div>
             </div>
           </div>

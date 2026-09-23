@@ -47,7 +47,7 @@ export function BlogListing({ page = 1 }) {
   const items = POSTS.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   return (
     <>
-      <PageHero image="confident-female-doctor-therapist-sitting-at-desk.webp" tag="our Blog" sub="Insights that inspire" title="Stories of Care That Shape Our Journey" intro="Program updates, community news, and health tips from the team at United Community Foundation." />
+      <PageHero image="walk-in-appointments.jpg" tag="our Blog" sub="Insights that inspire" title="Stories of Care That Shape Our Journey" intro="Program updates, community news, and health tips from the team at United Community Foundation." />
       <section className="blog-page">
         <div className="gv-container">
           <div className="gv-col" style={{ width: '100%' }}>

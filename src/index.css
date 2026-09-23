@@ -606,7 +606,7 @@ button { font: inherit; cursor: pointer; }
   justify-content: flex-end;
   width: 100%;
   margin: 0 10px;
-  background: url("/img/Diverse-health-care.jpeg") top center / cover no-repeat;
+  background: url("/img/computer-tomography-machine.webp") top center / cover no-repeat;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -779,9 +779,9 @@ button { font: inherit; cursor: pointer; }
   height: 450px;
   border-radius: 10px;
   overflow: hidden;
-  background: url("/img/computer-tomography-machine.webp") top center / cover no-repeat;
+  background: url("/img/balance-exercise-with-bosu-ball-woman-and-doctor.webp") top center / cover no-repeat;
 }
-.video-card .people { position: absolute; inset: 0; border-radius: 10px; background: url("/img/banner-diverse-group-of-people-2.jpg") 0% 100% / 350px auto no-repeat; }
+.video-card .people { position: absolute; inset: 0; border-radius: 10px; background: url("/img/group-of-doctors-standing-on-stairs-on-medical-conferences.webp") 0% 100% / 350px auto no-repeat; }
 .video-card .tint { position: absolute; inset: 0; border-radius: 10px; background: linear-gradient(rgba(180, 192, 96, 0.3) 30%, rgba(17, 17, 17, 0.9) 100%); }
 .play-btn {
   position: absolute;
@@ -1208,7 +1208,7 @@ main.inner { font-family: var(--font-ps); }
   position: relative;
   z-index: 1;
   padding: 400px 40px 120px;
-  background: url("/img/chlc-diverse-care-team.jpg") center / cover no-repeat;
+  background: url("/img/diverse-care-team-smiling.jpg") center / cover no-repeat;
   font-family: var(--font-ps);
 }
 .page-banner-overlay { position: absolute; inset: 0; background: linear-gradient(rgba(0, 80, 97, 0) 20%, rgb(0, 59, 71) 100%); }
@@ -1328,6 +1328,8 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 .specialist { align-items: center; }
 .specialist-img { width: 100%; border-radius: 10px; overflow: hidden; line-height: 0; }
 .specialist-img img { width: 100%; height: auto; object-fit: cover; }
+.specialist-avatar { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 3 / 4; background: var(--gv-bg-primary, #0f5c56); }
+.specialist-avatar span { font-family: var(--font-ps); font-size: 56px; font-weight: 600; letter-spacing: .02em; color: #ffffff; }
 .specialist-caption {
   width: calc(100% - 36px);
   margin: -157px 18px 0;
@@ -1425,7 +1427,7 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 
 .dept-schedule { padding: 0 var(--section-x) 0; }
 .dept-schedule-inner { display: flex; width: 100%; padding: 40px; border-radius: 10px; background: var(--gv-bg-primary); }
-.dept-schedule-inner .half:first-child { background: url("/img/meeting-team-of-doctor-and-medical-staff-consultant.webp") center / cover no-repeat; border-radius: 10px; min-height: 480px; }
+.dept-schedule-inner .half:first-child { background: url("/img/medical-team-pair-smiling.png") center / cover no-repeat; border-radius: 10px; min-height: 480px; }
 .dept-schedule-inner .half:last-child .gv-col-wrap { }
 .dept-schedule .schedule-card { background: #ffffff; }
 @media (max-width: 1024px) {
@@ -1830,7 +1832,7 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
   justify-content: center;
   min-height: 930px;
   padding: 40px;
-  background: url("/img/in-the-hospital-office-a-medical-explains-about.webp") center / cover no-repeat;
+  background: url("/img/female-receptionist-working-at-desk-in-clinic.webp") center / cover no-repeat;
   font-family: var(--font-ps);
 }
 .nf-overlay { position: absolute; inset: 0; background: linear-gradient(rgba(0, 80, 97, 0) 7.8%, rgb(0, 59, 71) 100%); }

@@ -152,11 +152,17 @@ export function ProcessList({ steps }) {
 }
 
 /* Glass caption card overlaying a provider photo (Areas of Care) */
+function initials(name) {
+  return name.split(' ').filter((w) => /^[A-Za-z]/.test(w)).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+}
+
 export function SpecialistCard({ img, name, role, delay }) {
   return (
     <div className="gv-col gv-anim" data-anim="fadeInLeft" style={{ '--delay': delay }}>
       <div className="gv-col-wrap specialist">
-        <div className="specialist-img"><img src={`/img/${img}`} alt={name} /></div>
+        <div className="specialist-img">
+          {img ? <img src={`/img/${img}`} alt={name} /> : <div className="specialist-avatar" aria-hidden="true"><span>{initials(name)}</span></div>}
+        </div>
         <div className="specialist-caption">
           <div className="specialist-inner">
             <h2 className="heading-title">{name}</h2>

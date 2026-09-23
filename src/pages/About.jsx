@@ -55,13 +55,13 @@ function Fact({ n, label }) {
 export default function About() {
   return (
     <>
-      <PageHero titleWidth={775} image="in-the-hospital-office-a-medical-explains-abou.webp" tag="ABOUT US" sub="Story & Commitment" title="Bridging the Gap in Access to Care" intro="United Community Foundation is a nonprofit dedicated to bridging the gap in access to essential health and educational resources for underserved communities across Harris and Fort Bend counties." />
+      <PageHero titleWidth={775} image="female-receptionist-working-at-desk-in-clinic.webp" tag="ABOUT US" sub="Story & Commitment" title="Bridging the Gap in Access to Care" intro="United Community Foundation is a nonprofit dedicated to bridging the gap in access to essential health and educational resources for underserved communities across Harris and Fort Bend counties." />
 
       {/* values */}
       <section className="values-section">
         <div className="gv-container">
           <div className="gv-col values-img-col">
-            <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/five-young-multiethnic-doctors-scientists-bioenge.webp)' }} />
+            <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/shot-of-a-group-of-scientists-giving-each-other-a-toss.webp)' }} />
           </div>
           <div className="gv-col values-text-col">
             <div className="gv-col-wrap">
@@ -102,7 +102,7 @@ export default function About() {
                 </div>
                 <div className="vision-row">
                   <div className="gv-col vision-img-col gv-anim" data-anim="fadeInLeft">
-                    <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/group-of-doctors-standing-in-hospital-on-medical-center.webp)' }}>
+                    <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/medical-team-pair-smiling.png)' }}>
                       <div className="spacer100" />
                     </div>
                   </div>

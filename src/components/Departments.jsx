@@ -53,7 +53,7 @@ export default function Departments() {
               <div className="gv-col gv-anim" data-anim="fadeInDown" style={{ '--delay': '0.05s' }}>
                 <div className="dept-photo">
                   <div className="spacer" />
-                  <div className="banner"><img src="/img/banner-diverse-group-of-people-2.jpg" alt="United Community Foundation" /></div>
+                  <div className="banner"><img src="/img/team-of-female-doctor-check-on-scan-results-paper.webp" alt="United Community Foundation" /></div>
                 </div>
               </div>
               <div className="gv-col">

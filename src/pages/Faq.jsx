@@ -29,7 +29,7 @@ const GROUPS = [
 export default function Faq() {
   return (
     <>
-      <PageHero image="women-doctors-standing-on-medical-conference-talk.webp" tag="FAQ" sub="Patient Guidance" title="Helping You Every Step of the Way" intro="Quick guidance to help you understand our programs, eligibility, and what to expect at your visit." />
+      <PageHero image="balance-exercise-with-bosu-ball-woman-and-doctor.webp" tag="FAQ" sub="Patient Guidance" title="Helping You Every Step of the Way" intro="Quick guidance to help you understand our programs, eligibility, and what to expect at your visit." />
       <section className="faq-page">
         <div className="gv-container">
           <div className="gv-col faq-main">

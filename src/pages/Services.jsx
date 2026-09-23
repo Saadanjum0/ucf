@@ -36,7 +36,7 @@ const FAQ = [
 export default function Services() {
   return (
     <>
-      <PageHero image="young-neurologists-reading-brain-mri-at-hospital-lab.webp" tag="SERVICES" sub="Health, Dental & Community Programs" title="Care and Resources for the Whole Family" intro="United Community Foundation delivers medical, dental, educational, and social services to underserved families across Harris and Fort Bend Counties." />
+      <PageHero image="female-doctor-hugging-her-little-male-patient.webp" tag="SERVICES" sub="Health, Dental & Community Programs" title="Care and Resources for the Whole Family" intro="United Community Foundation delivers medical, dental, educational, and social services to underserved families across Harris and Fort Bend Counties." />
 
       {/* six service cards in the "promise" layout */}
       <section className="svc-grid-section">
@@ -55,8 +55,8 @@ export default function Services() {
                 <div className="promise-sub">
                   <div className="gv-col">
                     <div className="gv-col-wrap">
-                      <ServiceCard img="group-of-doctors-talking-about-corona-virus-on-conference.webp" title="Educational Programs" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
-                      <ServiceCard img="pre-oxygenation-for-general-anesthesia-surgery.webp" title="Social Services" desc="Emergency preparedness, employment and training referrals, senior services, food assistance, health insurance enrollment, and immigration referrals." height={470} anim="fadeInLeft" delay="0.3s" />
+                      <ServiceCard img="shot-of-a-group-of-scientists-giving-each-other-a-toss.webp" title="Educational Programs" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
+                      <ServiceCard img="balance-exercise-with-bosu-ball-woman-and-doctor.webp" title="Social Services" desc="Emergency preparedness, employment and training referrals, senior services, food assistance, health insurance enrollment, and immigration referrals." height={470} anim="fadeInLeft" delay="0.3s" />
                     </div>
                   </div>
                   <div className="gv-col">
@@ -106,7 +106,7 @@ export default function Services() {
                   <div className="gv-col-wrap"><ProcessList steps={STEPS} /></div>
                 </div>
                 <div className="gv-col process-img-col">
-                  <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/medical-specialist-consulting-senior-woman-in-waiting-room.webp)' }} />
+                  <div className="gv-col-wrap" style={{ backgroundImage: 'url(/img/female-receptionist-working-at-desk-in-clinic.webp)' }} />
                 </div>
               </div>
             </div>

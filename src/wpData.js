@@ -22,7 +22,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/chlc-care-team-huddle.jpg",
+  "image": "/img/primary-care-team.jpg",
   "content": "<p>One of the most important resources United Community Foundation offers is our Title V Child Health and Dental Program, which provides free preventive, primary, and dental care to uninsured and underinsured children and adolescents under 21. For many families across Harris and Fort Bend counties, this program is the only reason their kids receive a well-child visit, an immunization, or a dental cleaning in a given year.</p>\n<p>Eligibility is based on age, insurance status, and residency in our service area &#8212; not on immigration status or ability to pay. Families who qualify can bring their children in for annual physicals, sick visits, school and sports physicals, and dental exams at no cost, and our care coordinators help walk parents through the enrollment paperwork step by step.</p>\n<p>We know that navigating &#8220;free&#8221; healthcare can feel complicated, so our front desk teams at all five UCF locations are trained to answer eligibility questions on the spot, whether you're calling ahead or walking in. If your child is uninsured, underinsured, or you're simply not sure whether they qualify, we encourage you to call us at (281) 853-5555 or stop by any of our Rosenberg, Wharton, Sugar Land, or Houston locations.</p>\n<p>Preventive care early in life sets the foundation for a healthier future, and it's the core of why UCF exists: to close the gap in access to essential health services for the families who need it most.</p>\n",
   "excerpt": "<p>Free preventive, primary, and dental care for uninsured and underinsured children under 21 &#8212; here&#8217;s how families in Harris and Fort Bend counties can enroll.</p>\n"
  },
@@ -48,7 +48,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/chlc-pediatric-visit.jpg",
+  "image": "/img/welcoming-new-patients.jpg",
   "content": "<p>If you've never visited a community health center before, the idea of your first appointment can feel a little unfamiliar. At United Community Foundation, our goal is to make that first visit as simple and welcoming as possible, whether you're coming in for a preventive checkup, a specific health concern, or to enroll a child in our Title V Program.</p>\n<p>When you arrive, our front desk staff will ask for a photo ID and, if you have one, an insurance card &#8212; though many of our services are available on a free or low-cost basis regardless of insurance status. We'll also ask about any medications you're currently taking and any prior diagnoses or specialist care, so our providers have a full picture of your health.</p>\n<p>During the visit itself, our physicians and nurse practitioners take a care-coordination approach: rather than treating a single symptom in isolation, we look at your overall health, discuss preventive screenings that make sense for your age and history, and talk through next steps in plain language.</p>\n<p>Most of our five locations across Rosenberg, Wharton, Sugar Land, and Houston welcome walk-in patients alongside scheduled appointments, so you don't always need to plan far ahead. If you have questions before your visit, our team is happy to answer them at (281) 853-5555.</p>\n",
   "excerpt": "<p>A simple guide to what happens at your first preventive or primary care visit with our team, and what to bring.</p>\n"
  },
@@ -74,7 +74,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/composition-of-fruits-and-vegetables-in-rainbow-82DUL49-min.jpg",
+  "image": "/img/healthy-nutrition-bowl.jpg",
   "content": "<p>Good nutrition doesn't require an expensive overhaul of your kitchen or a strict diet plan. During preventive and primary care visits, our providers at United Community Foundation often talk with patients about small, sustainable changes that make a real difference over time, especially for families managing or trying to prevent conditions like diabetes and high blood pressure.</p>\n<p>A good place to start is building meals around vegetables, lean proteins, and whole grains, while limiting sugary drinks, which are one of the biggest and most avoidable sources of added sugar in the average diet. Swapping soda or juice for water, even a few times a week, adds up.</p>\n<p>Reading nutrition labels for added sugar and sodium, cooking at home more often than eating out, and keeping portion sizes reasonable are all habits that support steady blood sugar and healthy weight management without requiring specialized or costly ingredients.</p>\n<p>If you or a family member has questions about nutrition as part of managing a chronic condition, our medical team can talk through a plan that fits your household during a regular preventive care visit &#8212; just let us know at check-in.</p>\n",
   "excerpt": "<p>A few practical, low-cost nutrition habits our care team recommends for families managing or preventing chronic conditions.</p>\n"
  },
@@ -100,7 +100,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/Blood-tests-results.jpg",
+  "image": "/img/lab-imaging-services.jpg",
   "content": "<p>Lab work and imaging &#8212; things like bloodwork, X-rays, and diagnostic scans &#8212; are often where healthcare costs add up fastest for uninsured and underinsured families. United Community Foundation helps close that gap by coordinating low-cost laboratory and imaging services through our referral network.</p>\n<p>When a provider at one of our five locations determines that lab work or imaging is medically necessary, our care team helps connect patients with partner labs and imaging centers that offer reduced rates for UCF patients, rather than leaving families to navigate that process alone.</p>\n<p>This referral coordination is part of the same care-coordination approach we take with every patient: preventive and primary visits, dental care, and any necessary follow-up testing are treated as one connected picture of your health, not separate transactions.</p>\n<p>If your provider recommends lab work or imaging, ask our front desk team about referral options at your visit, or call us at (281) 853-5555 with questions about cost before you schedule.</p>\n",
   "excerpt": "<p>How United Community Foundation helps uninsured and underinsured patients access affordable lab work and imaging.</p>\n"
  },
@@ -126,7 +126,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/diab1.jpg",
+  "image": "/img/budget-friendly-meals.jpg",
   "content": "<p>Many of the families we serve are balancing tight budgets with the goal of feeding their household well, and it's a topic that comes up often in our social services and preventive care conversations. Eating well doesn't have to mean spending more &#8212; it often means shopping and cooking a little differently.</p>\n<p>Buying in-season produce, choosing dried or canned beans over pricier protein sources, and cooking larger batches to freeze for later are all ways to stretch a grocery budget without sacrificing nutrition. Frozen vegetables are also a budget-friendly option that retain most of their nutritional value.</p>\n<p>For families facing food insecurity, United Community Foundation's social services program also connects households with food assistance resources in Harris and Fort Bend counties, alongside our medical and dental services.</p>\n<p>If your family could use support accessing food assistance or has questions about nutrition, our social services team is available at any of our five locations &#8212; just ask at your next visit or call (281) 853-5555.</p>\n",
   "excerpt": "<p>Practical, affordable ways to feed your family well, especially for households UCF supports through our food assistance program.</p>\n"
  },
@@ -148,7 +148,7 @@ export const POSTS = [
     "slug": "medical"
    }
   ],
-  "image": "/img/procardial-core-stethoscope-with-patient-descriptor.jpg",
+  "image": "/img/preventive-checkup-visit.jpg",
   "content": "<p>It's easy to put off a checkup when you feel healthy, but preventive visits are exactly where our care team at United Community Foundation can catch small issues before they become bigger ones. Blood pressure, blood sugar, and basic screenings can flag early warning signs of chronic conditions well before symptoms appear.</p>\n<p>For children, annual well-visits also keep immunizations on schedule and make sure growth and development are on track &#8212; and for uninsured or underinsured children under 21, these visits are available at no cost through our Title V Program.</p>\n<p>For adults, an annual visit is a chance to update your medication list, review any family history changes, and talk through anything that's been on your mind, even if it doesn't feel urgent enough for its own appointment.</p>\n<p>Our physicians and nurse practitioners take the time to listen, not just check boxes. If it's been more than a year since your last checkup, we encourage you to schedule one at any of our five locations.</p>\n",
   "excerpt": "<p>Our care team explains why annual checkups catch problems early, before they become harder and more expensive to treat.</p>\n"
  },
@@ -174,7 +174,7 @@ export const POSTS = [
     "slug": "medical"
    }
   ],
-  "image": "/img/five-young-multiethnic-doctors-scientists-bioenge.webp",
+  "image": "/img/community-education-class.jpg",
   "content": "<p>United Community Foundation's mission goes beyond medical and dental care &#8212; we also believe that financial stability and job skills are part of a healthy, empowered community. Our educational programs offer free classes designed to give adults practical tools they can use right away.</p>\n<p>Financial literacy classes cover budgeting, saving, and understanding credit, while our basic computer skills and job-readiness sessions help participants build confidence for today's workplace. Language classes are also available for community members working to strengthen their English skills.</p>\n<p>These programs are open to residents throughout Harris and Fort Bend counties and are offered at no cost, in keeping with UCF's mission to remove barriers rooted in socioeconomic challenges rather than add new ones.</p>\n<p>Class sizes are limited to keep instruction hands-on. If you're interested in enrolling or want to know when the next session starts, call us at (281) 853-5555 or ask at any UCF location.</p>\n",
   "excerpt": "<p>UCF&#8217;s educational programs offer free classes in financial literacy, language, and job-readiness skills for adults in our community.</p>\n"
  },
@@ -196,7 +196,7 @@ export const POSTS = [
     "slug": "medical"
    }
   ],
-  "image": "/img/male-doctor-using-recovery-medication-to-give-pres.webp",
+  "image": "/img/primary-care-program.jpg",
   "content": "<p>Alongside our Title V Program for children, United Community Foundation's Primary Health Care (PHC) Program extends low-cost, ongoing medical care to adults who are uninsured or underinsured. It's designed for patients who need a consistent medical home, not just a one-time visit.</p>\n<p>Through the PHC Program, patients have access to preventive and primary care medical services &#8212; annual physicals, chronic condition management, screenings, immunizations, and referrals to specialists when needed &#8212; on a sliding-scale, low-cost basis.</p>\n<p>For many patients, the PHC Program becomes the foundation of their ongoing healthcare relationship: the same care team gets to know their history over time, rather than starting from scratch at every visit.</p>\n<p>If you're an adult without insurance and unsure where to turn for regular care, our team can walk you through PHC Program eligibility at any of our five locations across Rosenberg, Wharton, Sugar Land, and Houston.</p>\n",
   "excerpt": "<p>A closer look at UCF&#8217;s Primary Health Care Program and how it provides low-cost, ongoing care for uninsured adults.</p>\n"
  },
@@ -222,7 +222,7 @@ export const POSTS = [
     "slug": "tips"
    }
   ],
-  "image": "/img/chlc-diverse-care-team.jpg",
+  "image": "/img/back-to-school-health-fair.jpg",
   "content": "<p>Every back-to-school season, United Community Foundation opens its doors for a community health fair aimed at helping families get ahead of the paperwork every parent dreads: sports physicals, immunization records, and dental screenings required before the first day of class.</p>\n<p>Families across Harris and Fort Bend counties are able to bring children in for free or low-cost physicals through our Title V Program, along with basic dental checks and guidance on catching up on routine immunizations.</p>\n<p>Beyond the clinical side, our social services team is also on hand during these events to connect families with additional resources, from health insurance enrollment help to food assistance, all in one visit.</p>\n<p>We know back-to-school season is hectic for working families, which is why these fairs are designed to handle as much as possible in a single stop. Watch our Facebook page or call (281) 853-5555 for dates at your nearest UCF location.</p>\n",
   "excerpt": "<p>Our annual back-to-school health fair helps families get sports physicals, immunizations, and dental screenings ahead of the school year.</p>\n"
  },
@@ -248,7 +248,7 @@ export const POSTS = [
     "slug": "tips"
    }
   ],
-  "image": "/img/team-of-female-doctor-check-on-scan-results-paper.webp",
+  "image": "/img/blood-pressure-check.jpg",
   "content": "<p>High blood pressure is one of the most common conditions our providers manage at United Community Foundation, and it's also one of the most misunderstood. Because it rarely causes obvious symptoms, many patients don't realize anything is wrong until it's flagged during a routine visit.</p>\n<p>One of the most common questions we hear is whether medication is always necessary. The answer depends on the individual &#8212; for some patients, changes to diet, physical activity, and stress management are enough to bring numbers into a healthy range, while others need medication alongside those changes.</p>\n<p>We also get asked how often blood pressure should be checked. For most adults, an annual check during a preventive visit is a good baseline, but patients already managing hypertension are typically monitored more frequently to make sure their treatment plan is working.</p>\n<p>If it's been a while since you've had your blood pressure checked, or if you have a family history of hypertension, our care team can help you understand your numbers and what they mean at your next visit.</p>\n",
   "excerpt": "<p>Answers to the questions our medical team hears most often about managing blood pressure day to day.</p>\n"
  },
@@ -270,7 +270,7 @@ export const POSTS = [
     "slug": "health"
    }
   ],
-  "image": "/img/chlc-brain-scan-consult.jpg",
+  "image": "/img/insurance-enrollment-help.jpg",
   "content": "<p>Not every family that visits United Community Foundation is uninsured for lack of options &#8212; often, the enrollment process itself is the barrier. Deadlines, paperwork, and confusing eligibility rules can keep people from coverage they actually qualify for.</p>\n<p>That's why health insurance enrollment help is part of our social services program. Our team sits down with patients to review their options, whether that's a marketplace plan, Medicaid, or another program, and helps them understand what documentation is needed.</p>\n<p>This service is available regardless of whether you're currently a UCF patient for medical or dental care &#8212; it's part of our broader commitment to reducing barriers to access for underserved families in Harris and Fort Bend counties.</p>\n<p>If you or a family member need help understanding your insurance options, our social services team is available at any of our five locations, or you can call (281) 853-5555 to ask about enrollment support.</p>\n",
   "excerpt": "<p>Our social services team walks patients through health insurance enrollment as part of UCF&#8217;s broader mission to expand access to care.</p>\n"
  },
@@ -296,7 +296,7 @@ export const POSTS = [
     "slug": "video"
    }
   ],
-  "image": "/img/young-neurologists-reading-brain-mri-at-hospital-lab.webp",
+  "image": "/img/emergency-preparedness.jpg",
   "content": "<p>Living along the Gulf Coast means hurricane season and severe weather are a yearly reality, and preparation can make a meaningful difference for families with limited resources. United Community Foundation's social services program includes emergency preparedness support as part of our broader mission.</p>\n<p>This includes helping families build a basic emergency plan &#8212; knowing evacuation routes, keeping copies of medical records and medication lists accessible, and understanding where to go for care if a regular UCF location is affected by severe weather.</p>\n<p>For patients managing chronic conditions, having a plan for medication refills and access to care during an emergency is especially important, and it's a conversation our care team is glad to have during a regular visit.</p>\n<p>If you have questions about emergency preparedness resources or want help building a plan for your household, ask our social services team at any UCF location or call (281) 853-5555.</p>\n",
   "excerpt": "<p>UCF&#8217;s social services program includes emergency preparedness support to help families plan ahead, especially during hurricane season.</p>\n"
  },
@@ -318,7 +318,7 @@ export const POSTS = [
     "slug": "medical"
    }
   ],
-  "image": "/img/06-Blog-Prostate-Cancer-Treatment-L.jpg",
+  "image": "/img/family-dental-care.jpg",
   "content": "<p>Dental care is often one of the first things families put off when money is tight, but oral health is closely tied to overall health. United Community Foundation offers dental exams and X-rays, hygiene education, cleanings, and dental procedures for the whole family.</p>\n<p>For uninsured and underinsured children and adolescents under 21, dental care is available at no cost through our Title V Program, covering routine cleanings as well as necessary procedures. Adults can access dental services on a low-cost basis as well.</p>\n<p>Our dental team also focuses on hygiene education, helping patients understand daily habits &#8212; brushing, flossing, and diet choices &#8212; that prevent bigger problems down the road, rather than only treating issues after they appear.</p>\n<p>If it's been a while since your family's last dental visit, or your child has never had one, our team at any of our five locations can help you get started.</p>\n",
   "excerpt": "<p>UCF&#8217;s dental services cover exams, cleanings, and procedures for families at every income level, with free care available for eligible children.</p>\n"
  },
@@ -340,7 +340,7 @@ export const POSTS = [
     "slug": "image"
    }
   ],
-  "image": "/img/Medical-Record-7702877.jpg",
+  "image": "/img/patient-privacy-records.jpg",
   "content": "<p>Trust is at the center of every visit to United Community Foundation, and part of earning that trust is being clear about how we protect your health information. Your records &#8212; medical, dental, and any information related to program eligibility &#8212; are kept confidential and secure.</p>\n<p>We share information only as necessary to coordinate your care, such as with referral partners for lab work or specialist visits, and only with your knowledge. We do not sell or trade patient information, and our staff are trained on confidentiality standards for every program we operate.</p>\n<p>As a patient, you have the right to inspect and request copies of your records, ask for corrections, and understand what documentation is kept on file, particularly for program eligibility like our Title V Program.</p>\n<p>If you have questions about your records or our privacy practices, you can review our full Notice of Privacy Practices on this website or ask our front desk team at any visit.</p>\n",
   "excerpt": "<p>An overview of how United Community Foundation safeguards patient records and what your privacy rights are as a patient.</p>\n"
  },
@@ -362,7 +362,7 @@ export const POSTS = [
     "slug": "grid"
    }
   ],
-  "image": "/img/in-the-hospital-office-a-medical-explains-abou.webp",
+  "image": "/img/our-story-our-mission.jpg",
   "content": "<p>United Community Foundation was founded in 2019 as a 501(c)(3) nonprofit with a clear mission: to explore, connect, educate, and provide quality health and educational opportunities to underserved communities in Texas.</p>\n<p>What began as an effort to close gaps in access to essential health and educational resources has grown into five community locations across Rosenberg, Wharton, Sugar Land, and Houston, each offering medical, dental, social, and educational services under one roof.</p>\n<p>Along the way, our focus has stayed the same: empowering and strengthening communities by removing the barriers &#8212; cost, insurance status, language, transportation &#8212; that too often stand between families and the care they need.</p>\n<p>As we continue to grow, our commitment to the families of Harris and Fort Bend counties remains unchanged. Thank you to every patient, volunteer, and community partner who has been part of that story so far.</p>\n",
   "excerpt": "<p>A look back at how United Community Foundation grew from a single idea into five community locations serving thousands of families.</p>\n"
  },
@@ -384,7 +384,7 @@ export const POSTS = [
     "slug": "quote"
    }
   ],
-  "image": "/img/chlc-clinical-case-review.jpg",
+  "image": "/img/patient-family-stories.jpg",
   "content": "<p>Behind every statistic at United Community Foundation is a family &#8212; a parent bringing a child in for a free Title V checkup, a grandmother finally getting a dental cleaning she'd put off for years, a neighbor connected to food assistance during a hard month.</p>\n<blockquote><p>&#8220;The Title V program was a blessing for my kids &#8212; free dental cleanings and checkups, and the staff made us feel so welcome.&#8221;</p></blockquote>\n<p>Stories like these are why our team shows up every day. Whether it's a same-day walk-in appointment, a referral for low-cost lab work, or a financial literacy class that helps someone build their first budget, our work is measured in the people it reaches, not just the services on a brochure.</p>\n<p>If United Community Foundation has been part of your family's story, we would love to hear it &#8212; and if you haven't visited us yet, we hope you'll consider us the next time your family needs care.</p>\n",
   "excerpt": "<p>Real stories from the families and neighbors United Community Foundation has had the privilege of serving.</p>\n"
  },
@@ -406,7 +406,7 @@ export const POSTS = [
     "slug": "grid"
    }
   ],
-  "image": "/img/confident-female-doctor-therapist-sitting-at-desk.webp",
+  "image": "/img/walk-in-appointments.jpg",
   "content": "<p>For many of the families United Community Foundation serves, taking time off work for a scheduled appointment isn't always realistic. That's why most of our locations welcome walk-in patients alongside scheduled visits, giving families more flexibility to get care when they actually have the time.</p>\n<p>Walk-in availability is especially valuable for urgent but non-emergency needs &#8212; a sick child before school, a sports physical deadline, or a nagging symptom that's easier to address sooner rather than later.</p>\n<p>Of course, scheduled appointments still have advantages, including shorter wait times and the ability to plan ahead for specific needs like dental procedures or program enrollment paperwork. We're happy to work with whichever option fits your family's schedule.</p>\n<p>Check with your nearest UCF location for current walk-in hours, or call (281) 853-5555 to ask what's available before you head in.</p>\n",
   "excerpt": "<p>Most UCF locations welcome walk-in patients alongside scheduled visits &#8212; here&#8217;s why that flexibility matters for the families we serve.</p>\n"
  }
