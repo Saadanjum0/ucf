@@ -55,12 +55,12 @@ export const FUN_FACTS = [
 
 export const DEPARTMENTS = {
   left: [
-    { icon: 'heart-icon-replace.webp', title: 'Medical Services', desc: 'Preventive & primary care with a care-coordination approach.', hover: 'our-story-our-mission.jpg', anim: 'fadeInRight', delay: '0.1s' },
-    { icon: 'dna-icon-replace.webp', title: 'Dental Services', desc: 'Exams, cleanings, hygiene education & dental procedures.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', anim: 'fadeInRight', delay: '0.15s' },
+    { icon: 'heart-icon-replace.webp', title: 'Medical Services', desc: 'Preventive & primary care with a care-coordination approach.', hover: 'our-story-our-mission.jpg', href: '/services/medical/', anim: 'fadeInRight', delay: '0.1s' },
+    { icon: 'dna-icon-replace.webp', title: 'Dental Services', desc: 'Exams, cleanings, hygiene education & dental procedures.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', href: '/services/dental/', anim: 'fadeInRight', delay: '0.15s' },
   ],
   right: [
-    { icon: 'bone-icon-replace.webp', title: 'Social Services', desc: 'Food assistance, employment resources & senior services.', hover: 'family-dental-care.jpg', anim: 'fadeInLeft', delay: '0.1s' },
-    { icon: 'pacifier-icon-replace.webp', title: 'Educational Programs', desc: 'Mentorship, financial literacy & job-skills training.', hover: 'walk-in-appointments.jpg', anim: 'fadeInLeft', delay: '0.15s' },
+    { icon: 'bone-icon-replace.webp', title: 'Social Services', desc: 'Food assistance, employment resources & senior services.', hover: 'family-dental-care.jpg', href: '/services/social-services/', anim: 'fadeInLeft', delay: '0.1s' },
+    { icon: 'pacifier-icon-replace.webp', title: 'Educational Programs', desc: 'Mentorship, financial literacy & job-skills training.', hover: 'walk-in-appointments.jpg', href: '/services/educational-programs/', anim: 'fadeInLeft', delay: '0.15s' },
   ],
 };
 

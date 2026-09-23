@@ -10,16 +10,16 @@ export function Subhead({ tag, sub, center = true, onWhite = false }) {
   );
 }
 
-export function ViewAll() {
+export function ViewAll({ href = '/services/' }) {
   return (
     <div className="view-all">
       <h3 className="ps">View All Services</h3>
-      <a className="gv-link-btn" href="#"><span>Here</span><ArrowRightIcon /></a>
+      <a className="gv-link-btn" href={href}><span>Here</span><ArrowRightIcon /></a>
     </div>
   );
 }
 
-function DeptBox({ icon, title, desc, hover, anim, delay }) {
+function DeptBox({ icon, title, desc, hover, href = '/services/', anim, delay }) {
   return (
     <div className="dept-box gv-anim" data-anim={anim} style={{ '--delay': delay, '--hover-bg': `url(/img/${hover})` }}>
       <div className="dept-box-wrap">
@@ -27,7 +27,7 @@ function DeptBox({ icon, title, desc, hover, anim, delay }) {
         <div className="ib-body">
           <h2 className="ib-title">{title}</h2>
           <p className="ib-desc">{desc}</p>
-          <a className="readmore" href="#"><span>Read More</span><ArrowRightIcon /></a>
+          <a className="readmore" href={href}><span>Read More</span><ArrowRightIcon /></a>
         </div>
       </div>
     </div>
