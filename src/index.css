@@ -1038,6 +1038,26 @@ button { font: inherit; cursor: pointer; }
 .chlc-portal-cta .wp-btn { padding: 18px 42px; font-size: 18px; line-height: 1.7; }
 .chlc-portal-cta .wp-btn.outline { border-color: #000000; color: #000000; }
 .chlc-portal-cta .wp-btn.outline:hover { background: #000000; color: #ffffff; }
+
+/* WordPress core button blocks embedded in WP_PAGES HTML. Without these the
+   flex container never applies and both buttons stack on the same spot. */
+.wp-block-buttons { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; }
+.wp-block-buttons.is-content-justification-center { justify-content: center; }
+.wp-block-button__link {
+  display: inline-block;
+  padding: 18px 42px;
+  border-radius: 100px;
+  background: var(--gv-accent);
+  color: var(--gv-text);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background .3s, color .3s;
+}
+.wp-block-button__link:hover { background: var(--gv-bg-primary); color: #ffffff; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; border: 2px solid var(--gv-bg-primary); color: var(--gv-text); }
+.wp-block-button.is-style-outline .wp-block-button__link:hover { background: var(--gv-bg-primary); color: #ffffff; }
 .chlc-instagram { background: var(--gv-bg-secondary); color: #000000; padding: 72px 24px; margin-top: 19.2px; text-align: center; font-family: var(--font-sys); }
 .chlc-instagram h2 { margin-top: 19.2px; }
 .chlc-instagram .wp-btn { padding: 16px 38px; font-size: 17px; line-height: 1.7; }
