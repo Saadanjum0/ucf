@@ -46,9 +46,9 @@ function Home() {
   );
 }
 
-const SITE_SUFFIX = ' – Community Health & Life Center';
+const SITE_SUFFIX = ' – United Community Foundation';
 const STATIC = {
-  '/': { title: 'Community Health & Life Center – Family Medicine & Primary Care in Sugar Land, TX', el: <Home /> },
+  '/': { title: 'United Community Foundation – Medical, Dental & Social Services for Underserved Families in Texas', el: <Home /> },
   '/departments': { title: 'Areas of Care' + SITE_SUFFIX, el: <AreasOfCare /> },
   '/patient-center': { title: 'Patient Center' + SITE_SUFFIX, el: <PatientCenter /> },
   '/services': { title: 'Services' + SITE_SUFFIX, el: <Services /> },

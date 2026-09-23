@@ -7,9 +7,9 @@ export default function Location() {
       <div className="gv-container">
         <div className="gv-col" style={{ width: '100%' }}>
           <div className="gv-col-wrap">
-            <Subhead tag="Location" sub="Sugar Land, Texas" />
-            <h2 className="gv-h2 center">Find Us in Sugar Land, Texas</h2>
-            <p className="gv-p intro">Community Health &amp; Life Center is located on W. Grand Parkway South, serving Sugar Land and the greater Fort Bend County community.</p>
+            <Subhead tag="Locations" sub="Harris & Fort Bend Counties" />
+            <h2 className="gv-h2 center">Find a Location Near You</h2>
+            <p className="gv-p intro">United Community Foundation serves Harris and Fort Bend counties from five community locations, with free and low-cost medical, dental, and social services.</p>
 
             <div className="loc-row">
               {LOCATIONS.map((l) => (

@@ -238,6 +238,7 @@ button { font: inherit; cursor: pointer; }
 .nav-logo-col { width: 320px; display: flex; align-items: center; }
 .nav-logo-col a { display: flex; }
 .nav-logo-col img { width: 316px; height: auto; }
+.nav-logo-col img.ucf-logo { width: auto; height: 78px; }
 .nav-menu-col { width: 960px; display: flex; justify-content: center; align-items: center; }
 .nav-cta-col { width: 320px; display: flex; justify-content: flex-end; align-items: center; }
 
@@ -328,6 +329,7 @@ button { font: inherit; cursor: pointer; }
   .navbar { padding: 10px; margin-bottom: -94px; }
   .nav-logo-col { width: 55%; }
   .nav-logo-col img { width: 100%; max-width: 316px; }
+  .nav-logo-col img.ucf-logo { width: auto; max-width: none; height: 64px; }
   .nav-menu-col { display: none; }
   .nav-cta-col { width: 45%; }
   .nav-contact { display: none; }
@@ -378,6 +380,7 @@ button { font: inherit; cursor: pointer; }
   .mobile-identity { display: flex; justify-content: space-between; align-items: flex-start; padding: 10px 0; }
   .mobile-identity .logo { display: block; width: 190px; padding: 5px; margin: 30px 0 10px 20px; }
   .mobile-identity .logo img { width: 180px; }
+  .mobile-identity .logo img.ucf-logo { width: auto; height: 110px; }
   .mobile-close {
     width: 28px;
     height: 28px;
@@ -435,7 +438,7 @@ button { font: inherit; cursor: pointer; }
   position: relative;
   z-index: 1;
   padding: 0 40px;
-  background: url("/img/Office-Building.jpg") top center / cover no-repeat;
+  background: url("/img/banner-diverse-group-of-people-2.jpg") top center / cover no-repeat;
   font-family: var(--font-ps);
 }
 .hero-overlay {
@@ -545,7 +548,7 @@ button { font: inherit; cursor: pointer; }
 
 @media (max-width: 1024px) {
   .funfacts { padding: 48px 20px; }
-  .funfacts .gv-container { flex-direction: column; }
+  .funfacts .gv-container { flex-direction: column; height: auto; }
   .funfacts-title { width: 100%; justify-content: center; margin-bottom: 40px; }
   .funfacts-title h2 { width: 100%; text-align: center; }
   .funfacts-title h2::after { margin-left: auto; margin-right: auto; }
@@ -886,7 +889,7 @@ button { font: inherit; cursor: pointer; }
 .post-title { margin: 8px 0; }
 .post-title a { font-size: var(--fs-feature2); font-weight: 500; line-height: 1.1em; color: #ffffff; }
 .post-meta { display: flex; justify-content: space-between; align-items: center; }
-.post-readmore { display: inline-flex; align-items: center; margin-top: 20px; font-size: 16px; font-weight: 600; line-height: 1.1em; color: #ffffff; transition: .3s; }
+.post-readmore { display: inline-flex; align-items: center; white-space: nowrap; margin-top: 20px; font-size: 16px; font-weight: 600; line-height: 1.1em; color: #ffffff; transition: .3s; }
 .post-readmore svg { width: 18px; height: 18px; margin-left: 8px; fill: #ffffff; transition: .3s; }
 .post-readmore:hover { color: var(--gv-accent); }
 .post-readmore:hover svg { fill: var(--gv-accent); }
@@ -921,6 +924,7 @@ button { font: inherit; cursor: pointer; }
 .grw-avatar { position: relative; flex: none; width: 46px; height: 46px; }
 .grw-avatar img { width: 46px; height: 46px; border-radius: 50%; display: block; }
 .grw-avatar::before { content: ""; position: absolute; inset: 0; border-radius: 50%; box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24); pointer-events: none; }
+.grw-avatar-initials { display: flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 50%; background: var(--gv-bg-primary, #0f5c56); color: #fff; font-size: 15px; font-weight: 600; letter-spacing: .02em; }
 .grw-place { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; overflow: hidden; }
 .grw-place .name { font-size: 18px; font-weight: 700; line-height: 1.2; color: #333333; }
 .grw-stars { display: inline-flex; align-items: center; gap: 2px; font-weight: 900; color: #fb8e28; }
@@ -1072,6 +1076,7 @@ button { font: inherit; cursor: pointer; }
 .footer-news .gv-col-wrap { padding: 40px; background: var(--gv-bg-primary); border-radius: 5px; }
 .footer-news .logo { margin: 0 0 100px; }
 .footer-news .logo img { width: 195px; }
+.footer-news .logo img.ucf-logo { width: auto; height: 120px; }
 .footer-news h3 { width: 367px; max-width: 100%; margin: 8px 0 16px; font-size: var(--fs-name); font-weight: 500; line-height: 1em; color: #ffffff; }
 .footer-news p { width: 332px; max-width: 100%; margin-bottom: 24px; }
 .news-form { display: flex; align-items: flex-start; width: 100%; }
@@ -1142,6 +1147,7 @@ button { font: inherit; cursor: pointer; }
   .fcard .ib-title { margin-top: 5px; }
   .footer-news .gv-col-wrap { padding: 30px; }
   .footer-news .logo img { width: 150px; }
+  .footer-news .logo img.ucf-logo { width: auto; height: 90px; }
   .news-form { flex-wrap: wrap; }
   .news-form input { width: 100%; margin: 0 0 8px; padding-right: 24px; }
   .news-form button { margin-left: 0; }
@@ -1255,6 +1261,7 @@ main.inner { font-family: var(--font-ps); }
 .grey-acc-text { flex: 1; font-family: var(--font-ps); font-size: 24px; font-weight: 500; line-height: 1.1em; color: var(--gv-text); }
 .grey-acc-icon { width: 34px; height: 34px; margin-right: 10px; display: flex; align-items: center; justify-content: center; }
 .grey-acc-icon svg { width: 34px; height: 34px; fill: #000000; }
+.grey-acc-item.active .grey-acc-icon svg { fill: var(--gv-accent); }
 .grey-acc-body { overflow: hidden; transition: height .2s cubic-bezier(0, -0.13, 0, 1.04); }
 .grey-acc-content { padding: 0 80px 30px 30px; background: var(--gv-bg-secondary); border-radius: 0 0 10px 10px; }
 .grey-acc-content p { font-family: var(--font-ps); font-size: 16px; line-height: 1.5em; color: var(--gv-text-secondary); }

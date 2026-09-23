@@ -3,27 +3,27 @@ import { Subhead } from '../components/Departments';
 import { ArrowRightIcon } from '../components/Icons';
 import { PortalCta } from '../components/Extras';
 
-const LIST = ['Annual Wellness Exams', 'Preventive Screenings', 'Chronic Care', 'Immunizations', 'Nutrition Counseling', 'On-Site Lab & Imaging'];
+const LIST = ['Title V Child Health & Dental Program', 'Primary Health Care (PHC) Program', 'Family Planning Program', 'Specialist Referrals', 'Mental Health Evaluation', 'Low-Cost Lab & Imaging'];
 
 const CARDS = [
-  { icon: 'heart-icon-replace.webp', title: 'Family Medicine', desc: 'Comprehensive primary care for every age.', hover: 'group-of-doctors-and-nurses-consulting-about-a-com.webp', delay: '0.1s' },
-  { icon: 'bone-icon-replace.webp', title: 'Preventive Care', desc: 'Annual physicals, screenings & immunizations.', hover: 'doctor-orthopedist-points-to-the-anatomical-model-replace.webp', delay: '0.15s' },
-  { icon: 'microscope-icon-replace.webp', title: 'Chronic Disease Management', desc: 'Ongoing care for diabetes, hypertension and more.', hover: 'team-of-female-doctor-check-on-scan-results-paper.webp', delay: '0.2s' },
-  { icon: 'dna-icon-replace.webp', title: 'Women’s Health', desc: 'Care for every stage of a woman’s life.', hover: 'young-neurologists-reading-brain-mri-at-hospital-replace.webp', delay: '0.15s' },
-  { icon: 'pacifier-icon-replace.webp', title: 'Pediatric & Newborn Care', desc: 'Well-child visits, newborn exams and sick care.', hover: 'hospital-story-pediatrics.webp', delay: '0.2s' },
-  { icon: 'sanitary-pad-icon-replace.webp', title: 'Nutrition Counseling', desc: 'Dietitian-led nutrition plans for lasting health.', hover: 'pregnant-woman-having-an-ultrasound-scan-performed.webp', delay: '0.25s' },
+  { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'group-of-doctors-and-nurses-consulting-about-a-com.webp', delay: '0.1s' },
+  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'doctor-orthopedist-points-to-the-anatomical-model-replace.webp', delay: '0.15s' },
+  { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'team-of-female-doctor-check-on-scan-results-paper.webp', delay: '0.2s' },
+  { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'young-neurologists-reading-brain-mri-at-hospital-replace.webp', delay: '0.15s' },
+  { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'hospital-story-pediatrics.webp', delay: '0.2s' },
+  { icon: 'sanitary-pad-icon-replace.webp', title: 'Family Planning & PHC Programs', desc: 'Free and low-cost primary and reproductive health services for qualifying families.', hover: 'pregnant-woman-having-an-ultrasound-scan-performed.webp', delay: '0.25s' },
 ];
 
 const SPECIALISTS = [
-  { img: 'docpic.png', name: 'Dr. Daniel A. Nwachokor', role: 'Family Medicine Physician' },
-  { img: 'in-the-hospital-office-a-medical-explains.webp', name: 'Carmen', role: 'Family Nurse Practitioner' },
-  { img: 'team-of-female-doctor-check-on-scan-results-paper.webp', name: 'Alisa', role: 'Registered & Licensed Dietitian' },
+  { img: 'docpic.png', name: 'Salman Aly, M.D.', role: 'Medical Director' },
+  { img: 'in-the-hospital-office-a-medical-explains.webp', name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer' },
+  { img: 'team-of-female-doctor-check-on-scan-results-paper.webp', name: 'Liaquat Khowaja', role: 'Chief Executive Officer' },
 ];
 
 export default function Departments() {
   return (
     <>
-      <PageHero titleWidth={628} image="shot-of-a-group-of-scientists-giving-each-other-a-toss.webp" tag="Areas of Care" sub="Specialties for Every Need" title="Your Health, Our Collective Expertise" intro="Community Health & Life Center unites family medicine expertise and compassion — delivering personalized, patient-centered primary care for every member of your family." />
+      <PageHero titleWidth={628} image="ucf-locations-bg.webp" tag="Areas of Care" sub="Programs for Every Need" title="Your Health, Our Collective Commitment" intro="United Community Foundation unites medical, dental, educational, and social service expertise — delivering coordinated, patient-centered care for every member of your family." />
 
       {/* introduction */}
       <section className="dept-intro">
@@ -42,7 +42,7 @@ export default function Departments() {
           </div>
           <div className="gv-col intro-right-col gv-anim" data-anim="fadeInLeft">
             <div className="gv-col-wrap">
-              <p className="gv-p intro-text">At Community Health &amp; Life Center, we provide personalized primary care for families across Sugar Land and Fort Bend County — from newborns to grandparents, we are with you at every stage.</p>
+              <p className="gv-p intro-text">At United Community Foundation, we coordinate medical, dental, and social care for underserved families across Harris and Fort Bend Counties — connecting each visit to the right program, free or low-cost when needed.</p>
               <IconList items={LIST} />
             </div>
           </div>
@@ -56,8 +56,8 @@ export default function Departments() {
             <div className="gv-col" style={{ width: '100%' }}>
               <div className="gv-col-wrap center">
                 <Subhead tag="Areas of Care" sub="Care for Every Need" onWhite />
-                <h2 className="gv-h2 center" style={{ width: 655, maxWidth: '100%' }}>Your Partner in Better Health</h2>
-                <p className="gv-p center" style={{ width: '100%', marginBottom: 56 }}>Community Health &amp; Life Center delivers personalized primary care with trust and compassion.</p>
+                <h2 className="gv-h2 center" style={{ width: 655, maxWidth: '100%' }}>Coordinated Care, Program by Program</h2>
+                <p className="gv-p center" style={{ width: '100%', marginBottom: 56 }}>A closer look at how our medical and dental teams put each service into practice.</p>
                 <div className="areas-grid">
                   {[CARDS.slice(0, 3), CARDS.slice(3)].map((row, ri) => (
                     <div className="areas-row" key={ri}>
@@ -94,13 +94,13 @@ export default function Departments() {
               <div className="specialists-head">
                 <div className="gv-col half">
                   <div className="gv-col-wrap">
-                    <Subhead tag="Our Experts" sub="Care for Every Need" center={false} />
-                    <h2 className="gv-h2 left" style={{ width: 580, maxWidth: '100%' }}>Meet the Specialists Behind Your Care</h2>
+                    <Subhead tag="Our Leadership" sub="Care for Every Need" center={false} />
+                    <h2 className="gv-h2 left" style={{ width: 580, maxWidth: '100%' }}>Meet the Team Behind Our Programs</h2>
                   </div>
                 </div>
                 <div className="gv-col half">
                   <div className="gv-col-wrap end">
-                    <p className="gv-p" style={{ width: 566, maxWidth: '100%' }}>Our providers are dedicated to delivering personalized, compassionate, and patient-focused primary care for your whole family.</p>
+                    <p className="gv-p" style={{ width: 566, maxWidth: '100%' }}>Our leadership and clinical staff are dedicated to delivering equitable, coordinated care to every family we serve.</p>
                   </div>
                 </div>
               </div>
@@ -108,7 +108,7 @@ export default function Departments() {
                 {SPECIALISTS.map((s, i) => <SpecialistCard key={s.name} {...s} delay={`${0.05 * i}s`} />)}
               </div>
               <div className="view-all center">
-                <h3 className="ps">Find the right care for your needs</h3>
+                <h3 className="ps">Find the right program for your needs</h3>
                 <a className="gv-link-btn" href="/services/"><span>Here</span><ArrowRightIcon /></a>
               </div>
             </div>
@@ -123,7 +123,7 @@ export default function Departments() {
             <div className="gv-col half" />
             <div className="gv-col half">
               <div className="gv-col-wrap">
-                <ScheduleForm subtitle="Access trusted primary care with our team." />
+                <ScheduleForm subtitle="Access trusted medical, dental, and program support with our team." />
               </div>
             </div>
           </div>

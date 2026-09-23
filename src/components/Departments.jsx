@@ -42,7 +42,7 @@ export default function Departments() {
           <div className="gv-col-wrap">
             <Subhead tag="Departments" sub="Our Services" />
             <h2 className="gv-h2 center">Care for Every Stage of Life</h2>
-            <p className="gv-p intro">Personalized primary care for families across Sugar Land &amp; Fort Bend County.</p>
+            <p className="gv-p intro">Medical, dental, educational, and social services for underserved families across Harris &amp; Fort Bend Counties.</p>
 
             <div className="dept-grid">
               <div className="gv-col">
@@ -53,7 +53,7 @@ export default function Departments() {
               <div className="gv-col gv-anim" data-anim="fadeInDown" style={{ '--delay': '0.05s' }}>
                 <div className="dept-photo">
                   <div className="spacer" />
-                  <div className="banner"><img src="/img/banner-diverse-group-of-people-2.jpg" alt="Community Health & Life Center" /></div>
+                  <div className="banner"><img src="/img/banner-diverse-group-of-people-2.jpg" alt="United Community Foundation" /></div>
                 </div>
               </div>
               <div className="gv-col">

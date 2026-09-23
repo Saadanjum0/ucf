@@ -38,8 +38,8 @@ export default function Offer() {
         <div className="gv-col" style={{ width: '100%' }}>
           <div className="gv-col-wrap">
             <Subhead tag="Services" sub="What We Offer" />
-            <h2 className="gv-h2 center">Comprehensive Primary Care</h2>
-            <p className="gv-p intro">From routine checkups to ongoing chronic care, we deliver personalized medicine for your whole family.</p>
+            <h2 className="gv-h2 center">Medical, Dental & Community Programs</h2>
+            <p className="gv-p intro">From preventive medical and dental care to free programs for uninsured families, we deliver coordinated care for your whole household.</p>
 
             <div className="offer-row">
               <div className="gv-col offer-acc-col">

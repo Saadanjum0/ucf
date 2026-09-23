@@ -3,552 +3,447 @@ export const POSTS = [
  {
   "slug": "grid-gallery-post",
   "path": "/2015/10/18/grid-gallery-post",
-  "title": "2015 Best USA Hospitals and Clinics",
-  "date": "2015-10-18",
-  "author": "dnwachokor",
+  "title": "Title V Program Brings Free Medical & Dental Care to Fort Bend County Kids",
+  "date": "2026-08-18",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
-    "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
+    "name": "Programs",
+    "slug": "news"
    }
   ],
   "tags": [
    {
-    "name": "Gallery",
-    "slug": "gallery"
+    "name": "Title V",
+    "slug": "medical"
    },
    {
-    "name": "Grid",
-    "slug": "grid"
-   },
-   {
-    "name": "Link",
-    "slug": "link"
+    "name": "Fort Bend County",
+    "slug": "health"
    }
   ],
   "image": "/img/chlc-care-team-huddle.jpg",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.</p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>\n<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tEodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.\t\t</p>\n"
+  "content": "<p>One of the most important resources United Community Foundation offers is our Title V Child Health and Dental Program, which provides free preventive, primary, and dental care to uninsured and underinsured children and adolescents under 21. For many families across Harris and Fort Bend counties, this program is the only reason their kids receive a well-child visit, an immunization, or a dental cleaning in a given year.</p>\n<p>Eligibility is based on age, insurance status, and residency in our service area &#8212; not on immigration status or ability to pay. Families who qualify can bring their children in for annual physicals, sick visits, school and sports physicals, and dental exams at no cost, and our care coordinators help walk parents through the enrollment paperwork step by step.</p>\n<p>We know that navigating &#8220;free&#8221; healthcare can feel complicated, so our front desk teams at all five UCF locations are trained to answer eligibility questions on the spot, whether you're calling ahead or walking in. If your child is uninsured, underinsured, or you're simply not sure whether they qualify, we encourage you to call us at (281) 853-5555 or stop by any of our Rosenberg, Wharton, Sugar Land, or Houston locations.</p>\n<p>Preventive care early in life sets the foundation for a healthier future, and it's the core of why UCF exists: to close the gap in access to essential health services for the families who need it most.</p>\n",
+  "excerpt": "<p>Free preventive, primary, and dental care for uninsured and underinsured children under 21 &#8212; here&#8217;s how families in Harris and Fort Bend counties can enroll.</p>\n"
  },
  {
   "slug": "medical-advice",
   "path": "/2015/09/30/medical-advice",
-  "title": "Medical Advice for all ages and sexes",
-  "date": "2015-09-30",
-  "author": "dnwachokor",
+  "title": "What to Expect at Your First Visit to United Community Foundation",
+  "date": "2026-08-05",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "News",
+    "name": "Patients",
     "slug": "news"
    }
   ],
   "tags": [
    {
-    "name": "Article",
-    "slug": "article"
-   },
-   {
-    "name": "Fitness",
-    "slug": "fitness"
-   },
-   {
-    "name": "Health",
-    "slug": "health"
-   },
-   {
-    "name": "Medical",
+    "name": "Primary Care",
     "slug": "medical"
+   },
+   {
+    "name": "New Patients",
+    "slug": "health"
    }
   ],
   "image": "/img/chlc-pediatric-visit.jpg",
-  "content": "<p>How often does a post start with all these words? Allergy allergy-triggered asthma biopsy cone contact lenses depression dna fatty acids laxatives lymph node otitis media retinopathy urinalysis urine vitreous body. Allergy-triggered asthma blood bank blood type carbohydrate carbohydrate counting cardiologist cough diaphragm diarrhea ear canal epiglottis gingivitis histamine hyperglycemia immune system insulin insulin pump involuntary muscle lacrimal glands mucus nausea navel occupational therapist oncologist orthodontist pulse rhinovirus saliva sternutation tinnitus. Abdominals cardiologist complete blood count (cbc) dietitian dust mites gastric juices hyperglycemia navel papillae skin test. Antibiotics asthma action plan blood glucose meter bone marrow cerumen cochlea congestion conjunctivitis dislocation epiglottis fats gurney histamine hydrocortisone malocclusion nausea nearsighted rheumatologist social worker suture virus yawn.</p>\n<p>Arthritis cerebral cortex dyslexia eardrum epiglottis eustachian tube hemangioma hormone hydrocortisone lymph node mucus nasal cavity nebulizer night guard ophthalmologist pollen sphenopalatineganglioneuralgia whitehead x-ray. Cartilage contact lenses depressant dietitian exhale gingivitis histamine ketoacidosis nephropathy night guard occupational therapist occupational therapy operation orthodontist plaque polyphagia puberty surgery suture. Alcoholism allergy-triggered asthma arteries and veins astringents beta cells canine teeth controller medications corticosteroids dislocation eardrum epiglottis fiber glycosylated hemoglobin test (hemoglobin a1c) heat exhaustion hydrocortisone intensive care unit junk food occupational therapist oncologist radiologist saliva tinnitus vitreous body.</p>\n<p>Arthritis cerebral cortex dyslexia eardrum epiglottis eustachian tube hemangioma hormone hydrocortisone lymph node mucus nasal cavity nebulizer night guard ophthalmologist pollen sphenopalatineganglioneuralgia whitehead x-ray. Cartilage contact lenses depressant dietitian exhale gingivitis histamine ketoacidosis nephropathy night guard occupational therapist occupational therapy operation orthodontist plaque polyphagia puberty surgery suture. Alcoholism allergy-triggered asthma arteries and veins astringents beta cells canine teeth controller medications corticosteroids dislocation eardrum epiglottis fiber glycosylated hemoglobin test (hemoglobin a1c) heat exhaustion hydrocortisone intensive care unit junk food occupational therapist oncologist radiologist saliva tinnitus vitreous body.</p>\n",
-  "excerpt": "<p>How often does a post start with all these words? Allergy allergy-triggered asthma biopsy cone contact lenses depression dna fatty acids laxatives lymph node otitis media retinopathy urinalysis urine vitreous body. Allergy-triggered asthma blood bank blood type carbohydrate carbohydrate counting cardiologist cough diaphragm diarrhea ear canal epiglottis gingivitis histamine hyperglycemia immune system insulin insulin pump involuntary [&hellip;]</p>\n"
+  "content": "<p>If you've never visited a community health center before, the idea of your first appointment can feel a little unfamiliar. At United Community Foundation, our goal is to make that first visit as simple and welcoming as possible, whether you're coming in for a preventive checkup, a specific health concern, or to enroll a child in our Title V Program.</p>\n<p>When you arrive, our front desk staff will ask for a photo ID and, if you have one, an insurance card &#8212; though many of our services are available on a free or low-cost basis regardless of insurance status. We'll also ask about any medications you're currently taking and any prior diagnoses or specialist care, so our providers have a full picture of your health.</p>\n<p>During the visit itself, our physicians and nurse practitioners take a care-coordination approach: rather than treating a single symptom in isolation, we look at your overall health, discuss preventive screenings that make sense for your age and history, and talk through next steps in plain language.</p>\n<p>Most of our five locations across Rosenberg, Wharton, Sugar Land, and Houston welcome walk-in patients alongside scheduled appointments, so you don't always need to plan far ahead. If you have questions before your visit, our team is happy to answer them at (281) 853-5555.</p>\n",
+  "excerpt": "<p>A simple guide to what happens at your first preventive or primary care visit with our team, and what to bring.</p>\n"
  },
  {
   "slug": "diabetes-diet-and-food-tips",
   "path": "/2015/09/30/diabetes-diet-and-food-tips",
-  "title": "Diabetes Diet and Healthy Food Tips",
-  "date": "2015-09-30",
-  "author": "dnwachokor",
+  "title": "Simple Nutrition Habits That Support Long-Term Health",
+  "date": "2026-07-22",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "News",
+    "name": "Health Tips",
     "slug": "news"
    }
   ],
   "tags": [
    {
-    "name": "Diabetes",
-    "slug": "diabetes"
-   },
-   {
-    "name": "Diet",
+    "name": "Nutrition",
     "slug": "diet"
    },
    {
-    "name": "Fitness",
-    "slug": "fitness"
-   },
-   {
-    "name": "Sugar",
-    "slug": "sugar"
-   },
-   {
-    "name": "Tips",
-    "slug": "tips"
+    "name": "Prevention",
+    "slug": "health"
    }
   ],
   "image": "/img/composition-of-fruits-and-vegetables-in-rainbow-82DUL49-min.jpg",
-  "content": "<p>Let&#8217;s talk about what is health and how can this article help you. When was the last time you went out for a 30min walk? Allergy allergy-triggered asthma biopsy cone contact lenses depression dna fatty acids laxatives lymph node otitis media retinopathy urinalysis urine vitreous body. Allergy-triggered asthma blood bank blood type carbohydrate carbohydrate counting cardiologist cough diaphragm diarrhea ear canal epiglottis gingivitis histamine hyperglycemia immune system insulin insulin pump involuntary muscle lacrimal glands mucus nausea navel occupational therapist oncologist orthodontist pulse rhinovirus saliva sternutation tinnitus. Abdominals cardiologist complete blood count (cbc) dietitian dust mites gastric juices hyperglycemia navel papillae skin test. Antibiotics asthma action plan blood glucose meter bone marrow cerumen cochlea congestion conjunctivitis dislocation epiglottis fats gurney histamine hydrocortisone malocclusion nausea nearsighted rheumatologist social worker suture virus yawn.</p>\n<p>Arthritis cerebral cortex dyslexia eardrum epiglottis eustachian tube hemangioma hormone hydrocortisone lymph node mucus nasal cavity nebulizer night guard ophthalmologist pollen sphenopalatineganglioneuralgia whitehead x-ray. Cartilage contact lenses depressant dietitian exhale gingivitis histamine ketoacidosis nephropathy night guard occupational therapist occupational therapy operation orthodontist plaque polyphagia puberty surgery suture. Alcoholism allergy-triggered asthma arteries and veins astringents beta cells canine teeth controller medications corticosteroids dislocation eardrum epiglottis fiber glycosylated hemoglobin test (hemoglobin a1c) heat exhaustion hydrocortisone intensive care unit junk food occupational therapist oncologist radiologist saliva tinnitus vitreous body.</p>\n<p>Arthritis cerebral cortex dyslexia eardrum epiglottis eustachian tube hemangioma hormone hydrocortisone lymph node mucus nasal cavity nebulizer night guard ophthalmologist pollen sphenopalatineganglioneuralgia whitehead x-ray. Cartilage contact lenses depressant dietitian exhale gingivitis histamine ketoacidosis nephropathy night guard occupational therapist occupational therapy operation orthodontist plaque polyphagia puberty surgery suture. Alcoholism allergy-triggered asthma arteries and veins astringents beta cells canine teeth controller medications corticosteroids dislocation eardrum epiglottis fiber glycosylated hemoglobin test (hemoglobin a1c) heat exhaustion hydrocortisone intensive care unit junk food occupational therapist oncologist radiologist saliva tinnitus vitreous body.</p>\n",
-  "excerpt": "<p>Let&#8217;s talk about what is health and how can this article help you. When was the last time you went out for a 30min walk? Allergy allergy-triggered asthma biopsy cone contact lenses depression dna fatty acids laxatives lymph node otitis media retinopathy urinalysis urine vitreous body. Allergy-triggered asthma blood bank blood type carbohydrate carbohydrate counting cardiologist cough [&hellip;]</p>\n"
+  "content": "<p>Good nutrition doesn't require an expensive overhaul of your kitchen or a strict diet plan. During preventive and primary care visits, our providers at United Community Foundation often talk with patients about small, sustainable changes that make a real difference over time, especially for families managing or trying to prevent conditions like diabetes and high blood pressure.</p>\n<p>A good place to start is building meals around vegetables, lean proteins, and whole grains, while limiting sugary drinks, which are one of the biggest and most avoidable sources of added sugar in the average diet. Swapping soda or juice for water, even a few times a week, adds up.</p>\n<p>Reading nutrition labels for added sugar and sodium, cooking at home more often than eating out, and keeping portion sizes reasonable are all habits that support steady blood sugar and healthy weight management without requiring specialized or costly ingredients.</p>\n<p>If you or a family member has questions about nutrition as part of managing a chronic condition, our medical team can talk through a plan that fits your household during a regular preventive care visit &#8212; just let us know at check-in.</p>\n",
+  "excerpt": "<p>A few practical, low-cost nutrition habits our care team recommends for families managing or preventing chronic conditions.</p>\n"
  },
  {
   "slug": "meet-our-veterinaries",
   "path": "/2015/09/29/meet-our-veterinaries",
-  "title": "Labs Walkthrough",
-  "date": "2015-09-29",
-  "author": "dnwachokor",
+  "title": "Low-Cost Lab & Imaging Services Through Our Referral Network",
+  "date": "2026-07-10",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Educational Videos",
+    "name": "Programs",
     "slug": "videos-fg"
    }
   ],
   "tags": [
    {
-    "name": "Clinic",
+    "name": "Labs",
     "slug": "clinic"
    },
    {
-    "name": "Health",
+    "name": "Imaging",
     "slug": "health"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "image": "/img/Blood-tests-results.jpg",
-  "content": "",
-  "excerpt": "<p>Health care (or healthcare) is the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments in human beings.</p>\n"
+  "content": "<p>Lab work and imaging &#8212; things like bloodwork, X-rays, and diagnostic scans &#8212; are often where healthcare costs add up fastest for uninsured and underinsured families. United Community Foundation helps close that gap by coordinating low-cost laboratory and imaging services through our referral network.</p>\n<p>When a provider at one of our five locations determines that lab work or imaging is medically necessary, our care team helps connect patients with partner labs and imaging centers that offer reduced rates for UCF patients, rather than leaving families to navigate that process alone.</p>\n<p>This referral coordination is part of the same care-coordination approach we take with every patient: preventive and primary visits, dental care, and any necessary follow-up testing are treated as one connected picture of your health, not separate transactions.</p>\n<p>If your provider recommends lab work or imaging, ask our front desk team about referral options at your visit, or call us at (281) 853-5555 with questions about cost before you schedule.</p>\n",
+  "excerpt": "<p>How United Community Foundation helps uninsured and underinsured patients access affordable lab work and imaging.</p>\n"
  },
  {
   "slug": "dietary-advice",
   "path": "/2015/09/29/dietary-advice",
-  "title": "Dietary Advice",
-  "date": "2015-09-29",
-  "author": "dnwachokor",
+  "title": "Eating Well on a Budget: Tips From Our Care Team",
+  "date": "2026-06-28",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Medical Articles",
+    "name": "Health Tips",
     "slug": "images-fg"
    }
   ],
   "tags": [
    {
-    "name": "Article",
-    "slug": "article"
-   },
-   {
     "name": "Diet",
     "slug": "diet"
    },
    {
-    "name": "Health",
+    "name": "Family Health",
     "slug": "health"
-   },
-   {
-    "name": "Tips",
-    "slug": "tips"
    }
   ],
   "image": "/img/diab1.jpg",
-  "content": "",
-  "excerpt": "<p>Health care (or healthcare) is the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments in human beings.</p>\n"
+  "content": "<p>Many of the families we serve are balancing tight budgets with the goal of feeding their household well, and it's a topic that comes up often in our social services and preventive care conversations. Eating well doesn't have to mean spending more &#8212; it often means shopping and cooking a little differently.</p>\n<p>Buying in-season produce, choosing dried or canned beans over pricier protein sources, and cooking larger batches to freeze for later are all ways to stretch a grocery budget without sacrificing nutrition. Frozen vegetables are also a budget-friendly option that retain most of their nutritional value.</p>\n<p>For families facing food insecurity, United Community Foundation's social services program also connects households with food assistance resources in Harris and Fort Bend counties, alongside our medical and dental services.</p>\n<p>If your family could use support accessing food assistance or has questions about nutrition, our social services team is available at any of our five locations &#8212; just ask at your next visit or call (281) 853-5555.</p>\n",
+  "excerpt": "<p>Practical, affordable ways to feed your family well, especially for households UCF supports through our food assistance program.</p>\n"
  },
  {
   "slug": "practitioners-advice",
   "path": "/2015/09/29/practitioners-advice",
-  "title": "Practitioner’s Advice",
-  "date": "2015-09-29",
-  "author": "dnwachokor",
+  "title": "Why Preventive Visits Matter, Even When You Feel Fine",
+  "date": "2026-06-14",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Educational Videos",
+    "name": "Health Tips",
     "slug": "videos-fg"
    }
   ],
-  "tags": [],
+  "tags": [
+   {
+    "name": "Preventive Care",
+    "slug": "medical"
+   }
+  ],
   "image": "/img/procardial-core-stethoscope-with-patient-descriptor.jpg",
-  "content": "",
-  "excerpt": "<p>The practice of medicine entails more than just good communication, but good communication is essential to effective practice.</p>\n"
+  "content": "<p>It's easy to put off a checkup when you feel healthy, but preventive visits are exactly where our care team at United Community Foundation can catch small issues before they become bigger ones. Blood pressure, blood sugar, and basic screenings can flag early warning signs of chronic conditions well before symptoms appear.</p>\n<p>For children, annual well-visits also keep immunizations on schedule and make sure growth and development are on track &#8212; and for uninsured or underinsured children under 21, these visits are available at no cost through our Title V Program.</p>\n<p>For adults, an annual visit is a chance to update your medication list, review any family history changes, and talk through anything that's been on your mind, even if it doesn't feel urgent enough for its own appointment.</p>\n<p>Our physicians and nurse practitioners take the time to listen, not just check boxes. If it's been more than a year since your last checkup, we encourage you to schedule one at any of our five locations.</p>\n",
+  "excerpt": "<p>Our care team explains why annual checkups catch problems early, before they become harder and more expensive to treat.</p>\n"
  },
  {
   "slug": "educational-video",
   "path": "/2015/09/24/educational-video",
-  "title": "EDUCATIONAL VIDEO",
-  "date": "2015-09-24",
-  "author": "dnwachokor",
+  "title": "Free Financial Literacy & Job-Skills Classes Open This Fall",
+  "date": "2026-06-01",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Educational Videos",
+    "name": "Education",
     "slug": "videos-fg"
    }
   ],
-  "tags": [],
+  "tags": [
+   {
+    "name": "Financial Literacy",
+    "slug": "health"
+   },
+   {
+    "name": "Job Training",
+    "slug": "medical"
+   }
+  ],
   "image": "/img/five-young-multiethnic-doctors-scientists-bioenge.webp",
-  "content": "",
-  "excerpt": ""
+  "content": "<p>United Community Foundation's mission goes beyond medical and dental care &#8212; we also believe that financial stability and job skills are part of a healthy, empowered community. Our educational programs offer free classes designed to give adults practical tools they can use right away.</p>\n<p>Financial literacy classes cover budgeting, saving, and understanding credit, while our basic computer skills and job-readiness sessions help participants build confidence for today's workplace. Language classes are also available for community members working to strengthen their English skills.</p>\n<p>These programs are open to residents throughout Harris and Fort Bend counties and are offered at no cost, in keeping with UCF's mission to remove barriers rooted in socioeconomic challenges rather than add new ones.</p>\n<p>Class sizes are limited to keep instruction hands-on. If you're interested in enrolling or want to know when the next session starts, call us at (281) 853-5555 or ask at any UCF location.</p>\n",
+  "excerpt": "<p>UCF&#8217;s educational programs offer free classes in financial literacy, language, and job-readiness skills for adults in our community.</p>\n"
  },
  {
   "slug": "carousel-gallery-post",
   "path": "/2015/09/22/carousel-gallery-post",
-  "title": "Are drugs the best solution?",
-  "date": "2015-09-22",
-  "author": "dnwachokor",
+  "title": "Understanding the Primary Health Care (PHC) Program",
+  "date": "2026-05-20",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Gallery",
+    "name": "Programs",
     "slug": "gallery"
-   },
-   {
-    "name": "Image",
-    "slug": "image"
    }
   ],
   "tags": [
    {
-    "name": "Audio",
-    "slug": "audio"
-   },
-   {
-    "name": "Quote",
-    "slug": "quote"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
+    "name": "PHC Program",
+    "slug": "medical"
    }
   ],
   "image": "/img/male-doctor-using-recovery-medication-to-give-pres.webp",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. \t\t</p>\n"
+  "content": "<p>Alongside our Title V Program for children, United Community Foundation's Primary Health Care (PHC) Program extends low-cost, ongoing medical care to adults who are uninsured or underinsured. It's designed for patients who need a consistent medical home, not just a one-time visit.</p>\n<p>Through the PHC Program, patients have access to preventive and primary care medical services &#8212; annual physicals, chronic condition management, screenings, immunizations, and referrals to specialists when needed &#8212; on a sliding-scale, low-cost basis.</p>\n<p>For many patients, the PHC Program becomes the foundation of their ongoing healthcare relationship: the same care team gets to know their history over time, rather than starting from scratch at every visit.</p>\n<p>If you're an adult without insurance and unsure where to turn for regular care, our team can walk you through PHC Program eligibility at any of our five locations across Rosenberg, Wharton, Sugar Land, and Houston.</p>\n",
+  "excerpt": "<p>A closer look at UCF&#8217;s Primary Health Care Program and how it provides low-cost, ongoing care for uninsured adults.</p>\n"
  },
  {
   "slug": "top-health-tips",
   "path": "/2015/09/20/top-health-tips",
-  "title": "Top Health Tips",
-  "date": "2015-09-20",
-  "author": "dnwachokor",
+  "title": "Back-to-School Health Fair Screens Families Across Our Locations",
+  "date": "2026-05-08",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Usefull info Links",
+    "name": "Community",
     "slug": "links-fg"
    }
   ],
-  "tags": [],
+  "tags": [
+   {
+    "name": "Community",
+    "slug": "health"
+   },
+   {
+    "name": "Back to School",
+    "slug": "tips"
+   }
+  ],
   "image": "/img/chlc-diverse-care-team.jpg",
-  "content": "<p>http://plethorathemes.com/healthx/blog/2015/09/28/medical-advice/</p>\n",
-  "excerpt": "<p>Health care (or healthcare) is the diagnosis, treatment, and prevention of disease, illness, injury, and other physical and mental impairments in human beings.</p>\n"
+  "content": "<p>Every back-to-school season, United Community Foundation opens its doors for a community health fair aimed at helping families get ahead of the paperwork every parent dreads: sports physicals, immunization records, and dental screenings required before the first day of class.</p>\n<p>Families across Harris and Fort Bend counties are able to bring children in for free or low-cost physicals through our Title V Program, along with basic dental checks and guidance on catching up on routine immunizations.</p>\n<p>Beyond the clinical side, our social services team is also on hand during these events to connect families with additional resources, from health insurance enrollment help to food assistance, all in one visit.</p>\n<p>We know back-to-school season is hectic for working families, which is why these fairs are designed to handle as much as possible in a single stop. Watch our Facebook page or call (281) 853-5555 for dates at your nearest UCF location.</p>\n",
+  "excerpt": "<p>Our annual back-to-school health fair helps families get sports physicals, immunizations, and dental screenings ahead of the school year.</p>\n"
  },
  {
   "slug": "standard-post",
   "path": "/2015/09/08/standard-post",
-  "title": "Negative statin stories add to heart health risk",
-  "date": "2015-09-08",
-  "author": "dnwachokor",
+  "title": "Managing High Blood Pressure: What Our Patients Ask Most",
+  "date": "2026-04-25",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Health Tips",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Consectetuer",
-    "slug": "consectetuer"
+    "name": "Blood Pressure",
+    "slug": "health"
    },
    {
-    "name": "Ipsum",
-    "slug": "ipsum"
-   },
-   {
-    "name": "Loram",
-    "slug": "loram"
-   },
-   {
-    "name": "Nonummy",
-    "slug": "nonummy"
+    "name": "Chronic Care",
+    "slug": "tips"
    }
   ],
   "image": "/img/team-of-female-doctor-check-on-scan-results-paper.webp",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.</p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br />\nNam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. \t\t</p>\n"
+  "content": "<p>High blood pressure is one of the most common conditions our providers manage at United Community Foundation, and it's also one of the most misunderstood. Because it rarely causes obvious symptoms, many patients don't realize anything is wrong until it's flagged during a routine visit.</p>\n<p>One of the most common questions we hear is whether medication is always necessary. The answer depends on the individual &#8212; for some patients, changes to diet, physical activity, and stress management are enough to bring numbers into a healthy range, while others need medication alongside those changes.</p>\n<p>We also get asked how often blood pressure should be checked. For most adults, an annual check during a preventive visit is a good baseline, but patients already managing hypertension are typically monitored more frequently to make sure their treatment plan is working.</p>\n<p>If it's been a while since you've had your blood pressure checked, or if you have a family history of hypertension, our care team can help you understand your numbers and what they mean at your next visit.</p>\n",
+  "excerpt": "<p>Answers to the questions our medical team hears most often about managing blood pressure day to day.</p>\n"
  },
  {
   "slug": "image-post",
   "path": "/2015/09/03/image-post",
-  "title": "Study finds link between very early stages of brain and heart disease",
-  "date": "2015-09-03",
-  "author": "dnwachokor",
+  "title": "How Health Insurance Enrollment Help Works at UCF",
+  "date": "2026-04-12",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Programs",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Gallery",
-    "slug": "gallery"
-   },
-   {
-    "name": "Image",
-    "slug": "image"
+    "name": "Insurance",
+    "slug": "health"
    }
   ],
   "image": "/img/chlc-brain-scan-consult.jpg",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.</p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br />\nNam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\t Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\t\t</p>\n"
+  "content": "<p>Not every family that visits United Community Foundation is uninsured for lack of options &#8212; often, the enrollment process itself is the barrier. Deadlines, paperwork, and confusing eligibility rules can keep people from coverage they actually qualify for.</p>\n<p>That's why health insurance enrollment help is part of our social services program. Our team sits down with patients to review their options, whether that's a marketplace plan, Medicaid, or another program, and helps them understand what documentation is needed.</p>\n<p>This service is available regardless of whether you're currently a UCF patient for medical or dental care &#8212; it's part of our broader commitment to reducing barriers to access for underserved families in Harris and Fort Bend counties.</p>\n<p>If you or a family member need help understanding your insurance options, our social services team is available at any of our five locations, or you can call (281) 853-5555 to ask about enrollment support.</p>\n",
+  "excerpt": "<p>Our social services team walks patients through health insurance enrollment as part of UCF&#8217;s broader mission to expand access to care.</p>\n"
  },
  {
   "slug": "audio-post",
   "path": "/2015/09/01/audio-post",
-  "title": "Protecting the brain from Parkinson’s disease",
-  "date": "2015-09-01",
-  "author": "dnwachokor",
+  "title": "Emergency Preparedness Resources for Local Families",
+  "date": "2026-03-29",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Community",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Audio",
+    "name": "Emergency Preparedness",
     "slug": "audio"
    },
    {
-    "name": "Gallery",
-    "slug": "gallery"
-   },
-   {
-    "name": "Video",
+    "name": "Community",
     "slug": "video"
    }
   ],
   "image": "/img/young-neurologists-reading-brain-mri-at-hospital-lab.webp",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.</p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br />\nNam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tQuis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\t\t</p>\n"
+  "content": "<p>Living along the Gulf Coast means hurricane season and severe weather are a yearly reality, and preparation can make a meaningful difference for families with limited resources. United Community Foundation's social services program includes emergency preparedness support as part of our broader mission.</p>\n<p>This includes helping families build a basic emergency plan &#8212; knowing evacuation routes, keeping copies of medical records and medication lists accessible, and understanding where to go for care if a regular UCF location is affected by severe weather.</p>\n<p>For patients managing chronic conditions, having a plan for medication refills and access to care during an emergency is especially important, and it's a conversation our care team is glad to have during a regular visit.</p>\n<p>If you have questions about emergency preparedness resources or want help building a plan for your household, ask our social services team at any UCF location or call (281) 853-5555.</p>\n",
+  "excerpt": "<p>UCF&#8217;s social services program includes emergency preparedness support to help families plan ahead, especially during hurricane season.</p>\n"
  },
  {
   "slug": "link-post",
   "path": "/2015/08/25/link-post",
-  "title": "Lung cancer survival rate in England improves",
-  "date": "2015-08-25",
-  "author": "dnwachokor",
+  "title": "Dental Care for the Whole Family, Regardless of Insurance",
+  "date": "2026-03-15",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Programs",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Link",
-    "slug": "link"
-   },
-   {
-    "name": "Quote",
-    "slug": "quote"
+    "name": "Dental Care",
+    "slug": "medical"
    }
   ],
   "image": "/img/06-Blog-Prostate-Cancer-Treatment-L.jpg",
-  "content": "<p>\t\t\t\tMirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tSed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Quis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \t\t</p>\n"
+  "content": "<p>Dental care is often one of the first things families put off when money is tight, but oral health is closely tied to overall health. United Community Foundation offers dental exams and X-rays, hygiene education, cleanings, and dental procedures for the whole family.</p>\n<p>For uninsured and underinsured children and adolescents under 21, dental care is available at no cost through our Title V Program, covering routine cleanings as well as necessary procedures. Adults can access dental services on a low-cost basis as well.</p>\n<p>Our dental team also focuses on hygiene education, helping patients understand daily habits &#8212; brushing, flossing, and diet choices &#8212; that prevent bigger problems down the road, rather than only treating issues after they appear.</p>\n<p>If it's been a while since your family's last dental visit, or your child has never had one, our team at any of our five locations can help you get started.</p>\n",
+  "excerpt": "<p>UCF&#8217;s dental services cover exams, cleanings, and procedures for families at every income level, with free care available for eligible children.</p>\n"
  },
  {
   "slug": "sticky-standard-post",
   "path": "/2015/08/08/sticky-standard-post",
-  "title": "Your Medical Records are Safe",
-  "date": "2015-08-08",
-  "author": "dnwachokor",
+  "title": "How We Protect Your Health Information",
+  "date": "2026-03-01",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Patients",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Gallery",
-    "slug": "gallery"
-   },
-   {
-    "name": "Image",
+    "name": "Privacy",
     "slug": "image"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "image": "/img/Medical-Record-7702877.jpg",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.</p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>\n<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>\n<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tSed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Quis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \t\t</p>\n"
+  "content": "<p>Trust is at the center of every visit to United Community Foundation, and part of earning that trust is being clear about how we protect your health information. Your records &#8212; medical, dental, and any information related to program eligibility &#8212; are kept confidential and secure.</p>\n<p>We share information only as necessary to coordinate your care, such as with referral partners for lab work or specialist visits, and only with your knowledge. We do not sell or trade patient information, and our staff are trained on confidentiality standards for every program we operate.</p>\n<p>As a patient, you have the right to ask questions about how your information is used, to request updates to your records, and to understand what documentation is kept on file, particularly for program eligibility like our Title V Program.</p>\n<p>If you have questions about your records or our privacy practices, you can review our full Privacy Policy on this website or ask our front desk team at any visit.</p>\n",
+  "excerpt": "<p>An overview of how United Community Foundation safeguards patient records and what your privacy rights are as a patient.</p>\n"
  },
  {
   "slug": "grid-gallery-post-with-overlay",
   "path": "/2015/08/06/grid-gallery-post-with-overlay",
-  "title": "Study suggests breast density alone not a risk factor for cancer",
-  "date": "2015-08-06",
-  "author": "dnwachokor",
+  "title": "Serving Harris & Fort Bend Counties Since 2019",
+  "date": "2026-02-14",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "About Us",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Grid",
+    "name": "History",
     "slug": "grid"
-   },
-   {
-    "name": "Image",
-    "slug": "image"
    }
   ],
   "image": "/img/in-the-hospital-office-a-medical-explains-abou.webp",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.<br />\nLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br />\nUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br />\nNam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tSed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Quis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \t\t</p>\n"
+  "content": "<p>United Community Foundation was founded in 2019 as a 501(c)(3) nonprofit with a clear mission: to explore, connect, educate, and provide quality health and educational opportunities to underserved communities in Texas.</p>\n<p>What began as an effort to close gaps in access to essential health and educational resources has grown into five community locations across Rosenberg, Wharton, Sugar Land, and Houston, each offering medical, dental, social, and educational services under one roof.</p>\n<p>Along the way, our focus has stayed the same: empowering and strengthening communities by removing the barriers &#8212; cost, insurance status, language, transportation &#8212; that too often stand between families and the care they need.</p>\n<p>As we continue to grow, our commitment to the families of Harris and Fort Bend counties remains unchanged. Thank you to every patient, volunteer, and community partner who has been part of that story so far.</p>\n",
+  "excerpt": "<p>A look back at how United Community Foundation grew from a single idea into five community locations serving thousands of families.</p>\n"
  },
  {
   "slug": "quote-post",
   "path": "/2015/08/01/quote-post",
-  "title": "Newly evolved human gene prevents Alzheimer’s",
-  "date": "2015-08-01",
-  "author": "dnwachokor",
+  "title": "Meet the Families Behind Our Mission",
+  "date": "2026-02-01",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Community",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Image",
-    "slug": "image"
-   },
-   {
-    "name": "Link",
-    "slug": "link"
-   },
-   {
-    "name": "Quote",
+    "name": "Community",
     "slug": "quote"
    }
   ],
   "image": "/img/chlc-clinical-case-review.jpg",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>\n<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tSed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Quis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \t\t</p>\n"
+  "content": "<p>Behind every statistic at United Community Foundation is a family &#8212; a parent bringing a child in for a free Title V checkup, a grandmother finally getting a dental cleaning she'd put off for years, a neighbor connected to food assistance during a hard month.</p>\n<blockquote><p>&#8220;The Title V program was a blessing for my kids &#8212; free dental cleanings and checkups, and the staff made us feel so welcome.&#8221;</p></blockquote>\n<p>Stories like these are why our team shows up every day. Whether it's a same-day walk-in appointment, a referral for low-cost lab work, or a financial literacy class that helps someone build their first budget, our work is measured in the people it reaches, not just the services on a brochure.</p>\n<p>If United Community Foundation has been part of your family's story, we would love to hear it &#8212; and if you haven't visited us yet, we hope you'll consider us the next time your family needs care.</p>\n",
+  "excerpt": "<p>Real stories from the families and neighbors United Community Foundation has had the privilege of serving.</p>\n"
  },
  {
   "slug": "video-post",
   "path": "/2015/07/11/video-post",
-  "title": "Why online doctor ratings are good medicine",
-  "date": "2015-07-11",
-  "author": "dnwachokor",
+  "title": "Why Walk-In Appointments Matter for Working Families",
+  "date": "2026-01-18",
+  "author": "UCF Team",
   "categories": [
    {
-    "name": "Audio",
+    "name": "Patients",
     "slug": "audio"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "tags": [
    {
-    "name": "Grid",
+    "name": "Walk-Ins",
     "slug": "grid"
-   },
-   {
-    "name": "Image",
-    "slug": "image"
-   },
-   {
-    "name": "Video",
-    "slug": "video"
    }
   ],
   "image": "/img/confident-female-doctor-therapist-sitting-at-desk.webp",
-  "content": "<p>\t\t\t\tLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim.\t\t</p>\n",
-  "excerpt": "<p>\t\t\t\tSed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Quis nostrud exerci tation ulla. Ut wisi enim ad minim veniam. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \t\t</p>\n"
+  "content": "<p>For many of the families United Community Foundation serves, taking time off work for a scheduled appointment isn't always realistic. That's why most of our locations welcome walk-in patients alongside scheduled visits, giving families more flexibility to get care when they actually have the time.</p>\n<p>Walk-in availability is especially valuable for urgent but non-emergency needs &#8212; a sick child before school, a sports physical deadline, or a nagging symptom that's easier to address sooner rather than later.</p>\n<p>Of course, scheduled appointments still have advantages, including shorter wait times and the ability to plan ahead for specific needs like dental procedures or program enrollment paperwork. We're happy to work with whichever option fits your family's schedule.</p>\n<p>Check with your nearest UCF location for current walk-in hours, or call (281) 853-5555 to ask what's available before you head in.</p>\n",
+  "excerpt": "<p>Most UCF locations welcome walk-in patients alongside scheduled visits &#8212; here&#8217;s why that flexibility matters for the families we serve.</p>\n"
  }
 ];
 
 export const WP_PAGES = {
  "doctors-staff": {
-  "title": "Doctors & Staff",
-  "content": "\n<h1 class=\"wp-block-heading\">Doctors &amp; Staff</h1>\n\n\n\n<p class=\"wp-block-paragraph\">Our team at Community Health &amp; Life Center is dedicated to caring for you and your family at every stage of life. Meet the people behind your care.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Our Providers</h2>\n\n\n\n<div class=\"wp-block-media-text is-stacked-on-mobile\"><figure class=\"wp-block-media-text__media\"><img decoding=\"async\" width=\"1061\" height=\"794\" src=\"/img/docpic.png\" alt=\"Dr. Daniel A. Nwachokor, MD, MPH\" class=\"wp-image-2781\" sizes=\"(max-width: 709px) 85vw, (max-width: 909px) 38vw, 300px\" srcset=\"/img/docpic.png 1061w, /img/docpic.png 320w, /img/docpic.png 768w, /img/docpic.png 600w\" /></figure><div class=\"wp-block-media-text__content\">\n<h3 class=\"wp-block-heading\">Dr. Daniel A. Nwachokor, MD, MPH</h3>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Family Medicine Physician</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Dr. Nwachokor is proud to practice family medicine in the community he grew up in. A product of the Hightower High School Medical Science Academy in Fort Bend ISD, he treats patients at all stages of life — from newborns to the elderly. He has a passion for community service and for training future health professionals, and is active in numerous local, state, and national professional and philanthropic organizations. In his free time he enjoys swimming, golf, and traveling.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Education &amp; Training</strong><br>Undergraduate: Grambling State University (Grambling, LA)<br>Medical School: University of Kansas School of Medicine (MD/MPH)<br>Residency: Memorial Family Medicine Residency Program (Sugar Land)<br>Board Certification: American Board of Family Medicine</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Languages:</strong> English &amp; Spanish<br><strong>Clinical Interests:</strong> Preventive medicine, chronic disease management, nutrition counseling, obesity medicine, immunizations, and sports physicals.<br><strong>Hospital Affiliation:</strong> Memorial Hermann Sugar Land Hospital</p>\n</div></div>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<div class=\"wp-block-media-text is-stacked-on-mobile\"><figure class=\"wp-block-media-text__media\"><img decoding=\"async\" src=\"/img/team-of-female-doctor-check-on-scan-results-paper.webp\" alt=\"Family Nurse Practitioner\" /></figure><div class=\"wp-block-media-text__content\">\n<h3 class=\"wp-block-heading\">Carmen — Family Nurse Practitioner</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Carmen is a family nurse practitioner whose training prepared her to care for individuals and families with a focus on primary care. She empowers her patients to reach their overall health goals, takes the time to learn about them, and stays involved in the community. She is a clinical preceptor for multiple programs in the area. Carmen enjoys walking in the park, visiting museums and festivals, and spending time with family.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Education &amp; Training</strong><br>Undergraduate: Houston Baptist University (Houston, TX)<br>Graduate School: University of Texas Health Science Center (Houston, TX)</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Languages:</strong> English &amp; Spanish<br><strong>Clinical Interests:</strong> Acute illness, women&#8217;s health care, adolescent care, and mental wellbeing.</p>\n</div></div>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<div class=\"wp-block-media-text is-stacked-on-mobile\"><figure class=\"wp-block-media-text__media\"><img decoding=\"async\" src=\"/img/in-the-hospital-office-a-medical-explains.webp\" alt=\"Registered Dietitian\" /></figure><div class=\"wp-block-media-text__content\">\n<h3 class=\"wp-block-heading\">Alisa — Registered Dietitian</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Alisa is a registered and licensed dietitian with clinical and hospital experience. She consults with your physician to ensure your nutrition plan meets your specific health needs, and is especially interested in promoting healthy lifestyles through weight management, nutrition, and fitness. A Missouri City resident, Alisa is married with four adult children and is active in the community, holding several leadership positions with volunteer organizations. She enjoys board games, cooking, reading, and traveling.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Education &amp; Training</strong><br>Undergraduate: Cheyney University (Cheyney, PA)<br>Graduate School: Texas Southern University (Houston, TX)</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Languages:</strong> English &amp; Spanish<br><strong>Clinical Interests:</strong> General nutrition &amp; wellness, medical nutrition therapy, and group classes and seminars.</p>\n</div></div>\n\n\n\n<h2 class=\"wp-block-heading\">Support Staff</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our front desk and clinical support team help with scheduling, insurance verification, records, and making sure every visit runs smoothly.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Schedule a Visit</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Call us at <a href=\"tel:+13466160038\">346-616-0038</a> or use our <a href=\"https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp\" target=\"_blank\" rel=\"noreferrer noopener\">Patient Portal</a> to request an appointment.</p>\n\n\n\n\n\n<section class=\"wp-block-group chlc-portal-cta has-gv-color-background-secondary-background-color has-background is-layout-constrained wp-container-core-group-is-layout-410ebcac wp-block-group-is-layout-constrained\" data-dsgo-inline-bg=\"1\" style=\"padding-top:70px;padding-right:24px;padding-bottom:70px;padding-left:24px;color:var(--wp--preset--color--gv-color-black) !important;--dsgo-text-color:var(--wp--preset--color--gv-color-black);\"><h2 class=\"wp-block-heading has-text-align-center\">Manage Your Care Online</h2><p class=\"has-text-align-center wp-block-paragraph\">View your records, message our team, and request appointments anytime through our secure Patient Portal.</p><div class=\"wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-d4be0a44 wp-block-buttons-is-layout-flex\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link has-gv-color-background-primary-color has-gv-color-accent-primary-background-color has-text-color has-background wp-element-button\" style=\"border-radius:100px;font-size:18px;padding:18px 42px\" href=\"https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp\" target=\"_blank\" rel=\"noreferrer noopener\">Open the Patient Portal</a></div><div class=\"wp-block-button is-style-outline is-style-outline--1\"><a class=\"wp-block-button__link wp-element-button\" style=\"border-radius:100px;border:2px solid #111111;padding:18px 42px;font-size:18px\" href=\"tel:+13466160038\">Call 346-616-0038</a></div></div></section>\n\n"
+  "title": "Leadership & Staff",
+  "content": "\n<h1 class=\"wp-block-heading\">Leadership &amp; Staff</h1>\n\n\n\n<p class=\"wp-block-paragraph\">United Community Foundation is guided by a dedicated Board of Directors and Executive Management team committed to bridging the gap in access to essential health and educational resources for underserved communities across Harris and Fort Bend counties.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Executive Management</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Liaquat Khowaja — Chief Executive Officer</strong><br>Liaquat leads UCF's day-to-day operations and long-term strategy, working to expand access to free and low-cost care across our five locations.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Salman Aly, MD — Medical Director</strong><br>Dr. Aly oversees the clinical direction of UCF's medical and preventive care services, ensuring every patient receives quality, evidence-based care regardless of ability to pay.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Sarfraz Aly, MD — Chief Clinical Officer</strong><br>Dr. Aly guides clinical quality and program standards across UCF's medical, dental, and referral network services.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Syed Raza — Finance Manager</strong><br>Syed manages UCF's finances and grant compliance, helping ensure resources reach the families and programs that need them most.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Board of Directors</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Zerin Chowdhury &middot; Shirmeen Lakhani &middot; Jalal Kapadia &middot; Nuruddin Ali &middot; Faizmin Lokhandwala</p>\n\n\n\n<h2 class=\"wp-block-heading\">Our Team</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our front desk, clinical, and program support staff across all five locations help with scheduling, eligibility screening, referrals, and making sure every visit runs smoothly.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Get in Touch</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Call us at <a href=\"tel:+12818535555\">(281) 853-5555</a> or <a href=\"/contact-us/\">contact us online</a> to learn more about our programs or request services.</p>\n\n\n\n\n\n<section class=\"wp-block-group chlc-portal-cta has-gv-color-background-secondary-background-color has-background is-layout-constrained wp-container-core-group-is-layout-410ebcac wp-block-group-is-layout-constrained\" data-dsgo-inline-bg=\"1\" style=\"padding-top:70px;padding-right:24px;padding-bottom:70px;padding-left:24px;color:var(--wp--preset--color--gv-color-black) !important;--dsgo-text-color:var(--wp--preset--color--gv-color-black);\"><h2 class=\"wp-block-heading has-text-align-center\">Need Help? We're Here for You</h2><p class=\"has-text-align-center wp-block-paragraph\">Reach our team to ask about eligibility, request services, or find the location nearest you.</p><div class=\"wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-d4be0a44 wp-block-buttons-is-layout-flex\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link has-gv-color-background-primary-color has-gv-color-accent-primary-background-color has-text-color has-background wp-element-button\" style=\"border-radius:100px;font-size:18px;padding:18px 42px\" href=\"/contact-us/\">Request Services</a></div><div class=\"wp-block-button is-style-outline is-style-outline--1\"><a class=\"wp-block-button__link wp-element-button\" style=\"border-radius:100px;border:2px solid #111111;padding:18px 42px;font-size:18px\" href=\"tel:+12818535555\">Call (281) 853-5555</a></div></div></section>\n\n"
  },
  "we-will-be-back-soon": {
   "title": "We Will Be Back Soon",
-  "content": "<style>\nheader.wp-block-template-part,.wp-block-site-title,.wp-block-post-title{display:none !important}<br />h1{font-size:2rem;margin:0 0 12px}<br />/* footer cleanup */<br />footer.wp-block-template-part>.wp-block-group{padding-top:0 !important;padding-bottom:26px !important}<br />footer.wp-block-template-part .wp-block-navigation,footer.wp-block-template-part .wp-block-paragraph,footer.wp-block-template-part .wp-block-spacer{display:none !important}<br />footer.wp-block-template-part .wp-block-columns{display:block !important;text-align:center !important}<br />footer.wp-block-template-part .wp-block-site-tagline{text-align:center !important;font-size:1.05rem !important;letter-spacing:2.5px;color:#1a5276;font-weight:600;text-transform:uppercase;margin:0 auto !important;padding-top:8px;max-width:680px}<br />.chlc-form{margin-top:46px;padding:28px 24px 30px;border:1px solid #d7e1ea !important;border-radius:10px;background:#f8fafc;text-align:left}<br />.chlc-form h2{font-size:1.45rem;line-height:1.3;margin:0 0 6px;color:#1a5276;text-align:center}<br />.chlc-form .chlc-form-sub{margin:0 0 22px;color:#5b6b78;font-size:.98rem;text-align:center}<br />.chlc-form label{display:block;font-weight:600;color:#243b4a;font-size:.98rem}<br />.chlc-form input[type=\"text\"],.chlc-form input[type=\"email\"],.chlc-form textarea{width:100% !important;padding:12px 14px !important;margin:6px 0 18px !important;border:1px solid #c3ced8 !important;border-radius:6px !important;background:#fff !important;box-sizing:border-box;font-size:1rem;color:#243b4a;font-family:inherit;display:block}<br />.chlc-form textarea{min-height:130px;resize:vertical}<br />.chlc-form input[type=\"text\"]:focus,.chlc-form input[type=\"email\"]:focus,.chlc-form textarea:focus{border-color:#1a5276 !important;outline:none;box-shadow:0 0 0 3px rgba(26,82,118,.14)}<br />.chlc-form input.wpcf7-submit{display:block;width:100%;padding:14px;margin-top:4px;background:#1a5276;color:#fff;border:none;border-radius:6px;font-size:1.05rem;font-weight:700;cursor:pointer}<br />.chlc-form input.wpcf7-submit:hover{background:#12405c}<br />.chlc-form br{display:none}<br /></style>\n<div style=\"text-align: center; max-width: 680px; margin: 0 auto; padding: 30px 16px 60px;\">\n<p><img decoding=\"async\" style=\"max-width: 420px; width: 100%; height: auto; margin: 0 auto 28px; display: block;\" src=\"/img/logocomm.png\" alt=\"Community Health &amp; Life Center\" /></p>\n<h1 style=\"font-size: 1.9rem; line-height: 1.3; margin: 0 0 20px; color: #1a5276;\">Pardon Our Dust — We’re Making Improvements!</h1>\n<p style=\"font-size: 1.05rem; line-height: 1.65; margin: 0 0 20px; color: #333;\">Our website is currently undergoing a little remodeling as we work to create a better, easier online experience for our patients.</p>\n<p style=\"font-size: 1.15rem; font-weight: bold; line-height: 1.5; margin: 0 0 22px; color: #1a5276;\">Our office is still here and ready to care for you!</p>\n<p style=\"font-size: 1.05rem; line-height: 1.65; margin: 0 0 12px; color: #333;\">If you need assistance, have questions, or need to reach our team, please call us at</p>\n<p style=\"margin: 0 0 26px;\"><a style=\"display: inline-block; font-size: 1.7rem; font-weight: 800; color: #1a5276; text-decoration: none; letter-spacing: .5px;\" href=\"tel:3466160038\">346-616-0038</a></p>\n<p style=\"font-size: 1.05rem; line-height: 1.65; margin: 0 0 14px; color: #333;\">You may also contact us through our <strong>Patient Portal</strong> for non-urgent questions, messages, and requests.</p>\n<p style=\"margin: 0 0 26px;\"><a style=\"display: inline-block; padding: 12px 28px; background: #1a5276; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;\" href=\"https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp\" target=\"_blank\" rel=\"noopener\">Open the Patient Portal →</a></p>\n<div style=\"text-align: left; background: #fff8e6; border: 1px solid #f0d9a8; border-left: 5px solid #e0a800; border-radius: 6px; padding: 14px 18px; margin: 0 0 28px;\">\n<p style=\"font-size: .98rem; line-height: 1.6; margin: 0; color: #5a4a1a;\"><strong>Please note:</strong> The Patient Portal should <strong>not</strong> be used for urgent medical concerns. If you need prompt assistance, please call our office directly. For a medical emergency, call 911 or seek emergency care.</p>\n</div>\n<p style=\"font-size: 1.05rem; line-height: 1.65; margin: 0 0 30px; color: #333;\">Thank you for your patience while we spruce things up. <strong>We look forward to welcoming you to our new and improved website soon!</strong></p>\n<div class=\"chlc-form\">\n<h2>Send Us a Message</h2>\n<p class=\"chlc-form-sub\">Fill out the form below and our team will get back to you as soon as we can.</p>\n<p>\n<div class=\"wpcf7 no-js\" id=\"wpcf7-f2598-o1\" lang=\"en-US\" dir=\"ltr\" data-wpcf7-id=\"2598\">\n<div class=\"screen-reader-response\"><p role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p> <ul></ul></div>\n<form action=\"/wp-json/wp/v2/pages?per_page=100&#038;slug=terms%2Cgeneral-information%2Cwe-will-be-back-soon%2Coffice-policies%2Cprivacy%2Cpatient-center%2Cdoctors-staff&#038;_fields=id%2Cslug%2Ctitle%2Ccontent#wpcf7-f2598-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">\n<fieldset class=\"hidden-fields-container\"><input type=\"hidden\" name=\"_wpcf7\" value=\"2598\" /><input type=\"hidden\" name=\"_wpcf7_version\" value=\"6.1.7\" /><input type=\"hidden\" name=\"_wpcf7_locale\" value=\"en_US\" /><input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f2598-o1\" /><input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"0\" /><input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\" />\n</fieldset>\n<p><label>Your name<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-name\" /></span></label><br />\n<label>Your email<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-email\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"email\" name=\"your-email\" /></span></label><br />\n<label>Message<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea cols=\"40\" rows=\"10\" maxlength=\"2000\" class=\"wpcf7-form-control wpcf7-textarea\" aria-invalid=\"false\" name=\"your-message\"></textarea></span></label><br />\n<input class=\"wpcf7-form-control wpcf7-submit has-spinner\" type=\"submit\" value=\"Send\" />\n</p><div class=\"wpcf7-response-output\" aria-hidden=\"true\"></div>\n</form>\n</div>\n</p>\n</div>\n</div>\n"
+  "content": "<style>\nheader.wp-block-template-part,.wp-block-site-title,.wp-block-post-title{display:none !important}\nh1{font-size:2rem;margin:0 0 12px}\n/* footer cleanup */\nfooter.wp-block-template-part>.wp-block-group{padding-top:0 !important;padding-bottom:26px !important}\nfooter.wp-block-template-part .wp-block-navigation,footer.wp-block-template-part .wp-block-paragraph,footer.wp-block-template-part .wp-block-spacer{display:none !important}\nfooter.wp-block-template-part .wp-block-columns{display:block !important;text-align:center !important}\nfooter.wp-block-template-part .wp-block-site-tagline{text-align:center !important;font-size:1.05rem !important;letter-spacing:2.5px;color:#1a5276;font-weight:600;text-transform:uppercase;margin:0 auto !important;padding-top:8px;max-width:680px}\n.chlc-form{margin-top:46px;padding:28px 24px 30px;border:1px solid #d7e1ea !important;border-radius:10px;background:#f8fafc;text-align:left}\n.chlc-form h2{font-size:1.45rem;line-height:1.3;margin:0 0 6px;color:#1a5276;text-align:center}\n.chlc-form .chlc-form-sub{margin:0 0 22px;color:#5b6b78;font-size:.98rem;text-align:center}\n.chlc-form label{display:block;font-weight:600;color:#243b4a;font-size:.98rem}\n.chlc-form input[type=\"text\"],.chlc-form input[type=\"email\"],.chlc-form textarea{width:100% !important;padding:12px 14px !important;margin:6px 0 18px !important;border:1px solid #c3ced8 !important;border-radius:6px !important;background:#fff !important;box-sizing:border-box;font-size:1rem;color:#243b4a;font-family:inherit;display:block}\n.chlc-form textarea{min-height:130px;resize:vertical}\n.chlc-form input[type=\"text\"]:focus,.chlc-form input[type=\"email\"]:focus,.chlc-form textarea:focus{border-color:#1a5276 !important;outline:none;box-shadow:0 0 0 3px rgba(26,82,118,.14)}\n.chlc-form input.wpcf7-submit{display:block;width:100%;padding:14px;margin-top:4px;background:#1a5276;color:#fff;border:none;border-radius:6px;font-size:1.05rem;font-weight:700;cursor:pointer}\n.chlc-form input.wpcf7-submit:hover{background:#12405c}\n.chlc-form br{display:none}\n</style>\n<h1>Pardon Our Dust &#8212; We&#8217;re Making Improvements!</h1>\n<p>Our website is currently undergoing a little remodeling as we work to create a better, easier online experience for the families and communities we serve. Our locations are still open and our team is still here and ready to help.</p>\n<p>If you need assistance, have questions, or need to reach our team, please call us at <a href=\"tel:+12818535555\">(281) 853-5555</a> or email <a href=\"mailto:info@ucftexas.org\">info@ucftexas.org</a>.</p>\n<p><strong>Please note:</strong> if you have a medical emergency, call 911 or go to your nearest emergency center.</p>\n<p>Thank you for your patience while we spruce things up. We look forward to welcoming you to our new and improved website soon!</p>\n<div class=\"chlc-form\">\n<h2>Send Us a Message</h2>\n<p class=\"chlc-form-sub\">Fill out the form below and our team will get back to you as soon as we can.</p>\n<label>Your name<br /></label>\n<label>Your email<br /></label>\n<label>Message<br /></label>\n</div>"
  },
  "privacy": {
   "title": "Privacy Policy",
-  "content": "<h2 class=\"wp-block-heading\">Privacy Policy</h2>\n\n\n<p class=\"wp-block-paragraph\">This privacy policy describes how we collect, use, and protect your personal information when you use our website and services.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Information We Collect</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We collect information that you provide directly to us, such as when you create an account, make a purchase, or contact us for support. This may include your name, email address, mailing address, phone number, and payment information.</p>\n\n\n\n<h3 class=\"wp-block-heading\">2. How We Use Your Information</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use the information we collect to:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Process and fulfill your orders</li>\n<li>Send you order confirmations and updates</li>\n<li>Respond to your comments and questions</li>\n<li>Improve our website and services</li>\n<li>Send you marketing communications (with your consent)</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading\">3. Information Sharing</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We do not sell, trade, or rent your personal information to third parties. We may share your information with service providers who assist us in operating our website and conducting our business, as long as those parties agree to keep this information confidential.</p>\n\n\n\n<h3 class=\"wp-block-heading\">4. Data Security</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>\n\n\n\n<h3 class=\"wp-block-heading\">5. Your Rights</h3>\n\n\n\n<p class=\"wp-block-paragraph\">You have the right to access, update, or delete your personal information at any time. You may also opt out of receiving marketing communications from us.</p>\n\n\n\n<h3 class=\"wp-block-heading\">6. Cookies</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use cookies to enhance your experience on our website. You can choose to disable cookies through your browser settings, though this may affect the functionality of the site.</p>\n\n\n\n<h3 class=\"wp-block-heading\">7. Changes to This Policy</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>\n\n\n\n<h3 class=\"wp-block-heading\">8. Contact Us</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any questions about this Privacy Policy, please contact us.</p>\n"
+  "content": "<h2 class=\"wp-block-heading\">Privacy Policy</h2>\n\n\n<p class=\"wp-block-paragraph\">This privacy policy describes how United Community Foundation (\"UCF,\" \"we,\" \"us,\" or \"our\") collects, uses, and protects your personal information when you visit our website, contact our team, or receive services through our programs.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Information We Collect</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We collect information that you provide directly to us, such as when you request services, enroll in a program, submit a contact form, or reach out to our staff. This may include your name, email address, mailing address, phone number, and, where applicable, information needed to determine eligibility for free or low-cost programs such as our Title V Program.</p>\n\n\n\n<h3 class=\"wp-block-heading\">2. How We Use Your Information</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use the information we collect to:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Schedule and coordinate appointments and program enrollment</li>\n<li>Confirm eligibility for free and low-cost services</li>\n<li>Respond to your questions and requests for assistance</li>\n<li>Improve our website, programs, and community outreach</li>\n<li>Send you updates about our programs and services (with your consent)</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading\">3. Information Sharing</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We do not sell, trade, or rent your personal information to third parties. We may share your information with referral partners, service providers, and government agencies as needed to coordinate your care and program eligibility, as long as those parties agree to keep this information confidential.</p>\n\n\n\n<h3 class=\"wp-block-heading\">4. Data Security</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We implement appropriate administrative and technical safeguards to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>\n\n\n\n<h3 class=\"wp-block-heading\">5. Your Rights</h3>\n\n\n\n<p class=\"wp-block-paragraph\">You have the right to access, update, or request deletion of your personal information at any time. You may also opt out of receiving communications from us.</p>\n\n\n\n<h3 class=\"wp-block-heading\">6. Cookies</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use cookies to enhance your experience on our website. You can choose to disable cookies through your browser settings, though this may affect the functionality of the site.</p>\n\n\n\n<h3 class=\"wp-block-heading\">7. Changes to This Policy</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>\n\n\n\n<h3 class=\"wp-block-heading\">8. Contact Us</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any questions about this Privacy Policy, please contact us at <a href=\"mailto:info@ucftexas.org\">info@ucftexas.org</a> or call (281) 853-5555.</p>"
  },
  "terms": {
   "title": "Terms and Conditions",
-  "content": "<h2 class=\"wp-block-heading\">Terms and Conditions</h2>\n\n\n<p class=\"wp-block-paragraph\">Please read these terms and conditions carefully before using our website and services.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Acceptance of Terms</h3>\n\n\n\n<p class=\"wp-block-paragraph\">By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.</p>\n\n\n\n<h3 class=\"wp-block-heading\">2. Use License</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Permission is granted to temporarily download one copy of the materials on this website for personal, non-commercial transitory viewing only.</p>\n\n\n\n<h3 class=\"wp-block-heading\">3. Disclaimer</h3>\n\n\n\n<p class=\"wp-block-paragraph\">The materials on this website are provided on an &#8220;as is&#8221; basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>\n\n\n\n<h3 class=\"wp-block-heading\">4. Limitations</h3>\n\n\n\n<p class=\"wp-block-paragraph\">In no event shall we or our suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on this website.</p>\n\n\n\n<h3 class=\"wp-block-heading\">5. Revisions</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We may revise these terms of service at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>\n\n\n\n<h3 class=\"wp-block-heading\">6. Contact Information</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any questions about these Terms and Conditions, please contact us.</p>\n"
+  "content": "<h2 class=\"wp-block-heading\">Terms and Conditions</h2>\n\n\n<p class=\"wp-block-paragraph\">Please read these terms and conditions carefully before using the United Community Foundation website or requesting our services.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Acceptance of Terms</h3>\n\n\n\n<p class=\"wp-block-paragraph\">By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement.</p>\n\n\n\n<h3 class=\"wp-block-heading\">2. Use License</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Permission is granted to temporarily download one copy of the materials on this website for personal, non-commercial, transitory viewing only.</p>\n\n\n\n<h3 class=\"wp-block-heading\">3. Disclaimer</h3>\n\n\n\n<p class=\"wp-block-paragraph\">The materials on this website are provided on an &#8220;as is&#8221; basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Information on this site is provided for general reference only and does not replace individualized medical, dental, or social-services advice from a qualified provider.</p>\n\n\n\n<h3 class=\"wp-block-heading\">4. Limitations</h3>\n\n\n\n<p class=\"wp-block-paragraph\">In no event shall United Community Foundation or our partners be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on this website.</p>\n\n\n\n<h3 class=\"wp-block-heading\">5. Revisions</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We may revise these terms of service at any time without notice. By using this website you are agreeing to be bound by the then-current version of these terms of service.</p>\n\n\n\n<h3 class=\"wp-block-heading\">6. Contact Information</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any questions about these Terms and Conditions, please contact us at <a href=\"mailto:info@ucftexas.org\">info@ucftexas.org</a> or call (281) 853-5555.</p>"
  },
  "general-information": {
   "title": "General Information",
-  "content": "<p>[bt_section layout=&#8221;boxed&#8221; top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; skin=&#8221;dark&#8221; full_screen=&#8221;no&#8221; vertical_align=&#8221;inherit&#8221; divider=&#8221;yes&#8221; back_image=&#8221;608&#8243; back_color=&#8221;#0cb8b6&#8243; back_video=&#8221;&#8221; video_settings=&#8221;&#8221; parallax=&#8221;&#8221; parallax_offset=&#8221;&#8221; animation=&#8221;&#8221; animation_back=&#8221;&#8221; animation_impress=&#8221;&#8221; el_id=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_row][bt_column width=&#8221;1/1&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein animate-moveleft&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_hr top_spaced=&#8221;topExtraSmallSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][bt_hr top_spaced=&#8221;topExtraSmallSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;GENERAL INFORMATION&#8221; headline_size=&#8221;large&#8221; dash=&#8221;no&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btNormalDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][/bt_column][/bt_row][/bt_section][bt_section layout=&#8221;boxed&#8221; top_spaced=&#8221;topSpaced&#8221; bottom_spaced=&#8221;bottomSpaced&#8221; skin=&#8221;inherit&#8221; full_screen=&#8221;no&#8221; vertical_align=&#8221;inherit&#8221; divider=&#8221;no&#8221; back_image=&#8221;&#8221; back_color=&#8221;&#8221; back_video=&#8221;&#8221; video_settings=&#8221;&#8221; parallax=&#8221;&#8221; parallax_offset=&#8221;&#8221; animation=&#8221;&#8221; animation_back=&#8221;&#8221; animation_impress=&#8221;&#8221; el_id=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_header superheadline=&#8221;&#8221; headline=&#8221;Before Your Appointment&#8221; headline_size=&#8221;large&#8221; dash=&#8221;top&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_column][/bt_row][bt_row][bt_column width=&#8221;2/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btMiddleVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_image image=&#8221;2152&#8243; caption_text=&#8221;&#8221; size=&#8221;&#8221; shape=&#8221;square&#8221; url=&#8221;&#8221; target=&#8221;_self&#8221; hover_type=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_image][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btTopVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_text]</p>\n<p>To avoid delays in your care, it is extremely important that all your information in your chart be kept updated by our staff.</p>\n<p>Please assist us in providing a high level of care by bringing these items to each visit as applicable:</p>\n<ul>\n<li>Photo ID (Driver’s License, State-Issued ID, School ID)</li>\n<li>Insurance Cards</li>\n<li>List of Medications (Including Over-the-counter Medications, Vitamins, Supplements)</li>\n<li>List of Physician Specialists (Including Contact Information and Diagnosis)</li>\n<li>Result of Any Test Performed Since Last Visit (Lab Work, Mammogram, Colonoscopy, Cardiac Studies, Etc.)</li>\n</ul>\n<p>[/bt_text][/bt_column][/bt_row][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;topSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Appointment &#8221; headline_size=&#8221;large&#8221; dash=&#8221;top&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_column][/bt_row][bt_row][bt_column width=&#8221;1/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btTopVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_text]</p>\n<p>We strive to see patients promptly at their scheduled appointment time.</p>\n<p>Please assist us in keeping our schedule running on time by following these simple guidelines:</p>\n<ul>\n<li>When making your appointment, clearly state the reason for your visit to help us schedule the appropriate amount of time with your physician.</li>\n<li>The doctor will only be able to see you for the issue scheduled that day because add-on issues take time away from other patients who are scheduled that day.</li>\n<li>If you are unable to keep your appointment please notify our office at least 24-hours in advance.</li>\n</ul>\n<p>[/bt_text][/bt_column][bt_column width=&#8221;2/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btMiddleVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_image image=&#8221;2133&#8243; caption_text=&#8221;&#8221; size=&#8221;&#8221; shape=&#8221;square&#8221; url=&#8221;&#8221; target=&#8221;_self&#8221; hover_type=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_image][/bt_column][/bt_row][bt_row][/bt_row][bt_row][bt_column width=&#8221;1/1&#8243;][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;border&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][/bt_column][/bt_row][bt_row][/bt_row][bt_row][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;New Patients&#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;Please arrive 30-minutes prior to your appointment time.<br />\nDownload Patient Forms Here&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Existing Patients&#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;Please arrive 15-minutes prior to your appointment time to review your current information.<br />\nIf you arrive late for your appointment, you may be asked to reschedule.<br />\n&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Payments for Services &#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;Payment is requested at the time service is rendered unless other arrangements have been made. We accept cash, check, and all major credit cards. We will be happy to file insurance claims, but co-pays and deductibles that have not been met are due at time of service. Please be prepared to show your insurance card at each visit. &#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][/bt_row][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;topSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;After Your Appointment &#8221; headline_size=&#8221;large&#8221; dash=&#8221;top&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_column][/bt_row][bt_row][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Prescription Refills&#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;If you need an existing prescription refilled, please contact your pharmacy. Once we have received the request, we will complete it within two business days.&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Tests Results &#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;Our policy is to communicate all test results to you, whether normal or abnormal.<br />\nYou will hear from us either in writing, by phone, or by email. It is your choice.<br />\nPlease allow seven business days for your test results to be received and conveyed to you.<br />\nYou will be notified immediately by your physician if any of your test results are significantly abnormal.<br />\nIf you have not heard from your physician within seven business days, please contact our office.</p>\n<p>&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;center&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;btDoublePadding&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSmallSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Referrals&#8221; headline_size=&#8221;small&#8221; dash=&#8221;bottom&#8221; dash_style=&#8221;btAlternateDash&#8221; subheadline=&#8221;Some insurance plans require that you have your referral approved prior to seeing another specialist or having a test performed. We will help you obtain this referral, but please allow two weeks for this process. When you contact us to request the referral, please include the specialty or specialist to whom you need the referral and the reason for the referral. We will notify you by phone when the referral has been approved by your insurance. Please note that many health plans will only authorize referrals to in-network providers. Should you wish to see a provider who is not in-network for your plan, you will need to contact your plan’s customer service representative. &#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;not-spaced&#8221; bottom_spaced=&#8221;bottomSemiSpaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][/bt_row][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_hr top_spaced=&#8221;topSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;Other Conveniences &#8221; headline_size=&#8221;large&#8221; dash=&#8221;top&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_column][/bt_row][bt_row][bt_column width=&#8221;2/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btMiddleVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_image image=&#8221;2151&#8243; caption_text=&#8221;&#8221; size=&#8221;&#8221; shape=&#8221;square&#8221; url=&#8221;&#8221; target=&#8221;_self&#8221; hover_type=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_image][/bt_column][bt_column width=&#8221;1/3&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btTopVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; opacity=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_text]</p>\n<ul>\n<li>Complimentary Wi-Fi</li>\n<li>Extended Clinic Hours</li>\n<li>Free Convenient Lot Parking</li>\n<li>Same Day and Lunchtime Appointments</li>\n<li>Online Patient Portal to Manage Care Anytime</li>\n<li>Automated Appointment Reminders</li>\n<li>Electronic Prescriptions Sent Directly to Pharmacy</li>\n</ul>\n<p>[/bt_text][/bt_column][/bt_row][/bt_section]</p>\n"
+  "content": "<h2 class=\"wp-block-heading\">Before Your Visit</h2>\n\n\n<p class=\"wp-block-paragraph\">To avoid delays in your care, it is extremely important that your information be kept up to date. Please help us provide a high level of service by bringing these items to each visit, as applicable:</p>\n\n\n<ul class=\"wp-block-list\">\n<li>Photo ID (Driver&#8217;s License, State-Issued ID, or School ID)</li>\n<li>Insurance card, if you have insurance (many of our programs are free or low-cost for uninsured and underinsured families)</li>\n<li>List of current medications, including over-the-counter medications, vitamins, and supplements</li>\n<li>List of any specialists you see, with contact information</li>\n<li>Results of any tests performed since your last visit (lab work, imaging, etc.)</li>\n<li>For Title V Program applicants: proof of income and residency in Harris or Fort Bend County, as required for eligibility</li>\n</ul>\n\n\n<h2 class=\"wp-block-heading\">Appointments</h2>\n\n\n<p class=\"wp-block-paragraph\">We strive to see everyone promptly at their scheduled appointment time. Please help us keep our schedule running smoothly by following these guidelines:</p>\n\n\n<ul class=\"wp-block-list\">\n<li>When scheduling, please clearly state the reason for your visit so we can plan the appropriate amount of time with our care team.</li>\n<li>If you are unable to keep your appointment, please notify our office at least 24 hours in advance so we can offer the slot to another family.</li>\n<li>Most of our locations also welcome walk-in patients &#8212; call ahead if you would like to confirm same-day availability.</li>\n</ul>\n\n\n<h2 class=\"wp-block-heading\">What We Offer</h2>\n\n\n<ul class=\"wp-block-list\">\n<li>Preventive and primary care medical services</li>\n<li>Preventive and primary care dental services</li>\n<li>Free medical and dental services for uninsured and underinsured children under 21 through our Title V Program (eligibility required)</li>\n<li>Low-cost laboratory and imaging services through our referral network</li>\n<li>Social services, including food assistance, employment resources, and health insurance enrollment help</li>\n<li>Educational programs, including financial literacy, language classes, and job-skills training</li>\n<li>Five community locations across Rosenberg, Wharton, Sugar Land, and Houston, Texas</li>\n</ul>"
  },
  "office-policies": {
   "title": "Office Policies",
-  "content": "<p>[bt_section layout=&#8221;boxed&#8221; top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;bottomExtraSmallSpaced&#8221; skin=&#8221;dark&#8221; full_screen=&#8221;no&#8221; vertical_align=&#8221;inherit&#8221; divider=&#8221;yes&#8221; back_image=&#8221;&#8221; back_color=&#8221;#bac464&#8243; back_video=&#8221;&#8221; video_settings=&#8221;&#8221; parallax=&#8221;&#8221; parallax_offset=&#8221;&#8221; animation=&#8221;&#8221; animation_back=&#8221;&#8221; animation_impress=&#8221;&#8221; el_id=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][bt_row][bt_column width=&#8221;1/1&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein animate-moveleft&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_hr top_spaced=&#8221;topExtraSmallSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][bt_hr top_spaced=&#8221;topExtraSmallSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][bt_header superheadline=&#8221;&#8221; headline=&#8221;OFFICE POLICIES&#8221; headline_size=&#8221;large&#8221; dash=&#8221;no&#8221; subheadline=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btNormalDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][/bt_column][/bt_row][/bt_section][bt_section layout=&#8221;boxed&#8221; top_spaced=&#8221;topSpaced&#8221; bottom_spaced=&#8221;bottomSpaced&#8221; skin=&#8221;inherit&#8221; full_screen=&#8221;no&#8221; vertical_align=&#8221;inherit&#8221; divider=&#8221;no&#8221; back_image=&#8221;&#8221; back_color=&#8221;&#8221; back_video=&#8221;&#8221; video_settings=&#8221;&#8221; parallax=&#8221;&#8221; parallax_offset=&#8221;&#8221; animation=&#8221;&#8221; animation_back=&#8221;&#8221; animation_impress=&#8221;&#8221; el_id=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btTopVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_header superheadline=&#8221;&#8221; headline=&#8221;Urgent/Emergency Calls In the event of an emergency, please call 911 or go to the nearest emergency center.&#8221; headline_size=&#8221;medium&#8221; dash=&#8221;top&#8221; subheadline=&#8221;To reach a physician regarding an urgent medical need during office hours, please call the office at 346-616-0038 and you will be given a same-day appointment or directed to a nurse who will assist you. Should you need to speak to a physician regarding an urgent matter after hours or on weekends, please call our office at 346-616-0038 to page the physician on-call.&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_header superheadline=&#8221;&#8221; headline=&#8221;Late/No Show/Cancellation Policy&#8221; headline_size=&#8221;medium&#8221; dash=&#8221;top&#8221; subheadline=&#8221;• Running late? We understand, however if you are more than 10 minutes late for an appointment and the doctor cannot see you, you may be asked to reschedule the appointment.<br />\n• We know life happens and you may need to cancel your appointment. Please call us to let us know you will not be coming in to see us and we will promptly reschedule your visit.<br />\n• A “No Show” is defined as a scheduled appointment that a patient does no keep or is rescheduled without appropriate notice.<br />\n• Missed appointments may be subject to a charge if 24-hour notice is not given.<br />\n• Our ability to provide exceptional care to our patients is compromised when a patient no shows. Please be considerate to the needs of your fellow patients and call us if you need to cancel your appointment.<br />\n&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][/bt_row][bt_row][/bt_row][/bt_section][bt_section layout=&#8221;boxed&#8221; top_spaced=&#8221;topExtraSmallSpaced&#8221; bottom_spaced=&#8221;bottomSpaced&#8221; skin=&#8221;inherit&#8221; full_screen=&#8221;no&#8221; vertical_align=&#8221;inherit&#8221; divider=&#8221;no&#8221; back_image=&#8221;&#8221; back_color=&#8221;&#8221; back_video=&#8221;&#8221; video_settings=&#8221;&#8221; parallax=&#8221;&#8221; parallax_offset=&#8221;&#8221; animation=&#8221;&#8221; animation_back=&#8221;&#8221; animation_impress=&#8221;&#8221; el_id=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; responsive=&#8221;&#8221;][bt_row][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;btTopVertical&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; opacity=&#8221;&#8221;][bt_header superheadline=&#8221;&#8221; headline=&#8221;Financial Policy&#8221; headline_size=&#8221;medium&#8221; dash=&#8221;top&#8221; subheadline=&#8221;• We will do our best to verify your insurance and related benefits coverage before your visit with us. Feel free to contact your insurance company if you have further questions about your coverage and benefits.<br />\n• At the time of your visit, you will be asked to pay a co-pay and any outstanding balances you might have with us. We accept payments by cash, check, or credit card. If you have any questions about your bill, you may contact our office at 346-616-0038 to discuss.<br />\n• If your insurance, home address, or phone number changes please contact us immediately so we may update our records.<br />\n&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][/bt_hr][/bt_column][bt_column width=&#8221;1/2&#8243; align=&#8221;left&#8221; vertical_align=&#8221;inherit&#8221; border=&#8221;no_border&#8221; cell_padding=&#8221;default&#8221; animation=&#8221;animate animate-fadein&#8221; text_indent=&#8221;no_text_indent&#8221; highlight=&#8221;no_highlight&#8221; background_color=&#8221;&#8221; transparent=&#8221;&#8221; inner_background_color=&#8221;&#8221; background_image=&#8221;&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221;][bt_header superheadline=&#8221;&#8221; headline=&#8221;Hospital Care &#8221; headline_size=&#8221;medium&#8221; dash=&#8221;top&#8221; subheadline=&#8221;Our physicians refer and follow patients only at Memorial Hermann Sugar Land Hospital. If you are seen in the Emergency Center, please let them know that you are a patient at Community Health and Life Center. If you need to be admitted from the Emergency Center, the covering hospitalist group at Memorial Hermann Sugar Land will see you there and make the necessary arrangements for your admission. If you are seen in the clinic and need to be admitted, we will help ensure a smooth transition from the clinic to your hospital stay.</p>\n<p>While at Memorial Hermann Sugar Land Hospital you will be cared for by a team of physicians that will be in close communication with Community Health and Life Center. When you are discharged from the hospital you will follow-up with your doctor at Community Health and Life Center. Your doctor will have access to all of your hospital records and will be able to help ensure a smooth transition.</p>\n<p>If you have an emergency and are unable to go to Memorial Hermann Sugar Land Hospital, we encourage you to visit another Memorial Hermann facility. Your doctors at Community Health and Life Center have access to labs, test results, and notes from other hospitals in the Memorial Hermann Hospital System.</p>\n<p>If you need to seek care outside of Memorial Hermann, please bring a copy of your records, as well as all of your medication bottles, to your follow-up visit. Unfortunately, we do not have access to these records, and you will need to sign a release of records so we can get full account of what happen during your stay.<br />\n&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; dash_style=&#8221;btAccentDash&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_header][bt_hr top_spaced=&#8221;topSemiSpaced&#8221; bottom_spaced=&#8221;not-spaced&#8221; transparent_border=&#8221;noBorder&#8221; el_class=&#8221;&#8221; el_style=&#8221;&#8221; publish_datetime=&#8221;&#8221; expiry_datetime=&#8221;&#8221; responsive=&#8221;&#8221;][/bt_hr][/bt_column][/bt_row][bt_row][/bt_row][/bt_section]</p>\n"
+  "content": "<h2 class=\"wp-block-heading\">Urgent / Emergency Needs</h2>\n\n\n<p class=\"wp-block-paragraph\">In the event of a medical emergency, please call 911 or go to the nearest emergency center. To reach our team regarding an urgent, non-emergency need during office hours, please call <a href=\"tel:+12818535555\">(281) 853-5555</a> and we will do our best to get you seen the same day or connect you with a member of our care team.</p>\n\n\n<h2 class=\"wp-block-heading\">Late / No-Show / Cancellation Policy</h2>\n\n\n<ul class=\"wp-block-list\">\n<li>Running late? We understand &#8212; however, if you are more than 10 minutes late and our care team is unable to see you, we may ask you to reschedule.</li>\n<li>We know life happens and you may need to cancel your appointment. Please call us so we can let you know and promptly reschedule your visit.</li>\n<li>A &#8220;no-show&#8221; is a scheduled appointment that is not kept or rescheduled without appropriate notice.</li>\n<li>Because our free and low-cost programs serve a high volume of families in Harris and Fort Bend counties, missed appointments without 24-hour notice reduce access for other families waiting for care. We ask all patients to be considerate of their neighbors and call ahead whenever possible.</li>\n</ul>\n\n\n<h2 class=\"wp-block-heading\">Eligibility &amp; Fees</h2>\n\n\n<p class=\"wp-block-paragraph\">Many of our services, including the Title V Child Health and Dental Program, are free for eligible uninsured and underinsured children under 21. Our Primary Health Care and Family Planning programs offer care on a low-cost, sliding-scale basis regardless of insurance status. We will help you understand what documentation is needed to confirm eligibility, and our team can walk you through the process at any of our five locations. If your address or phone number changes, please contact us so we can keep your file up to date.</p>\n\n\n<h2 class=\"wp-block-heading\">Referrals &amp; Labs</h2>\n\n\n<p class=\"wp-block-paragraph\">United Community Foundation coordinates low-cost laboratory and imaging services through our referral network. If you are referred to a specialist or outside lab, please bring a copy of your results to your next visit so our care team can review them with you and keep your chart current.</p>"
  },
  "patient-center": {
   "title": "Patient Center",
-  "content": "\n<h1 class=\"wp-block-heading\">Patient Center</h1>\n\n\n\n<p class=\"wp-block-paragraph\">Welcome to the Patient Center at Community Health &amp; Life Center — your hub for everything you need before, during, and after your visit. We are a family medicine practice in Sugar Land, TX, caring for patients at every stage of life.</p>\n\n\n\n<h2 class=\"wp-block-heading\">New Patients</h2>\n\n\n\n<p class=\"wp-block-paragraph\">New to the practice? Please bring your <strong>photo ID</strong>, your <strong>current insurance card</strong>, and a list of any medications you take. Arriving 15 minutes early helps us get you checked in and seen on time.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Insurance &amp; Billing</h2>\n\n\n\n<p class=\"wp-block-paragraph\">We accept most major insurance plans, including Aetna, Amerigroup, Amerivantage, Blue Cross Blue Shield of Texas, Blue Medicare Advantage PPO, Cigna, Community Health Choice, Humana, Medicaid, Medicare, Memorial Hermann, Multiplan, and UnitedHealthcare. We also offer a competitive cash-pay price for self-pay patients. Please call the office at <a href=\"tel:+13466160038\">346-616-0038</a> to confirm your specific plan.</p>\n\n\n\n<p class=\"wp-block-paragraph\">We verify insurance before every visit. All office fees are payable at the time of service; we file your claim for you, and patients are responsible for co-payments, deductibles, and non-covered services.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Patient Portal</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our secure Patient Portal gives you 24-hour access to your health information, messages, and non-urgent questions. <a href=\"https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp\" target=\"_blank\" rel=\"noreferrer noopener\">Open the Patient Portal &rarr;</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Patient Forms</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Save time at your visit by completing the appropriate forms beforehand:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"/img/New-Medical-Patient-Forms-web.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">New Medical Patient Forms</a></li>\n<li><a href=\"/img/New-Dietitian-Patient-Forms-General-web.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">New Dietitian Consult — General Consultation</a></li>\n<li><a href=\"/img/New-Dietitian-Patient-Forms-Bariatric-web.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">New Dietitian Consult — Bariatric Surgery</a></li>\n<li><a href=\"/img/Joint-Notice-of-Privacy-Practices.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Joint Notice of Privacy Practices</a></li>\n<li><a href=\"/img/CHLC-Medical-Records-Release.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Medical Records Release</a></li>\n<li><a href=\"/img/CHLC-Medical-Power-of-Attorney.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Medical Power of Attorney</a></li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Office Policies</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Questions about appointments, refills, or records? Review our <a href=\"/office-policies/\">office policies</a>, or call us at <a href=\"tel:+13466160038\">346-616-0038</a>.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Health Resources</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Looking for reliable health information? Visit our <a href=\"/blog/\">blog</a> for tips from our team, and check with your provider before making changes to your care.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Please note:</strong> the Patient Portal should not be used for urgent medical concerns. If you need prompt assistance, call the office directly. For a medical emergency, call 911.</p>\n\n\n\n\n\n<section class=\"wp-block-group chlc-portal-cta has-gv-color-background-secondary-background-color has-background is-layout-constrained wp-container-core-group-is-layout-410ebcac wp-block-group-is-layout-constrained\" data-dsgo-inline-bg=\"1\" style=\"padding-top:70px;padding-right:24px;padding-bottom:70px;padding-left:24px;color:var(--wp--preset--color--gv-color-black) !important;--dsgo-text-color:var(--wp--preset--color--gv-color-black);\"><h2 class=\"wp-block-heading has-text-align-center\">Manage Your Care Online</h2><p class=\"has-text-align-center wp-block-paragraph\">View your records, message our team, and request appointments anytime through our secure Patient Portal.</p><div class=\"wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-d4be0a44 wp-block-buttons-is-layout-flex\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link has-gv-color-background-primary-color has-gv-color-accent-primary-background-color has-text-color has-background wp-element-button\" style=\"border-radius:100px;font-size:18px;padding:18px 42px\" href=\"https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp\" target=\"_blank\" rel=\"noreferrer noopener\">Open the Patient Portal</a></div><div class=\"wp-block-button is-style-outline is-style-outline--2\"><a class=\"wp-block-button__link wp-element-button\" style=\"border-radius:100px;border:2px solid #111111;padding:18px 42px;font-size:18px\" href=\"tel:+13466160038\">Call 346-616-0038</a></div></div></section>\n\n"
+  "content": "\n<h1 class=\"wp-block-heading\">Patient Center</h1>\n\n\n\n<p class=\"wp-block-paragraph\">Welcome to the Patient Center at United Community Foundation — your hub for everything you need before, during, and after your visit. We provide free and low-cost medical, dental, and social services to underserved families across Harris and Fort Bend counties.</p>\n\n\n\n<h2 class=\"wp-block-heading\">New Patients</h2>\n\n\n\n<p class=\"wp-block-paragraph\">New to UCF? Please bring a <strong>photo ID</strong>, <strong>proof of income</strong> (such as a recent pay stub or benefits letter), and your <strong>insurance card</strong> if you have one. Most locations welcome walk-ins alongside scheduled visits.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Free Title V Program &amp; Eligibility</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our Title V Program provides free medical and dental services for uninsured and underinsured children under 21 years of age. Eligibility is based on income and residency in Harris or Fort Bend County — ask our team to confirm whether you qualify.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Insurance &amp; Billing</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Insurance is not required to receive care. We offer reduced-cost, self-pay pricing for medical and dental visits, and low-cost laboratory and imaging services through our referral network. Please call <a href=\"tel:+12818535555\">(281) 853-5555</a> to ask about pricing before your visit.</p>\n\n\n\n<h2 class=\"wp-block-heading\">What to Expect</h2>\n\n\n\n<p class=\"wp-block-paragraph\">At your visit, our team will confirm eligibility for any free or low-cost programs, review your health history, and connect you with the medical, dental, or social services you need — including referrals for specialist care, lab work, and imaging.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Community Resources</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond medical and dental care, UCF connects families with social services, educational programs, and community resources. Ask our staff about food assistance, insurance enrollment help, and financial literacy classes.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Health Resources</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Looking for reliable health information? Visit our <a href=\"/blog/\">blog</a> for updates from our team, and check with your provider before making changes to your care.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Please note:</strong> for prompt assistance, call the office directly. For a medical emergency, call 911.</p>\n\n\n\n\n\n<section class=\"wp-block-group chlc-portal-cta has-gv-color-background-secondary-background-color has-background is-layout-constrained wp-container-core-group-is-layout-410ebcac wp-block-group-is-layout-constrained\" data-dsgo-inline-bg=\"1\" style=\"padding-top:70px;padding-right:24px;padding-bottom:70px;padding-left:24px;color:var(--wp--preset--color--gv-color-black) !important;--dsgo-text-color:var(--wp--preset--color--gv-color-black);\"><h2 class=\"wp-block-heading has-text-align-center\">Need Help? We're Here for You</h2><p class=\"has-text-align-center wp-block-paragraph\">Reach our team to ask about eligibility, request services, or find the location nearest you.</p><div class=\"wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-d4be0a44 wp-block-buttons-is-layout-flex\"><div class=\"wp-block-button\"><a class=\"wp-block-button__link has-gv-color-background-primary-color has-gv-color-accent-primary-background-color has-text-color has-background wp-element-button\" style=\"border-radius:100px;font-size:18px;padding:18px 42px\" href=\"/contact-us/\">Request Services</a></div><div class=\"wp-block-button is-style-outline is-style-outline--2\"><a class=\"wp-block-button__link wp-element-button\" style=\"border-radius:100px;border:2px solid #111111;padding:18px 42px;font-size:18px\" href=\"tel:+12818535555\">Call (281) 853-5555</a></div></div></section>\n\n"
+ },
+ "notice-of-privacy": {
+  "title": "Notice of Privacy",
+  "content": "<h2 class=\"wp-block-heading\">Privacy Policy</h2>\n\n\n<p class=\"wp-block-paragraph\">This privacy policy describes how United Community Foundation (\"UCF,\" \"we,\" \"us,\" or \"our\") collects, uses, and protects your personal information when you visit our website, contact our team, or receive services through our programs.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Information We Collect</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We collect information that you provide directly to us, such as when you request services, enroll in a program, submit a contact form, or reach out to our staff. This may include your name, email address, mailing address, phone number, and, where applicable, information needed to determine eligibility for free or low-cost programs such as our Title V Program.</p>\n\n\n\n<h3 class=\"wp-block-heading\">2. How We Use Your Information</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use the information we collect to:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Schedule and coordinate appointments and program enrollment</li>\n<li>Confirm eligibility for free and low-cost services</li>\n<li>Respond to your questions and requests for assistance</li>\n<li>Improve our website, programs, and community outreach</li>\n<li>Send you updates about our programs and services (with your consent)</li>\n</ul>\n\n\n\n<h3 class=\"wp-block-heading\">3. Information Sharing</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We do not sell, trade, or rent your personal information to third parties. We may share your information with referral partners, service providers, and government agencies as needed to coordinate your care and program eligibility, as long as those parties agree to keep this information confidential.</p>\n\n\n\n<h3 class=\"wp-block-heading\">4. Data Security</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We implement appropriate administrative and technical safeguards to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>\n\n\n\n<h3 class=\"wp-block-heading\">5. Your Rights</h3>\n\n\n\n<p class=\"wp-block-paragraph\">You have the right to access, update, or request deletion of your personal information at any time. You may also opt out of receiving communications from us.</p>\n\n\n\n<h3 class=\"wp-block-heading\">6. Cookies</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We use cookies to enhance your experience on our website. You can choose to disable cookies through your browser settings, though this may affect the functionality of the site.</p>\n\n\n\n<h3 class=\"wp-block-heading\">7. Changes to This Policy</h3>\n\n\n\n<p class=\"wp-block-paragraph\">We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>\n\n\n\n<h3 class=\"wp-block-heading\">8. Contact Us</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any questions about this Privacy Policy, please contact us at <a href=\"mailto:info@ucftexas.org\">info@ucftexas.org</a> or call (281) 853-5555.</p>"
  }
 };
 

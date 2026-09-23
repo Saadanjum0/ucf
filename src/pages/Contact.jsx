@@ -1,16 +1,20 @@
 import { useState } from 'react';
 import { PageHero } from '../components/inner/Common';
 import { PortalCta } from '../components/Extras';
-import { GoogleGIcon, StarIcon, ChevronLeftIcon, ChevronRightIcon, FacebookIcon, LinkedinIcon, InstagramIcon, GoogleIcon } from '../components/Icons';
-import { REVIEWS, SITE } from '../data';
+import { GoogleGIcon, StarIcon, ChevronLeftIcon, ChevronRightIcon, FacebookIcon, TwitterIcon, GoogleIcon } from '../components/Icons';
+import { REVIEWS, SITE, LOCATIONS } from '../data';
 import { useEffect, useRef } from 'react';
 
 const INFO = [
-  [{ icon: 'email-icon-replace.webp', label: 'Mail Us', value: SITE.email, href: `mailto:${SITE.email}` }, { icon: 'hospital-location-icon-replace.webp', label: 'Location', value: SITE.address, href: SITE.mapsHref }],
-  [{ icon: 'emergency-call-icon-replace-contact.webp', label: 'Contact Us', value: SITE.phone, href: SITE.phoneHref }, { icon: 'hospital-icon-replace.webp', label: 'Office Hours', value: 'Mon–Fri: 8:00 AM – 5:00 PM · Sat: By Appointment' }],
+  [{ icon: 'email-icon-replace.webp', label: 'Mail Us', value: SITE.email, href: `mailto:${SITE.email}` }, { icon: 'hospital-location-icon-replace.webp', label: 'Main Location', value: SITE.address, href: SITE.mapsHref }],
+  [{ icon: 'emergency-call-icon-replace-contact.webp', label: 'Contact Us', value: SITE.phone, href: SITE.phoneHref }, { icon: 'hospital-icon-replace.webp', label: 'Office Hours', value: 'Mon–Fri: 9:00 AM – 2:00 PM · Sat hours vary by location' }],
 ];
 
 const LOGOS = ['r1.png', 'r2.png', 'r3.png', 'r4.png', 'r2.png'];
+
+function initials(name) {
+  return name.split(' ').filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+}
 
 function ContactReviews() {
   const track = useRef(null);
@@ -30,11 +34,11 @@ function ContactReviews() {
       <div className="grw">
         <div className="grw-header">
           <div className="grw-header-inner">
-            <div className="grw-avatar"><img src="/img/ChIJGxlslC3iQIYRGeaGTW7qhM8.jpg" alt="Community Health and Life Center place picture" /></div>
+            <div className="grw-avatar"><span className="grw-avatar-initials" aria-hidden="true">UCF</span></div>
             <div className="grw-place">
-              <a className="name" href="https://maps.google.com/?cid=14953334422244877849" target="_blank" rel="noopener">Community Health and Life Center</a>
+              <a className="name" href={SITE.mapsHref} target="_blank" rel="noopener">United Community Foundation</a>
               <span className="grw-stars"><span className="rating">5.0</span><Stars size={20} /></span>
-              <div className="grw-based">Based on 1,011 reviews</div>
+              <div className="grw-based">Community reviews across our five locations</div>
               <div className="grw-powered">powered by <span className="g1">G</span><span className="g2">o</span><span className="g3">o</span><span className="g1">g</span><span className="g4">l</span><span className="g2">e</span></div>
               <a className="grw-write" href={SITE.writeReview} target="_blank" rel="noopener">review us on <GoogleGIcon /></a>
             </div>
@@ -48,7 +52,7 @@ function ContactReviews() {
                 <div className="grw-review" key={r.name}>
                   <div className="grw-review-inner">
                     <div className="grw-review-head">
-                      <div className="grw-avatar"><img src={`/img/${r.img}`} alt={`${r.name} profile picture`} /></div>
+                      <div className="grw-avatar">{r.img ? <img src={`/img/${r.img}`} alt={`${r.name} profile picture`} /> : <span className="grw-avatar-initials" aria-hidden="true">{initials(r.name)}</span>}</div>
                       <div className="who"><a href={r.href} target="_blank" rel="noopener">{r.name}</a><div className="time">{r.time}</div></div>
                     </div>
                     <Stars size={18} />
@@ -68,8 +72,7 @@ function ContactReviews() {
       <div className="wp-buttons"><a className="wp-btn" href={SITE.mapsHref} target="_blank" rel="noopener">Leave a Google review</a></div>
       <div className="chlc-socials contact-socials">
         <a href={SITE.facebook} target="_blank" rel="noopener" aria-label="Facebook"><FacebookIcon /></a>
-        <a href={SITE.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedinIcon /></a>
-        <a href={SITE.instagram} target="_blank" rel="noopener" aria-label="Instagram"><InstagramIcon /></a>
+        <a href={SITE.twitter} target="_blank" rel="noopener" aria-label="Twitter / X"><TwitterIcon /></a>
         <a href={SITE.mapsHref} target="_blank" rel="noopener" aria-label="Google"><GoogleIcon /></a>
       </div>
     </section>
@@ -80,7 +83,7 @@ export default function Contact() {
   const [sent, setSent] = useState(false);
   return (
     <>
-      <PageHero image="female-receptionist-working-at-desk-in-clinic.webp" tag="Contact US" sub="Connect With Us" title="Your Trusted Point of Contact for Care" intro="Community Health & Life Center is here to answer your questions, guide your care, and help you schedule appointments with ease." overlayStop="40%" />
+      <PageHero image="ucf-contact-bg.webp" tag="Contact US" sub="Connect With Us" title="Your Trusted Point of Contact for Care" intro="United Community Foundation is here to answer your questions, connect you to our free and low-cost programs, and help you find the location nearest you." overlayStop="40%" />
 
       <section className="contact-section">
         <div className="gv-container">
@@ -122,6 +125,33 @@ export default function Contact() {
               </div>
               <div className="contact-map gv-anim" data-anim="fadeInDown">
                 <iframe title={SITE.address} src={`https://www.google.com/maps?q=${encodeURIComponent(SITE.address)}&output=embed`} loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact-section" style={{ paddingTop: 0 }}>
+        <div className="gv-container">
+          <div className="gv-col" style={{ width: '100%' }}>
+            <div className="gv-col-wrap">
+              <h2 className="gv-h2 left contact-h2">Our Locations</h2>
+              <p className="gv-p lead">We serve Harris and Fort Bend counties from five community locations — walk-ins welcome at most sites.</p>
+              <div className="contact-info-row">
+                {[0, 1].map((col) => (
+                  <div className="gv-col" key={col}>
+                    <div className="gv-col-wrap">
+                      {LOCATIONS.filter((_, i) => i % 2 === col).map((l) => (
+                        <div className="contact-item" key={l.title}>
+                          <div className="contact-body">
+                            <h2 className="label">{l.title}</h2>
+                            <p className="value">{l.desc}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -14,29 +14,29 @@ function ServiceCard({ img, title, desc, height, anim, delay, TitleTag = 'h3' })
 }
 
 const WHY = [
-  { q: 'Board-Certified Physician', a: 'Care led by a board-certified family medicine physician with a focus on prevention.' },
-  { q: 'On-Site Lab & Imaging', a: 'Convenient in-building diagnostics for faster, more reliable results.' },
-  { q: 'Patient-Centered Approach', a: 'Designed to prioritize clarity, comfort, and trust throughout every step of your care journey.' },
-  { q: 'Coordinated Care', a: 'A seamless care journey supported by our physician, nurse practitioner, and dietitian.' },
+  { q: 'Trusted Since 2019', a: 'A Texas 501(c)(3) nonprofit serving Harris and Fort Bend Counties with quality, coordinated care.' },
+  { q: 'Free & Low-Cost Programs', a: 'Title V, PHC, and Family Planning programs bring essential care within reach for uninsured and underinsured families.' },
+  { q: 'Whole-Person Approach', a: 'Medical, dental, educational, and social services delivered together, not in silos.' },
+  { q: 'Five Community Locations', a: 'Clinics and centers across Rosenberg, Wharton, Sugar Land, and Houston, with walk-ins welcome.' },
 ];
 
 const STEPS = [
-  { icon: 'doctor-icon-replace.webp', title: 'Initial Assessment', desc: 'Discuss symptoms, concerns, and medical history with our doctors for a clear and informed starting point.' },
-  { icon: 'health-check-icon.webp', title: 'Diagnostic Evaluation', desc: 'Receive accurate tests and imaging for a complete and reliable medical overview that supports precise decisions.' },
-  { icon: 'personal-information-icon-replace.webp', title: 'Personalized Treatment Plan', desc: 'Your doctor creates a tailored plan designed around your needs and long-term wellbeing with thoughtful guidance.' },
-  { icon: 'time-medicine-icon-replace.webp', title: 'Follow-Up & Ongoing Care', desc: 'Our experts continuous support to monitor progress, refine treatments, and maintain stable, sustainable health.' },
+  { icon: 'doctor-icon-replace.webp', title: 'Registration & Eligibility', desc: 'Tell us about your household and insurance status so we can connect you to the right program, including free and low-cost options.' },
+  { icon: 'health-check-icon.webp', title: 'Consultation & Screening', desc: 'Meet with our medical or dental team for an evaluation, health screening, or exam suited to your visit.' },
+  { icon: 'personal-information-icon-replace.webp', title: 'Referrals & Diagnostics', desc: 'When needed, we coordinate specialist referrals and low-cost lab or imaging services through our referral network.' },
+  { icon: 'time-medicine-icon-replace.webp', title: 'Ongoing Support', desc: 'From health education to social services and skill-building programs, our team stays connected with your family beyond a single visit.' },
 ];
 
 const FAQ = [
-  { q: 'What services does Community Health & Life Center provide?', a: 'We provide comprehensive primary care for the whole family — annual wellness exams, sick visits, chronic disease management, immunizations, women’s health, pediatric and newborn care, sports physicals, nutrition counseling, and on-site lab and imaging.' },
-  { q: 'Do you accept my insurance?', a: 'We accept most major plans, including Aetna, Blue Cross Blue Shield of Texas, Cigna, UnitedHealthcare, Humana, Medicare, and Medicaid. Call us to confirm your specific plan.' },
-  { q: 'How do I schedule an appointment?', a: 'Call the office at 346-616-0038 or use the Patient Portal. Same-day and next-day slots are often available for established patients.' },
+  { q: 'What services does United Community Foundation provide?', a: 'We provide Medical Services, Dental Services, Educational Programs, Social Services, and Free Programs for uninsured and underinsured families across Harris and Fort Bend Counties.' },
+  { q: 'Do I need insurance to be seen?', a: 'No. We accept major insurance, and we also offer free and low-cost programs — including the Title V Child Health & Dental Program and the PHC Program — for patients without insurance.' },
+  { q: 'How do I schedule a visit?', a: 'Call us at (281) 853-5555 or use the Contact page. Most of our locations also welcome walk-ins.' },
 ];
 
 export default function Services() {
   return (
     <>
-      <PageHero image="young-neurologists-reading-brain-mri-at-hospital-lab.webp" tag="SERVICES" sub="Trusted Primary Care" title="Comprehensive Primary Care, Just for You" intro="Personalized, patient-centered primary care for families across Sugar Land and Fort Bend County." />
+      <PageHero image="young-neurologists-reading-brain-mri-at-hospital-lab.webp" tag="SERVICES" sub="Health, Dental & Community Programs" title="Care and Resources for the Whole Family" intro="United Community Foundation delivers medical, dental, educational, and social services to underserved families across Harris and Fort Bend Counties." />
 
       {/* six service cards in the "promise" layout */}
       <section className="svc-grid-section">
@@ -44,26 +44,26 @@ export default function Services() {
           <div className="promise-row">
             <div className="gv-col promise-left">
               <div className="gv-col-wrap">
-                <ServiceCard img="male-doctor-using-recovery-medication-to-give-pres.webp" title="Annual Wellness Exams" desc="Comprehensive yearly physicals and preventive screenings for adults of every age." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
-                <ServiceCard img="female-doctor-hugging-her-little-male-patient.webp" title="Acute & Sick Visits" desc="Same-day care for common illnesses, minor injuries, and sudden concerns." height={520} anim="fadeInDown" delay="0.25s" />
+                <ServiceCard img="ucf-healthy-living.png" title="Medical Services" desc="Medical consultations, specialist consultation, mental health evaluation, lab tests, referrals, health screenings, health education, and immunizations." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
+                <ServiceCard img="ucf-dental.png" title="Dental Services" desc="Dental exam & X-ray, hygiene education, cleanings, and dental procedures for every member of the family." height={520} anim="fadeInDown" delay="0.25s" />
               </div>
             </div>
             <div className="gv-col promise-right">
               <div className="gv-col-wrap">
                 <Subhead tag="SERVICES" sub="Care Designed with Precision" center={false} />
-                <h2 className="gv-h2 left svc-h2">Comprehensive Care Designed with Precision</h2>
+                <h2 className="gv-h2 left svc-h2">Five Pillars of Care, Built Around Your Family</h2>
                 <div className="promise-sub">
                   <div className="gv-col">
                     <div className="gv-col-wrap">
-                      <ServiceCard img="group-of-doctors-talking-about-corona-virus-on-conference.webp" title="Chronic Disease Management" desc="Ongoing care for diabetes, hypertension, asthma, and high cholesterol." height={470} anim="fadeInDown" delay="0.1s" />
-                      <ServiceCard img="pre-oxygenation-for-general-anesthesia-surgery.webp" title="Pediatric & Newborn Care" desc="Well-child visits, newborn exams, immunizations, and school physicals." height={470} anim="fadeInLeft" delay="0.3s" />
+                      <ServiceCard img="group-of-doctors-talking-about-corona-virus-on-conference.webp" title="Educational Programs" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
+                      <ServiceCard img="pre-oxygenation-for-general-anesthesia-surgery.webp" title="Social Services" desc="Emergency preparedness, employment resources, senior services, food assistance, and health insurance enrollment help." height={470} anim="fadeInLeft" delay="0.3s" />
                     </div>
                   </div>
                   <div className="gv-col">
                     <div className="gv-col-wrap">
-                      <p className="gv-p">Every service is shaped around your needs, delivered with expertise, clarity, and lasting commitment.</p>
-                      <ServiceCard img="meeting-team-of-doctor-and-medical-staff-consultant.webp" title="On-Site Lab & Diagnostics" desc="Convenient in-building lab testing for fast, reliable results." height={485} anim="fadeInDown" delay="0.2s" />
-                      <ServiceCard img="balance-exercise-with-bosu-ball-woman-and-doctor.webp" title="Nutrition Counseling" desc="Dietitian-led nutrition plans to support lasting, healthy change." height={485} anim="fadeInDown" delay="0.4s" />
+                      <p className="gv-p">Every program is shaped around our community's needs, delivered with equity, dignity, and excellence.</p>
+                      <ServiceCard img="ucf-titlev.png" title="Free Programs" desc="Title V Child Health & Dental Program, the PHC Program, and the Family Planning Program for uninsured families." height={485} anim="fadeInDown" delay="0.2s" />
+                      <ServiceCard img="ucf-labs.png" title="Low-Cost Lab & Imaging" desc="Preventive and primary care backed by a referral network for affordable laboratory and imaging services." height={485} anim="fadeInDown" delay="0.4s" />
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Services() {
             <div className="gv-col-wrap">
               <Subhead tag="Why Choose Us" sub="Care Standards" center={false} onWhite />
               <h2 className="gv-h2 left why-h2">Excellence That Defines Our Care</h2>
-              <p className="gv-p why-p">We combine family medicine expertise and compassionate care to deliver thoughtful, personalized treatment.</p>
+              <p className="gv-p why-p">We combine health, dental, and social services expertise with compassionate, community-rooted care.</p>
             </div>
           </div>
           <div className="gv-col why-right">
@@ -100,7 +100,7 @@ export default function Services() {
             <div className="gv-col-wrap center">
               <Subhead tag="PROCESS" sub="Guided Care Workflow" />
               <h2 className="gv-h2 center full">Guided Care Workflow</h2>
-              <p className="gv-p intro-588">We combine family medicine expertise and compassionate care to deliver thoughtful, personalized treatment.</p>
+              <p className="gv-p intro-588">From your first visit to ongoing support, our team walks alongside you at every step.</p>
               <div className="process-row">
                 <div className="gv-col process-list-col gv-anim" data-anim="fadeInDown">
                   <div className="gv-col-wrap"><ProcessList steps={STEPS} /></div>
@@ -121,7 +121,7 @@ export default function Services() {
             <div className="gv-col-wrap center">
               <Subhead tag="faq" sub="Quick Answers" onWhite />
               <h2 className="gv-h2 center" style={{ width: 664, maxWidth: '100%' }}>Common Questions Clearly Answered</h2>
-              <p className="gv-p intro-588" style={{ marginBottom: 56 }}>Find clear, reliable answers to common questions about our services, processes, and overall patient care experience.</p>
+              <p className="gv-p intro-588" style={{ marginBottom: 56 }}>Find clear, reliable answers to common questions about our programs, eligibility, and how to get started.</p>
               <div className="svc-faq-acc gv-anim" data-anim="fadeInDown"><GreyAccordion items={FAQ} /></div>
               <div className="still-q center gv-anim" data-anim="fadeInDown" style={{ '--delay': '0.1s' }}>
                 <h3>Still Have Questions?</h3>

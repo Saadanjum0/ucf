@@ -2,26 +2,42 @@ import { PageHero, DotIcon } from '../components/inner/Common';
 import { Subhead } from '../components/Departments';
 import { PortalCta } from '../components/Extras';
 import { useCounter } from '../hooks/useCounter';
+import { SITE } from '../data';
 
 const VALUES = [
-  { icon: 'hospital-bed-icon-replace-about.webp', title: 'Patient First', desc: 'We put the safety and comfort of every patient at the center of each decision.' },
-  { icon: 'insurance-icon-replace.webp', title: 'Dignity for Everyone', desc: 'We treat every patient with respect, empathy, and personal care.' },
-  { icon: 'emergency-call-icon-replace.webp', title: 'Ethical Communication', desc: 'We communicate honestly and transparently to build trust.' },
-  { icon: 'cardiogram-icon-replace-about.webp', title: 'Continuous Improvement', desc: 'We keep learning and improving so we can deliver better care.' },
+  { icon: 'hospital-bed-icon-replace-about.webp', title: 'Equity First', desc: 'We put access and dignity for underserved families at the center of every decision.' },
+  { icon: 'insurance-icon-replace.webp', title: 'Dignity for Everyone', desc: 'We treat every person with respect, empathy, and personal care, regardless of income or insurance status.' },
+  { icon: 'emergency-call-icon-replace.webp', title: 'Honest Communication', desc: 'We communicate honestly and transparently with the communities we serve to build lasting trust.' },
+  { icon: 'cardiogram-icon-replace-about.webp', title: 'Community Partnership', desc: 'We keep learning from and investing in our communities so we can deliver better outcomes.' },
 ];
 
 const FACTS = [
-  { n: 1200, label: 'Patients Cared For' },
-  { n: 200, label: 'Years of Service' },
-  { n: 30, label: 'Areas of Care' },
-  { n: 50, label: 'Insurance Plans' },
+  { n: 2019, label: 'Founded As A 501(c)(3)' },
+  { n: 5, label: 'Community Locations' },
+  { n: 3, label: 'Free State-Funded Programs' },
+  { n: 21, label: 'Age Covered Under Title V' },
 ];
 
 const STEPS = [
-  { n: '01', title: 'Your First Visit', desc: 'We take time to understand your history, concerns, and health goals.' },
-  { n: '02', title: 'A Personalized Plan', desc: 'We build a plan around your lifestyle, risks, and preferences.' },
-  { n: '03', title: 'Prevention First', desc: 'Screenings, immunizations, and lifestyle support to help keep you well.' },
-  { n: '04', title: 'Ongoing Partnership', desc: 'We follow up and adjust your care as your needs change.' },
+  { n: '01', title: 'Intake & Eligibility', desc: 'We start with a simple screening to understand your household and connect you to the right free or low-cost program.' },
+  { n: '02', title: 'Connect to Care', desc: 'We coordinate medical, dental, and social services across our team so nothing falls through the cracks.' },
+  { n: '03', title: 'Ongoing Care', desc: 'Free and low-cost preventive, primary, and dental care for the whole family, at any of our five locations.' },
+  { n: '04', title: 'Community Education', desc: 'Financial literacy, job training, and health education that build lasting stability beyond the visit.' },
+];
+
+const LEADERSHIP = [
+  { name: 'Liaquat Khowaja', role: 'Chief Executive Officer', bio: 'Liaquat leads United Community Foundation’s day-to-day operations, guiding the organization’s growth across Harris and Fort Bend counties and its partnerships with the communities it serves.' },
+  { name: 'Salman Aly, M.D.', role: 'Medical Director', bio: 'Dr. Aly oversees the clinical standards and medical programs across all UCF locations, ensuring every patient receives quality, coordinated care.' },
+  { name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer', bio: 'Dr. Aly directs clinical operations and provider training, working to keep care consistent and accessible across UCF’s growing network of clinics.' },
+  { name: 'Syed Raza', role: 'Finance Manager', bio: 'Syed manages the foundation’s finances and grant funding, helping ensure free and low-cost programs like Title V remain sustainable for the families who depend on them.' },
+];
+
+const BOARD = [
+  { name: 'Zerin Chowdhury', role: 'Board Member' },
+  { name: 'Shirmeen Lakhani', role: 'Board Member' },
+  { name: 'Jalal Kapadia', role: 'Board Member' },
+  { name: 'Nuruddin Ali', role: 'Board Member' },
+  { name: 'Faizmin Lokhandwala', role: 'Board Member' },
 ];
 
 function Fact({ n, label }) {
@@ -39,7 +55,7 @@ function Fact({ n, label }) {
 export default function About() {
   return (
     <>
-      <PageHero titleWidth={775} image="in-the-hospital-office-a-medical-explains-abou.webp" tag="ABOUT US" sub="Story & Commitment" title="Dedicated to Your Family’s Health" intro="Community Health & Life Center provides trusted, patient-centered primary care for families across Sugar Land and Fort Bend County." />
+      <PageHero titleWidth={775} image="in-the-hospital-office-a-medical-explains-abou.webp" tag="ABOUT US" sub="Story & Commitment" title="Bridging the Gap in Access to Care" intro="United Community Foundation is a nonprofit dedicated to bridging the gap in access to essential health and educational resources for underserved communities across Harris and Fort Bend counties." />
 
       {/* values */}
       <section className="values-section">
@@ -92,19 +108,19 @@ export default function About() {
                   </div>
                   <div className="gv-col vision-text-col">
                     <div className="gv-col-wrap">
-                      <p className="gv-p vision-p">To be the trusted family medicine practice in Fort Bend County, known for compassionate, high-quality, patient-centered care.</p>
+                      <p className="gv-p vision-p">Founded in 2019 as a 501(c)(3) nonprofit, United Community Foundation strives to empower individuals and families who face barriers due to socioeconomic challenges, lack of insurance, or limited access to quality care. Our goal is simple yet powerful: to ensure that every person, regardless of background or financial circumstances, can lead a healthy and fulfilling life.</p>
                       <div className="vm-box gv-anim" data-anim="fadeInLeft" style={{ '--delay': '0.05s' }}>
                         <div className="vm-box-wrap">
                           <div className="ib-icon plain50"><img src="/img/insurance-icon-replace.webp" alt="our vision icon" /></div>
                           <h3 className="ib-title">Our Vision</h3>
-                          <p className="ib-desc vm-desc">To be the trusted family medicine practice in Fort Bend County — known for compassionate, high-quality, patient-centered care for every generation.</p>
+                          <p className="ib-desc vm-desc">{SITE.vision}</p>
                         </div>
                       </div>
                       <div className="vm-box gv-anim" data-anim="fadeInLeft" style={{ '--delay': '0.1s' }}>
                         <div className="vm-box-wrap">
                           <div className="ib-icon plain50"><img src="/img/stethoscope-icon-replace.webp" alt="our mission icon" /></div>
                           <h3 className="ib-title">Our Mission</h3>
-                          <p className="ib-desc vm-desc">To deliver accessible, high-quality primary care that keeps families healthy, prevents disease, and builds lasting relationships.</p>
+                          <p className="ib-desc vm-desc">{SITE.mission}</p>
                         </div>
                       </div>
                     </div>
@@ -127,8 +143,8 @@ export default function About() {
           <div className="gv-col" style={{ width: '100%' }}>
             <div className="gv-col-wrap center">
               <Subhead tag="OUR APPROACH" sub="Our Journey" />
-              <h2 className="gv-h2 center full">How We Care for You</h2>
-              <p className="gv-p center" style={{ width: '100%' }}>A simple, patient-centered approach that keeps your whole family healthy.</p>
+              <h2 className="gv-h2 center full">How We Care for Our Community</h2>
+              <p className="gv-p center" style={{ width: '100%' }}>A simple, four-step path from eligibility screening to lasting community health.</p>
               <div className="steps-row">
                 {STEPS.map((s, i) => (
                   <div className="gv-col step-col" key={s.n}>
@@ -139,6 +155,64 @@ export default function About() {
                           <div className="step-icon"><DotIcon /></div>
                           <h4 className="step-title">{s.title}</h4>
                           <p className="step-desc">{s.desc}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* leadership */}
+      <section className="values-section">
+        <div className="gv-container">
+          <div className="gv-col" style={{ width: '100%' }}>
+            <div className="gv-col-wrap center">
+              <Subhead tag="OUR PEOPLE" sub="Board & Leadership" />
+              <h2 className="gv-h2 center full">Executive Management</h2>
+              <p className="gv-p center" style={{ width: '100%' }}>The team guiding United Community Foundation's programs and clinics day to day.</p>
+              <div className="values-grid">
+                {[0, 1].map((col) => (
+                  <div className="gv-col" key={col}>
+                    <div className="gv-col-wrap">
+                      {LEADERSHIP.slice(col * 2, col * 2 + 2).map((p, i) => (
+                        <div className="value-box gv-anim" data-anim="fadeInLeft" style={{ '--delay': `${0.05 * (col * 2 + i)}s` }} key={p.name}>
+                          <div className="value-box-wrap">
+                            <h3 className="ib-title">{p.name}</h3>
+                            <p className="ib-desc" style={{ fontWeight: 600 }}>{p.role}</p>
+                            <p className="ib-desc">{p.bio}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* board of directors */}
+      <section className="approach-section">
+        <div className="gv-container">
+          <div className="gv-col" style={{ width: '100%' }}>
+            <div className="gv-col-wrap center">
+              <Subhead tag="GOVERNANCE" sub="Our Board" />
+              <h2 className="gv-h2 center full">Board of Directors</h2>
+              <p className="gv-p center" style={{ width: '100%' }}>Volunteer community leaders who set the foundation's direction and hold it accountable to its mission.</p>
+              <div className="steps-row">
+                {BOARD.map((b, i) => (
+                  <div className="gv-col step-col" key={b.name}>
+                    <div className="gv-col-wrap">
+                      <div className="step gv-anim" data-anim="fadeInLeft" style={{ '--delay': `${0.05 * i}s` }}>
+                        <div className="step-card">
+                          <div className="step-icon"><DotIcon /></div>
+                          <h4 className="step-title">{b.name}</h4>
+                          <p className="step-desc">{b.role}</p>
                         </div>
                       </div>
                     </div>

@@ -2,6 +2,17 @@ import { useEffect, useRef, useState } from 'react';
 import { REVIEWS, SITE } from '../data';
 import { GoogleGIcon, StarIcon, ChevronLeftIcon, ChevronRightIcon } from './Icons';
 
+// UCF's real reviews (see data.js REVIEWS) have no source photo, so we render a
+// initials avatar instead of a broken /img/undefined request.
+function initials(name) {
+  return name.split(' ').filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+}
+
+function Avatar({ name, img }) {
+  if (img) return <img src={`/img/${img}`} alt={`${name} profile picture`} />;
+  return <span className="grw-avatar-initials" aria-hidden="true">{initials(name)}</span>;
+}
+
 const Stars = ({ size }) => (
   <span className="grw-stars" aria-label="5 stars">
     {[0, 1, 2, 3, 4].map((i) => <StarIcon key={i} style={{ width: size, height: size }} />)}
@@ -44,17 +55,17 @@ export default function Reviews() {
   return (
     <section className="reviews">
       <GoogleGIcon className="g-logo" />
-      <p className="eyebrow">Google Reviews</p>
-      <h2>Loved by Patients Across Sugar Land</h2>
+      <p className="eyebrow">Community Voices</p>
+      <h2>Trusted by Families Across Harris &amp; Fort Bend Counties</h2>
 
       <div className="grw" onMouseEnter={() => { paused.current = true; }} onMouseLeave={() => { paused.current = false; }}>
         <div className="grw-header">
           <div className="grw-header-inner">
-            <div className="grw-avatar"><img src="/img/ChIJGxlslC3iQIYRGeaGTW7qhM8.jpg" alt="Community Health and Life Center place picture" /></div>
+            <div className="grw-avatar"><span className="grw-avatar-initials" aria-hidden="true">UCF</span></div>
             <div className="grw-place">
-              <a className="name" href="https://maps.google.com/?cid=14953334422244877849" target="_blank" rel="noopener">Community Health and Life Center</a>
+              <a className="name" href={SITE.facebook} target="_blank" rel="noopener">United Community Foundation</a>
               <span className="grw-stars"><span className="rating">5.0</span><Stars size={20} /></span>
-              <div className="grw-based">Based on 1,011 reviews</div>
+              <div className="grw-based">Serving families across 5 Texas locations</div>
               <div className="grw-powered">powered by <span className="g1">G</span><span className="g2">o</span><span className="g3">o</span><span className="g1">g</span><span className="g4">l</span><span className="g2">e</span></div>
               <a className="grw-write" href={SITE.writeReview} target="_blank" rel="noopener">review us on <GoogleGIcon /></a>
             </div>
@@ -69,7 +80,7 @@ export default function Reviews() {
                 <div className="grw-review" key={r.name}>
                   <div className="grw-review-inner">
                     <div className="grw-review-head">
-                      <div className="grw-avatar"><img src={`/img/${r.img}`} alt={`${r.name} profile picture`} /></div>
+                      <div className="grw-avatar"><Avatar name={r.name} img={r.img} /></div>
                       <div className="who">
                         <a href={r.href} target="_blank" rel="noopener">{r.name}</a>
                         <div className="time">{r.time}</div>
@@ -99,7 +110,7 @@ export default function Reviews() {
         <a className="wp-btn" href={SITE.mapsHref} target="_blank" rel="noopener">Leave a Google review</a>
         <a className="wp-btn outline" href={SITE.mapsHref} target="_blank" rel="noopener">Read our reviews on Google</a>
       </div>
-      <p className="addr">Community Health &amp; Life Center · {SITE.address}</p>
+      <p className="addr">{SITE.name} · {SITE.address}</p>
     </section>
   );
 }

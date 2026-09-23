@@ -10,29 +10,21 @@ export function PatientCenter() {
       <section className="wp-page">
         <main className="wp-prose">
           <h1>Patient Center</h1>
-          <p>Welcome to the Patient Center at Community Health &amp; Life Center — your hub for everything you need before, during, and after your visit. We are a family medicine practice in Sugar Land, TX, caring for patients at every stage of life.</p>
+          <p>Welcome to the Patient Center at United Community Foundation — your hub for everything you need before, during, and after your visit. We provide free and low-cost medical, dental, and social services to underserved families across Harris and Fort Bend counties.</p>
           <h2>New Patients</h2>
-          <p>New to the practice? Please bring your <strong>photo ID</strong>, your <strong>current insurance card</strong>, and a list of any medications you take. Arriving 15 minutes early helps us get you checked in and seen on time.</p>
+          <p>New to UCF? Please bring a <strong>photo ID</strong>, <strong>proof of household income</strong> (such as a recent pay stub or benefits letter), your <strong>current insurance card if you have one</strong>, and a list of any medications you take. Arriving 15 minutes early helps us get you checked in and seen on time. Most of our locations accept walk-ins alongside scheduled appointments.</p>
+          <h2>Free Title V Program &amp; Eligibility</h2>
+          <p>Our Title V Child Health and Dental Program provides free medical and dental care to uninsured and underinsured children and adolescents under 21 from low-income households. Eligibility is based on household size and income — bring proof of income and residency in Harris or Fort Bend County to your first visit, and our care coordinators will help you determine which of our free or low-cost programs fits your family, including the Primary Health Care (PHC) Program and the Family Planning Program (FPP).</p>
           <h2>Insurance &amp; Billing</h2>
-          <p>We accept most major insurance plans, including Aetna, Amerigroup, Amerivantage, Blue Cross Blue Shield of Texas, Blue Medicare Advantage PPO, Cigna, Community Health Choice, Humana, Medicaid, Medicare, Memorial Hermann, Multiplan, and UnitedHealthcare. We also offer a competitive cash-pay price for self-pay patients — call <a href={SITE.phoneHref}>346-616-0038</a> for details.</p>
-          <p>We verify insurance before every visit. All office fees are payable at the time of service; we file your claim for you, and patients are responsible for co-payments, deductibles, and non-covered services.</p>
-          <h2>Patient Portal</h2>
-          <p>Our secure Patient Portal gives you 24-hour access to your health information, messages, and non-urgent questions. <a href={SITE.portal} target="_blank" rel="noopener">Open the Patient Portal →</a></p>
-          <h2>Patient Forms</h2>
-          <p>Save time at your visit by completing the appropriate forms beforehand:</p>
-          <ul>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2019/10/New-Medical-Patient-Forms-web.pdf" target="_blank" rel="noopener">New Medical Patient Forms</a></li>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2019/10/New-Dietitian-Patient-Forms-General-web.pdf" target="_blank" rel="noopener">New Dietitian Consult — General Consultation</a></li>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2019/10/New-Dietitian-Patient-Forms-Bariatric-web.pdf" target="_blank" rel="noopener">New Dietitian Consult — Bariatric Surgery</a></li>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2019/10/Joint-Notice-of-Privacy-Practices.pdf" target="_blank" rel="noopener">Joint Notice of Privacy Practices</a></li>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2020/03/CHLC-Medical-Records-Release.pdf" target="_blank" rel="noopener">Medical Records Release</a></li>
-            <li><a href="https://communityhealthandlifecenter.com/wp-content/uploads/2020/03/CHLC-Medical-Power-of-Attorney.pdf" target="_blank" rel="noopener">Medical Power of Attorney</a></li>
-          </ul>
+          <p>We accept major medical insurance plans and offer reduced-cost self-pay options for patients without insurance. Lab and imaging services are available at reduced cost through our referral network. Call <a href={SITE.phoneHref}>{SITE.phone}</a> for current accepted plans and pricing.</p>
+          <p>We verify insurance before every visit. All office fees are payable at the time of service; patients are responsible for co-payments, deductibles, and any non-covered services. No family is turned away from Title V services due to inability to pay.</p>
+          <h2>What to Expect at Your Visit</h2>
+          <p>After a brief eligibility screening, our team connects you to the right service — medical, dental, or social services — and coordinates any follow-up care or referrals you need. Many families are seen the same day at our walk-in-friendly locations.</p>
           <h2>Office Policies</h2>
-          <p>Questions about appointments, refills, or records? Review our <a href="/office-policies/">office policies</a>, or call us at <a href={SITE.phoneHref}>346-616-0038</a>.</p>
-          <h2>Health Resources</h2>
-          <p>Looking for reliable health information? Visit our <a href="/blog/">blog</a> for tips from our team, and check with your provider before making changes to your care.</p>
-          <p><strong>Please note:</strong> the Patient Portal should not be used for urgent medical concerns. If you need prompt assistance, call the office directly. For a medical emergency, call 911.</p>
+          <p>Questions about appointments, eligibility, or records? Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+          <h2>Health &amp; Community Resources</h2>
+          <p>Beyond clinical care, UCF connects families to food assistance, employment resources, health insurance enrollment help, and free educational programs like financial literacy and job-skills training.</p>
+          <p><strong>Please note:</strong> our Patient Center should not be used for urgent medical concerns. If you need prompt assistance, call your nearest location directly. For a medical emergency, call 911.</p>
           <PortalCta />
         </main>
       </section>
@@ -40,56 +32,64 @@ export function PatientCenter() {
   );
 }
 
-/* ---------------- Doctors & Staff ---------------- */
-const PROVIDERS = [
+/* ---------------- Doctors & Staff (Leadership) ---------------- */
+const EXECUTIVES = [
   {
-    img: 'docpic.png', name: 'Dr. Daniel A. Nwachokor, MD, MPH', role: 'Family Medicine Physician',
-    bio: 'Dr. Nwachokor is proud to practice family medicine in the community he grew up in. A product of the Hightower High School Medical Science Academy in Fort Bend ISD, he treats patients at all stages of life — from newborns to the elderly. He has a passion for community service and for training future health professionals, and is active in numerous local, state, and national medical organizations.',
-    edu: ['Undergraduate: Grambling State University (Grambling, LA)', 'Medical School: University of Kansas School of Medicine (MD/MPH)', 'Residency: Memorial Family Medicine Residency Program (Sugar Land)', 'Board Certification: American Board of Family Medicine'],
-    extra: [['Languages:', 'English & Spanish'], ['Clinical Interests:', 'Preventive medicine, chronic disease management, nutrition counseling, obesity medicine, immunizations, and sports physicals.'], ['Hospital Affiliation:', 'Memorial Hermann Sugar Land Hospital']],
+    name: 'Liaquat Khowaja', role: 'Chief Executive Officer',
+    bio: 'Liaquat Khowaja leads United Community Foundation\u2019s operations and strategy, guiding the organization\u2019s growth across Harris and Fort Bend counties since its founding in 2019. He works closely with the Board of Directors to keep UCF\u2019s free and low-cost programs accessible to the families who need them most.',
   },
   {
-    img: 'team-of-female-doctor-check-on-scan-results-paper.webp', name: 'Carmen — Family Nurse Practitioner', role: null,
-    bio: 'Carmen is a family nurse practitioner whose training prepared her to care for individuals and families with a focus on primary care. She empowers her patients to reach their overall health goals, takes the time to learn about them, and stays involved in the community. She is a clinical preceptor for nurse practitioner students.',
-    edu: ['Undergraduate: Houston Baptist University (Houston, TX)', 'Graduate School: University of Texas Health Science Center (Houston, TX)'],
-    extra: [['Languages:', 'English & Spanish'], ['Clinical Interests:', 'Acute illness, women’s health care, adolescent care, and mental wellbeing.']],
+    name: 'Salman Aly, M.D.', role: 'Medical Director',
+    bio: 'Dr. Salman Aly oversees clinical standards and medical programs across all UCF locations, ensuring every patient receives quality, coordinated care regardless of ability to pay.',
   },
   {
-    img: 'in-the-hospital-office-a-medical-explains.webp', name: 'Alisa — Registered Dietitian', role: null,
-    bio: 'Alisa is a registered and licensed dietitian with clinical and hospital experience. She consults with your physician to ensure your nutrition plan meets your specific health needs, and is especially interested in promoting healthy lifestyles through weight management, nutrition, and fitness. A Missouri native, she enjoys cooking, traveling, and spending time with family.',
-    edu: ['Undergraduate: Cheyney University (Cheyney, PA)', 'Graduate School: Texas Southern University (Houston, TX)'],
-    extra: [['Languages:', 'English & Spanish'], ['Clinical Interests:', 'General nutrition & wellness, medical nutrition therapy, and group classes and seminars.']],
+    name: 'Sarfraz Aly, M.D.', role: 'Chief Clinical Officer',
+    bio: 'Dr. Sarfraz Aly directs day-to-day clinical operations and provider training, working to keep care consistent, safe, and accessible across UCF\u2019s growing network of clinics.',
   },
+  {
+    name: 'Syed Raza', role: 'Finance Manager',
+    bio: 'Syed Raza manages the foundation\u2019s finances and grant funding, helping ensure free programs like Title V remain sustainable for the underserved communities UCF serves.',
+  },
+];
+
+const BOARD = [
+  { name: 'Zerin Chowdhury', role: 'Board Member' },
+  { name: 'Shirmeen Lakhani', role: 'Board Member' },
+  { name: 'Jalal Kapadia', role: 'Board Member' },
+  { name: 'Nuruddin Ali', role: 'Board Member' },
+  { name: 'Faizmin Lokhandwala', role: 'Board Member' },
 ];
 
 export function Doctors() {
   return (
     <>
-      <PageBanner title="Doctors & Staff" />
+      <PageBanner title="Leadership & Staff" />
       <section className="wp-page">
         <main className="wp-prose">
-          <h1>Doctors &amp; Staff</h1>
-          <p>Our team at Community Health &amp; Life Center is dedicated to caring for you and your family at every stage of life. Meet the people behind your care.</p>
-          <h2>Our Providers</h2>
-          {PROVIDERS.map((p, i) => (
+          <h1>Leadership &amp; Staff</h1>
+          <p>United Community Foundation is guided by an experienced executive team and a volunteer Board of Directors, all committed to expanding access to health and educational resources for underserved communities across Harris and Fort Bend counties. Meet the people behind our mission.</p>
+          <h2>Executive Management</h2>
+          {EXECUTIVES.map((p, i) => (
             <div key={p.name}>
               <div className="media-text">
-                <figure className="media-text-media"><img src={`/img/${p.img}`} alt={p.name} /></figure>
                 <div className="media-text-content">
                   <h3>{p.name}</h3>
-                  {p.role && <p><strong>{p.role}</strong></p>}
+                  <p><strong>{p.role}</strong></p>
                   <p>{p.bio}</p>
-                  <p><strong>Education &amp; Training</strong><br />{p.edu.map((e, j) => <span key={j}>{e}<br /></span>)}</p>
-                  <p>{p.extra.map(([k, v]) => <span key={k}><strong>{k}</strong> {v}<br /></span>)}</p>
                 </div>
               </div>
-              {i < PROVIDERS.length - 1 && <hr className="wp-separator" />}
+              {i < EXECUTIVES.length - 1 && <hr className="wp-separator" />}
             </div>
           ))}
-          <h2>Support Staff</h2>
-          <p>Our front desk and clinical support team help with scheduling, insurance verification, records, and making sure every visit runs smoothly.</p>
-          <h2>Schedule a Visit</h2>
-          <p>Call us at <a href={SITE.phoneHref}>346-616-0038</a> or use our <a href={SITE.portal} target="_blank" rel="noopener">Patient Portal</a> to request an appointment.</p>
+          <h2>Board of Directors</h2>
+          <p>Our Board of Directors provides governance and community oversight for UCF's programs and clinics:</p>
+          <ul>
+            {BOARD.map((b) => <li key={b.name}>{b.name} \u2014 {b.role}</li>)}
+          </ul>
+          <h2>Clinical &amp; Support Staff</h2>
+          <p>Across our five locations, our physicians, nurse practitioners, dental providers, and front-desk and clinical support staff work together to make sure every visit runs smoothly \u2014 from eligibility screening and scheduling to ongoing care and follow-up.</p>
+          <h2>Contact Our Team</h2>
+          <p>Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> to reach our leadership team or ask about our programs.</p>
           <PortalCta />
         </main>
       </section>

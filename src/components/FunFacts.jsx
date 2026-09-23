@@ -18,7 +18,7 @@ export default function FunFacts() {
     <section className="funfacts">
       <div className="gv-container">
         <div className="gv-col funfacts-title">
-          <h2>Why Families Choose Us</h2>
+          <h2>Empowering and Strengthening Communities</h2>
         </div>
         {FUN_FACTS.map((f) => <Fact key={f.label} {...f} />)}
       </div>

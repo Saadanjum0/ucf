@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NAV, SITE } from '../data';
 import {
-  PhoneIcon, MapPinIcon, FacebookIcon, LinkedinIcon, InstagramIcon, GoogleIcon,
+  PhoneIcon, MapPinIcon, FacebookIcon, TwitterIcon, GoogleIcon,
   HamburgerIcon, CloseIcon, AngleDownIcon,
 } from './Icons';
 
@@ -9,8 +9,7 @@ function Socials({ className }) {
   return (
     <div className={className}>
       <a href={SITE.facebook} target="_blank" rel="noopener" aria-label="Facebook"><FacebookIcon /></a>
-      <a href={SITE.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedinIcon /></a>
-      <a href={SITE.instagram} target="_blank" rel="noopener" aria-label="Instagram"><InstagramIcon /></a>
+      <a href={SITE.twitter} target="_blank" rel="noopener" aria-label="Twitter / X"><TwitterIcon /></a>
       <a href={SITE.mapsHref} target="_blank" rel="noopener" aria-label="Google"><GoogleIcon /></a>
     </div>
   );
@@ -57,7 +56,7 @@ export default function Header({ path = '/' }) {
       <section className="navbar">
         <div className="gv-container">
           <div className="gv-col nav-logo-col">
-            <a href="/"><img src="/img/logocomm.png" alt="Community Health & Life Center - Family Medicine & Primary Care in Sugar Land, TX" /></a>
+            <a href="/"><img src="/img/ucf-logo.png" alt="United Community Foundation" className="ucf-logo" /></a>
           </div>
 
           <div className="gv-col nav-menu-col">
@@ -96,7 +95,7 @@ export default function Header({ path = '/' }) {
         <div className={`mobile-overlay${open ? ' open' : ''}`} onClick={() => setOpen(false)} />
         <div className={`mobile-panel${open ? ' open' : ''}`}>
           <div className="mobile-identity">
-            <a className="logo" href="/"><img src="/img/logo-white.png" alt="Community Health & Life Center" /></a>
+            <a className="logo" href="/"><img src="/img/ucf-logo.png" alt="United Community Foundation" className="ucf-logo" /></a>
             <button className="mobile-close" aria-label="close the menu" onClick={() => setOpen(false)}><CloseIcon /></button>
           </div>
           <ul className="mobile-menu">

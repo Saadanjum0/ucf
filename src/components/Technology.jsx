@@ -1,19 +1,15 @@
-import { useState } from 'react';
 import { TECH } from '../data';
 import { Subhead } from './Departments';
-import { PlayIcon } from './Icons';
-import VideoPopup from './VideoPopup';
 
 export default function Technology() {
-  const [video, setVideo] = useState(false);
   return (
     <section className="technology">
       <div className="gv-container">
         <div className="gv-col" style={{ width: '100%' }}>
           <div className="gv-col-wrap">
             <Subhead tag="Technology" sub="Built Around You" />
-            <h2 className="gv-h2 center">Advanced Technology &amp; Modern Facilities</h2>
-            <p className="gv-p intro">Community Health &amp; Life Center combines attentive, unhurried visits with the tools you need to stay well.</p>
+            <h2 className="gv-h2 center">Trusted Facilities &amp; Community Reach</h2>
+            <p className="gv-p intro">United Community Foundation combines attentive, coordinated care with the resources our community needs to stay well.</p>
 
             <div className="tech-row">
               <div className="gv-col tech-video-col">
@@ -21,7 +17,6 @@ export default function Technology() {
                   <div className="video-card">
                     <div className="people" />
                     <div className="tint" />
-                    <button className="play-btn" aria-label="Play video" onClick={() => setVideo(true)}><PlayIcon /></button>
                   </div>
                 </div>
               </div>
@@ -45,7 +40,6 @@ export default function Technology() {
           </div>
         </div>
       </div>
-      {video && <VideoPopup onClose={() => setVideo(false)} />}
     </section>
   );
 }

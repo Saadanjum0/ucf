@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FOOTER_CARDS, FOOTER_LINKS, SITE } from '../data';
-import { ChevronRightIcon, SendIcon, ArrowUpIcon, FacebookIcon, LinkedinIcon, InstagramIcon, GoogleIcon } from './Icons';
+import { ChevronRightIcon, SendIcon, ArrowUpIcon, FacebookIcon, TwitterIcon, GoogleIcon } from './Icons';
 
 function LinkCol({ title, links, small }) {
   return (
@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="gv-container">
           <div className="gv-col" style={{ width: '100%' }}>
             <div className="gv-col-wrap">
-              <h3>Community Health &amp; Life Center</h3>
+              <h3>{SITE.name}</h3>
               <div className="footer-cards">
                 {FOOTER_CARDS.map((c) => (
                   <div className="gv-col" key={c.title}>
@@ -49,9 +49,9 @@ export default function Footer() {
           <div className="gv-container">
             <div className="gv-col footer-news">
               <div className="gv-col-wrap">
-                <div className="logo"><img src="/img/logo-white.png" alt="Community Health & Life Center - Family Medicine & Primary Care in Sugar Land, TX" /></div>
-                <h3>Stay Connected with Community Health &amp; Life Center</h3>
-                <p className="gv-p gv-p-white">Get the latest health tips, clinic news, and updates from Community Health &amp; Life Center.</p>
+                <div className="logo"><img src="/img/ucf-logo.png" alt="United Community Foundation" className="ucf-logo" /></div>
+                <h3>Stay Connected with {SITE.name}</h3>
+                <p className="gv-p gv-p-white">Get the latest program updates, community news, and health tips from {SITE.name}.</p>
                 <form className="news-form" onSubmit={(e) => { e.preventDefault(); setSent(true); }}>
                   <input type="email" placeholder="" aria-label="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                   <button type="submit" aria-label="Subscribe"><SendIcon /></button>
@@ -70,8 +70,7 @@ export default function Footer() {
                 <div className="footer-bottom-row">
                   <div className="footer-socials">
                     <a href={SITE.facebook} target="_blank" rel="noopener" aria-label="Facebook"><FacebookIcon /></a>
-                    <a href={SITE.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedinIcon /></a>
-                    <a href={SITE.instagram} target="_blank" rel="noopener" aria-label="Instagram"><InstagramIcon /></a>
+                    <a href={SITE.twitter} target="_blank" rel="noopener" aria-label="Twitter / X"><TwitterIcon /></a>
                     <a href={SITE.mapsHref} target="_blank" rel="noopener" aria-label="Google"><GoogleIcon /></a>
                   </div>
                   <a className="to-top" href="#sanorra-header" aria-label="Back to top"><ArrowUpIcon /></a>

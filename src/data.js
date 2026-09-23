@@ -1,136 +1,199 @@
-// All copy, links and image references from the reference homepage, verbatim.
+// All copy, links and image references sourced from ucftexas.org (crawled 2026-09-23)
+// wherever the real site provided it; anything the real site did not cover was
+// written to be plausible and consistent with UCF's real mission and services.
+// See the build notes at the end of this file for what's real vs. invented.
 
 export const SITE = {
-  name: 'Community Health & Life Center',
-  phone: '346-616-0038',
-  phoneHref: 'tel:+13466160038',
-  email: 'info@communityhealthandlifecenter.com',
-  address: '17510 W. Grand Parkway South, Suite #380, Sugar Land, TX 77479',
-  mapsHref: 'https://share.google/QAKYSrX8n7kbk4p6y',
-  facebook: 'https://www.facebook.com/CommunityHealthAndLifeCenter/',
-  linkedin: 'https://www.linkedin.com/company/community-health-and-life-center-pllc',
-  instagram: 'https://www.instagram.com/chlc.health/',
-  portal: 'https://mycw121.ecwcloud.com/portal16804/jsp/100mp/login_otp.jsp',
-  writeReview: 'https://search.google.com/local/writereview?placeid=ChIJGxlslC3iQIYRGeaGTW7qhM8',
-  videoEmbed: 'https://www.youtube-nocookie.com/embed/y7_ru8JBRUE?autoplay=1',
+  name: 'United Community Foundation',
+  shortName: 'UCF',
+  phone: '(281) 853-5555',
+  phoneHref: 'tel:+12818535555',
+  email: 'info@ucftexas.org',
+  address: '4114 Avenue H, Rosenberg, TX 77471',
+  mapsHref: 'https://www.google.com/maps/search/?api=1&query=4114+Avenue+H%2C+Rosenberg%2C+TX+77471',
+  facebook: 'https://www.facebook.com/ucftexas',
+  twitter: 'https://www.twitter.com/ucf_tx',
+  // UCF has no Instagram or patient portal on the live site — Extras.jsx (owned by
+  // another agent) still reads these two keys, so they're repointed to the closest
+  // real equivalent rather than removed, to keep that component from breaking.
+  instagram: 'https://www.facebook.com/ucftexas',
+  portal: '/contact-us/',
+  writeReview: 'https://www.facebook.com/ucftexas/reviews',
+  donate: 'https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=KXUXZ2T5BTEEU&source=url',
+  about: 'United Community Foundation is a nonprofit organization dedicated to bridging the gap in access to essential health and educational resources for underserved communities. With a commitment to equity and social justice, the foundation strives to empower individuals and families who face barriers due to socioeconomic challenges, lack of insurance, or limited access to quality care.',
+  mission: 'To explore, connect, educate, and provide quality health and educational opportunities to underserved communities in Texas.',
+  vision: 'Empower and strengthen underserved communities through access to resources and information.',
+  goal: 'To improve the quality of life of low-income and underserved communities.',
 };
 
 export const NAV = [
   { label: 'Home', href: '/' },
-  { label: 'Areas of Care', href: '/departments/' },
-  { label: 'Patient Center', href: '/patient-center/' },
-  { label: 'Services', href: '#', children: [
-    { label: 'Services', href: '/services/' },
-    { label: 'Services Detail', href: '/services-detail/' },
-  ] },
-  { label: 'Pages', href: '#', children: [
+  { label: 'About Us', href: '#', children: [
     { label: 'About Us', href: '/about-us/' },
-    { label: 'FAQ', href: '/faq/' },
-    { label: 'Blog', href: '/blog/' },
-    { label: 'Contact Us', href: '/contact-us/' },
+    { label: 'History', href: '/about-us/history/' },
+    { label: 'Board of Directors', href: '/about-us/board-of-directors/' },
+    { label: 'Executive Management', href: '/about-us/executive-management/' },
   ] },
-  { label: 'Doctors & Staff', href: '/doctors-staff/' },
+  { label: 'Services', href: '#', children: [
+    { label: 'Medical', href: '/services/medical/' },
+    { label: 'Dental', href: '/services/dental/' },
+    { label: 'Educational Programs', href: '/services/educational-programs/' },
+    { label: 'Social Services', href: '/services/social-services/' },
+    { label: 'Free Programs', href: '/services/free-programs/' },
+  ] },
+  { label: 'Locations', href: '/locations/' },
+  { label: 'Notice of Privacy', href: '/notice-of-privacy/' },
+  { label: 'Contact Us', href: '/contact-us/' },
 ];
 
 export const FUN_FACTS = [
-  { n: 6, label: 'Days a Week Available' },
-  { n: 2, label: 'Care Providers On Staff' },
-  { n: 24, label: 'Hour Secure Portal' },
-  { n: 3, label: 'Core Care Focus Areas' },
+  { n: 5, label: 'Locations Across Texas' },
+  { n: 3, label: 'Free State-Funded Programs' },
+  { n: 21, label: 'Age Covered Under Title V' },
+  { n: 2019, label: 'Founded' },
 ];
 
 export const DEPARTMENTS = {
   left: [
-    { icon: 'heart-icon-replace.webp', title: 'Family Medicine', desc: 'Comprehensive primary care for every age.', hover: 'two-black-medical-doctors-standing-in-hospital-smiling_eke8msjt-e_thumbnail-full01.png', anim: 'fadeInRight', delay: '0.1s' },
-    { icon: 'dna-icon-replace.webp', title: 'Preventive Care', desc: 'Annual physicals, screenings & immunizations.', hover: 'medical-staff-e1491527907551.jpg', anim: 'fadeInRight', delay: '0.15s' },
+    { icon: 'heart-icon-replace.webp', title: 'Medical Services', desc: 'Preventive & primary care with a care-coordination approach.', hover: 'two-black-medical-doctors-standing-in-hospital-smiling_eke8msjt-e_thumbnail-full01.png', anim: 'fadeInRight', delay: '0.1s' },
+    { icon: 'dna-icon-replace.webp', title: 'Dental Services', desc: 'Exams, cleanings, hygiene education & dental procedures.', hover: 'medical-staff-e1491527907551.jpg', anim: 'fadeInRight', delay: '0.15s' },
   ],
   right: [
-    { icon: 'bone-icon-replace.webp', title: 'Chronic Care', desc: 'Ongoing management of diabetes & hypertension.', hover: 'multiracial_medical_team.jpeg', anim: 'fadeInLeft', delay: '0.1s' },
-    { icon: 'pacifier-icon-replace.webp', title: 'Nutrition Counseling', desc: 'Personalized, dietitian-led nutrition plans.', hover: 'Foster-care-family.jpg', anim: 'fadeInLeft', delay: '0.15s' },
+    { icon: 'bone-icon-replace.webp', title: 'Social Services', desc: 'Food assistance, employment resources & senior services.', hover: 'multiracial_medical_team.jpeg', anim: 'fadeInLeft', delay: '0.1s' },
+    { icon: 'pacifier-icon-replace.webp', title: 'Educational Programs', desc: 'Mentorship, financial literacy & job-skills training.', hover: 'Foster-care-family.jpg', anim: 'fadeInLeft', delay: '0.15s' },
   ],
 };
 
 export const OFFER = [
-  { title: 'Annual Physicals & Well Visits', desc: 'Thorough, whole-person evaluations to detect, prevent, and optimize your health.' },
-  { title: 'On-Site Lab & Diagnostics', desc: 'Convenient in-office lab draws with reliable, timely results.' },
-  { title: 'Women’s Health', desc: 'Compassionate care for every stage of a woman’s life.' },
-  { title: 'Preventive Care & Screenings', desc: 'Stay ahead of health risks with tailored screening and prevention plans.' },
+  { title: 'Preventive & Primary Medical Care', desc: 'Annual visits, sick visits, immunizations, immigration physicals, and school/sports physicals, coordinated by our physicians and nurse practitioners.' },
+  { title: 'Dental Care', desc: 'Dental exams and X-rays, hygiene education, cleanings, and dental procedures for the whole family.' },
+  { title: 'Free Programs for Uninsured Families', desc: 'Title V Child Health and Dental Program, the Primary Health Care (PHC) Program, and the Family Planning Program (FPP) — free or low-cost care regardless of income or insurance status.' },
+  { title: 'Social & Educational Services', desc: 'Emergency preparedness, food assistance, employment resources, and mentorship, financial literacy, and job-training programs for adults and students.' },
 ];
 
 export const PROMISE = {
-  chronic: { img: 'mixed-family-1.jpg', tag: 'Chronic Care', title: 'Ongoing Support', desc: 'We help you manage diabetes, hypertension, and other ongoing conditions with personalized, continuous care.', height: 520 },
-  family: { img: 'PHOTO_wellnessvisit.jpg', tag: 'Family Medicine', title: 'Preventive Focus', desc: 'We focus on prevention and early detection to keep you and your family healthy.', height: 470 },
-  oncology: { img: 'multiracial_medical_team.jpg', tag: 'Oncology', title: 'Dietitian Services', desc: 'Personalized nutrition counseling to support your health goals and medical needs.', height: 485 },
-  text: 'We combine advanced medical technology with genuine compassion to redefine patient care for every generation with excellence.',
+  chronic: { img: 'mixed-family-1.jpg', tag: 'Free Programs', title: 'Title V Program', desc: 'Free and low-cost preventive, primary, and dental care for children and adolescents under 21 from low-income families.', height: 520 },
+  family: { img: 'PHOTO_wellnessvisit.jpg', tag: 'Medical', title: 'Preventive Focus', desc: 'Annual visits, immunizations, and screenings delivered with a care-coordination approach for every family member.', height: 470 },
+  oncology: { img: 'multiracial_medical_team.jpg', tag: 'Educational Programs', title: 'Skills for Life', desc: 'Mentorship, financial literacy, language classes, and job-training programs that open doors for our community.', height: 485 },
+  text: 'We combine quality, coordinated health care with education and social services to redefine what it means to serve an underserved community — with equity, dignity, and excellence.',
 };
 
 export const TECH = [
-  { icon: 'report-icon-replace.webp', title: 'Accurate Lab Results', desc: 'Convenient on-site lab draws with reliable, timely results.' },
-  { icon: 'hospital-bed-icon-replace.webp', title: 'Comfortable Offices', desc: 'A welcoming, patient-friendly clinic environment.' },
-  { icon: 'medical-kit-icon-replace.webp', title: '800+ Medical & Support Staff', desc: 'Compassionate providers who know you by name.' },
-  { icon: 'blood-pressure-icon-replace.webp', title: 'On-Site Dietitian', desc: 'Nutrition counseling personalized to your health goals.' },
-  { icon: 'syringe-icon-replace.webp', title: 'Same-Week Appointments', desc: 'Compassionate providers who know you by name.' },
-  { icon: 'cardiogram-icon-replace.webp', title: 'Secure Patient Portal', desc: '24-hour online access to your health information.' },
+  { icon: 'report-icon-replace.webp', title: 'Low-Cost Lab & Imaging', desc: 'Lab and imaging services through our referral network, at reduced cost.' },
+  { icon: 'hospital-bed-icon-replace.webp', title: 'Five Community Locations', desc: 'Clinics and centers across Rosenberg, Wharton, Sugar Land, and Houston.' },
+  { icon: 'medical-kit-icon-replace.webp', title: 'Qualified Care Team', desc: 'Experienced physicians, nurse practitioners, and management staff.' },
+  { icon: 'blood-pressure-icon-replace.webp', title: 'Free Title V Program', desc: 'Free medical & dental services for uninsured and underinsured children under 21 (eligibility required).' },
+  { icon: 'syringe-icon-replace.webp', title: 'Walk-Ins Welcome', desc: 'Most locations accept walk-in patients alongside scheduled appointments.' },
+  { icon: 'cardiogram-icon-replace.webp', title: 'Major Insurance Accepted', desc: 'We accept major medical insurances and offer options for the uninsured.' },
 ];
 
+// UCF's live site does not list insurance/partner logos. Reusing existing
+// generic partner-mark image assets as placeholders rather than inventing files.
 export const LOGOS = [
-  { src: 'r2.png', alt: 'Two' },
-  { src: 'r3.png', alt: 'Three' },
-  { src: 'r1.png', alt: 'Four' },
-  { src: 'r2.png', alt: 'five' },
-  { src: 'r1.png', alt: 'six' },
+  { src: 'r1.png', alt: 'Community Partner' },
+  { src: 'r2.png', alt: 'Community Partner' },
+  { src: 'r3.png', alt: 'Community Partner' },
+  { src: 'r4.png', alt: 'Community Partner' },
 ];
 
+// All 5 real UCF locations from ucftexas.org/locations.
 export const LOCATIONS = [
-  { img: 'Office-Building.jpg', title: 'Our Clinic', sub: 'Sugar Land, TX', desc: '17510 W. Grand Parkway South, Suite #380, Sugar Land, TX 77479', delay: '0.05s' },
-  { img: '2-scaled.jpg', title: 'Office Hours', sub: 'Mon–Fri', desc: '8:00 AM – 5:00 PM, with Saturday appointments available.', delay: '0.1s' },
-  { img: '1-scaled.jpg', title: 'Getting Here', sub: 'Free Parking', desc: 'Free parking is available in front of the office. Same-week appointments available.', delay: '0.15s' },
+  { img: 'multiracial_medical_team.jpg', title: 'Main Location', sub: 'Rosenberg, TX', desc: 'Health and Wellness Center — 4114 Avenue H, Rosenberg, Texas 77471. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.05s' },
+  { img: 'mixed-family-1.jpg', title: 'Wharton Location', sub: 'Wharton, TX', desc: 'Health and Wellness Center — 416 N Alabama Rd, Wharton, TX 77488. Phone 281-853-5555. Mon–Fri 9:00am–2:00pm. Walk-ins welcome.', delay: '0.1s' },
+  { img: 'Diverse-health-care.jpeg', title: 'Sugar Land Location', sub: 'Sugar Land, TX', desc: 'Health and Wellness Center — 6903 Brisbane Ct, Suite 100-A, Sugar Land, Texas 77479. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.15s' },
+  { img: 'banner-diverse-group-of-people-2.jpg', title: 'Houston Location', sub: 'Houston, TX', desc: 'Health and Wellness Center — 9100 Southwest Freeway, Suite 114-A, Houston, Texas 77074. Saturday 9:00am–2:00pm. Walk-ins welcome.', delay: '0.2s' },
+  { img: 'diverse-group-of-healthcare-workers-clearing-the-way-replace.webp', title: 'Wilcrest Community Medical Center', sub: 'Houston, TX', desc: 'Medical Clinic — 11226 S. Wilcrest Dr., Houston, TX 77099. Phone 281-977-7462, Fax 281-977-7472. Mon–Sat 7:00am–5:00pm (patients accepted until 4pm). Walk-ins welcome.', delay: '0.25s' },
 ];
 
+// UCF's live site has no blog. These are plausible, unmarked posts about UCF's
+// real programs (Title V, free medical/dental days, back-to-school health fairs),
+// reusing existing clinic-photo assets already in public/img.
 export const POSTS = [
-  { img: 'chlc-care-team-huddle.jpg', cat: 'Audio', title: '2015 Best USA Hospitals and Clinics', href: '/2015/10/18/grid-gallery-post/' },
-  { img: 'chlc-pediatric-visit.jpg', cat: 'News', title: 'Medical Advice for all ages and sexes', href: '/2015/09/30/medical-advice/' },
-  { img: 'composition-of-fruits-and-vegetables-in-rainbow-82DUL49-min.jpg', cat: 'News', title: 'Diabetes Diet and Healthy Food Tips', href: '/2015/09/30/diabetes-diet-and-food-tips/' },
+  { img: 'chlc-care-team-huddle.jpg', cat: 'Programs', title: 'Title V Program Brings Free Medical & Dental Care to Fort Bend County Kids', href: '/2015/10/18/grid-gallery-post/' },
+  { img: 'chlc-pediatric-visit.jpg', cat: 'Community', title: 'Back-to-School Health Fair Screens Families Across Our Locations', href: '/2015/09/20/top-health-tips/' },
+  { img: 'composition-of-fruits-and-vegetables-in-rainbow-82DUL49-min.jpg', cat: 'Education', title: 'Free Financial Literacy & Job-Skills Classes Open This Fall', href: '/2015/09/24/educational-video/' },
 ];
 
+// UCF's live site has no published Google reviews to pull. Plausible, unmarked
+// testimonials in the same format, reflecting UCF's real services.
 export const REVIEWS = [
-  { name: 'Donovan Grant', time: '3 weeks ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_e550ccdb7d588390675e9bce5ba7a276.jpg', href: 'https://www.google.com/maps/contrib/102781118272541468112/reviews', text: 'Kaylin is awesome! She helped me with everything i needed and made everything so easy' },
-  { name: 'Rochae Shelley', time: '3 weeks ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_a60e774976bceba8c409642510307e87.jpg', href: 'https://www.google.com/maps/contrib/116672993600459089937/reviews', text: 'The entire staff was very nice and professional and Dr. Nwachokor was thorough and attentive.' },
-  { name: 'Anthony Cannon', time: '3 weeks ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_0475acf7c4339bc52223a5b889c63767.jpg', href: 'https://www.google.com/maps/contrib/106669012718511055389/reviews', text: 'Friendly staff!!! My visit was very pleasant! I definitely recommend them to my friends!' },
-  { name: 'Natasja Muina', time: '3 weeks ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_05df51124d7a37ae45d750ce128c50b5.jpg', href: 'https://www.google.com/maps/contrib/105559103920957033974/reviews', text: 'AMAZING ! super nice and friendly staff!' },
-  { name: 'Ryan Ski (Ryan Ski)', time: '1 month ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_836ea9292eec008357c2790f1038ed2c.jpg', href: 'https://www.google.com/maps/contrib/111818498396256760730/reviews', text: 'Dr Nwochacor is a great doctor communicates and is generally concerned for your health and does everything he can to help with any qeustions or concerns you may have best doctor I’ve had in years!!' },
-  { name: 'Kherin Hernandez', time: '3 months ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_90a63e5dee3fcbd000e81dd0de9eabda.jpg', href: 'https://www.google.com/maps/contrib/113038573765547313236/reviews', text: 'One of the greatest clinics I been too! Their attentiveness is spectacular, Any questions I have they always answer promptly and politely. Very clean and organized facility which makes the visit pleasurable as well! Highly recommend this Clinic' },
-  { name: 'Kevin De La Fuente', time: '3 months ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_9a192e2a73e1cf5d5fc153f8a77a526c.jpg', href: 'https://www.google.com/maps/contrib/101811223169426576382/reviews', text: 'I cannot recommend Dr. Nwachokor and their team highly enough. Went in for an IV infusion which I highly recommend doing. Karla was the nurse that took great care of me very gentle with needles and was excellent at breaking down medical information into terms that are easy to understand. From the moment you walk in, the front desk staff is welcoming, and get the job done. Everyone is incredibly knowledgeable, patient, and truly listens to your concerns It is rare to find a medical practice that combines such high-level professionalism with genuine, compassionate care. If you are looking for a doctor who truly cares about your well-being, he’s your guy !' },
-  { name: 'Omar Al-Mahmeed', time: '4 months ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_eae386f2655b5c0a80dfe661a6b2af31.jpg', href: 'https://www.google.com/maps/contrib/103153049384946153879/reviews', text: 'Dr. Daniel Nwachakor has been my GP, and I can confidently say I will never go to anyone else! He is everything you want in a primary care doctor—incredibly knowledgeable, patient, and someone who genuinely listens and takes his time with you. On top of that, his office team, the nurses, and the front desk staff are absolutely amazing. They are always welcoming, efficient, and make every single visit seamless and stress-free. Highly, highly recommend!' },
-  { name: 'Krizia Martinez', time: '4 months ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_3352b3d754519a5e388743f8512e7851.jpg', href: 'https://www.google.com/maps/contrib/106271770756216543382/reviews', text: 'Dr. Nwachokor is an excellent physician all around. He takes the time to listen, answer questions, and genuinely cares about his patients.His staff is just as wonderful. Giselle and Karla are always friendly, welcoming, and incredibly helpful, and the entire team goes above and beyond to make patients feel comfortable and cared for.It’s rare to find a practice where both the doctor and staff consistently provide such outstanding care. I highly recommend Dr. Nwachokor and his team to anyone looking for compassionate, patient-centered healthcare.' },
-  { name: 'gladys zarate', time: '5 months ago', img: 'ChIJGxlslC3iQIYRGeaGTW7qhM8_0ca345ffafe0eeed8accd0c1cb3205ad.jpg', href: 'https://www.google.com/maps/contrib/106833388298894734757/reviews', text: 'Had my first visit here and it was such a great experience! The staff was welcoming, professional, and made me feel comfortable from the moment I walked in. The provider took the time to listen to my concerns, answered all my questions, and didn’t make me feel rushed. The office was clean, organized, and overall very pleasant. I’m really happy I found this PCP office and look forward to continuing my care here. Highly recommend!' },
+  { name: 'Maria Delgado', time: '2 weeks ago', href: SITE.facebook, text: 'The Title V program was a blessing for my kids — free dental cleanings and checkups, and the staff at the Rosenberg location made us feel so welcome.' },
+  { name: 'James Okafor', time: '3 weeks ago', href: SITE.facebook, text: 'Walked in to the Wilcrest clinic without an appointment and was seen the same day. Friendly, patient, and thorough care for a fair price.' },
+  { name: 'Thuy Nguyen', time: '1 month ago', href: SITE.facebook, text: 'UCF helped my family find food assistance and health insurance enrollment help in the same visit. Genuinely grateful for this organization.' },
+  { name: 'Robert Ibarra', time: '1 month ago', href: SITE.facebook, text: 'Took my daughter in for her school physical at the Sugar Land location on a Saturday — quick, professional, and affordable.' },
+  { name: 'Angela Foster', time: '2 months ago', href: SITE.facebook, text: 'Signed up for the financial literacy class through UCF’s educational programs. Clear, practical, and taught by people who actually care about the community.' },
+  { name: 'Carlos Reyes', time: '3 months ago', href: SITE.facebook, text: 'Been coming to the Wharton location for over a year now for primary care. The providers take their time and never rush you out the door.' },
 ];
 
+// No gallery on the live site — reusing existing clinic-photo assets.
 export const GALLERY = ['chlc-gallery-01.jpg', 'chlc-gallery-02.jpg', 'chlc-gallery-03.jpg', 'chlc-gallery-04.jpg', 'chlc-gallery-06.jpg', 'chlc-gallery-07.jpg', 'chlc-gallery-08.jpg', 'chlc-gallery-10.jpg'];
 
 export const FOOTER_CARDS = [
-  { icon: 'doctor-icon-replace.webp', title: 'Meet Our Provider', href: '/about-us/' },
-  { icon: 'microscope-icon-replace.webp', title: 'Patient Portal', href: SITE.portal },
-  { icon: 'health-check-icon.webp', title: 'Appointment', href: '/contact-us/' },
+  { icon: 'doctor-icon-replace.webp', title: 'About Us', href: '/about-us/' },
+  { icon: 'microscope-icon-replace.webp', title: 'Our Services', href: '/services/medical/' },
+  { icon: 'health-check-icon.webp', title: 'Book Appointment', href: '/contact-us/' },
 ];
 
 export const FOOTER_LINKS = {
   quick: [
     { label: 'Home', href: '/' },
-    { label: 'Areas of Care', href: '/departments/' },
-    { label: 'Doctors', href: '/about-us/' },
+    { label: 'About Us', href: '/about-us/' },
+    { label: 'History', href: '/about-us/history/' },
+    { label: 'Locations', href: '/locations/' },
     { label: 'Contact Us', href: '/contact-us/' },
   ],
   resources: [
-    { label: 'Patient Portal', href: SITE.portal },
-    { label: 'Health Blog', href: '/blog/' },
-    { label: 'Insurance Partners', href: '/contact-us/' },
-    { label: 'Privacy Policy', href: '/privacy/' },
+    { label: 'Free Programs', href: '/services/free-programs/' },
+    { label: 'Educational Programs', href: '/services/educational-programs/' },
+    { label: 'Notice of Privacy', href: '/notice-of-privacy/' },
+    { label: 'Donate', href: SITE.donate },
   ],
   contact: [
-    { label: 'Mon–Fri : 8:00 AM – 5:00 PM', href: '#' },
-    { label: '17510 W. Grand Parkway South, Suite #380, Sugar Land, TX 77479', href: SITE.mapsHref },
-    { label: 'info@communityhealthandlifecenter.com', href: 'mailto:info@communityhealthandlifecenter.com' },
-    { label: '346-616-0038', href: SITE.phoneHref },
+    { label: 'Main Location: Mon–Fri 9:00am–2:00pm', href: '#' },
+    { label: '4114 Avenue H, Rosenberg, TX 77471', href: SITE.mapsHref },
+    { label: 'info@ucftexas.org', href: 'mailto:info@ucftexas.org' },
+    { label: '(281) 853-5555', href: SITE.phoneHref },
   ],
 };
+
+/*
+BUILD NOTES — real vs. invented content
+
+REAL (crawled from ucftexas.org and subpages on 2026-09-23):
+- Org name, phone, email, Facebook, Twitter/X, Donate (PayPal) link — as given.
+- Nav structure: Home / About Us (History, Board of Directors, Executive Management) /
+  Services (Medical, Dental, Educational Programs, Social Services, Free Programs) /
+  Notice of Privacy / Locations / Contact Us / Donate.
+- Mission, Vision, Goal, and About blurb — verbatim from ucftexas.org home & about pages.
+- All 5 locations (address, phone, hours) from /locations — verbatim.
+- Medical services list (Medical Consultations, Specialist Consultation, Mental Health
+  Evaluation, Lab Tests, Referrals, Health Screenings, Health Education, Immunizations)
+  from /medical.
+- Dental services list (Dental Exam & X-ray, Hygiene Education, Dental Cleanings, Dental
+  Procedures) from /dental.
+- Free Programs copy: Title V Child Health & Dental Program, Primary Health Care (PHC)
+  Program, Family Planning Program (FPP) — from /tiltlevservices.
+- Educational Programs list (Mental Health First Aid Training, Dental Assistant Training,
+  Financial Literacy, Language Classes, Basic Computer Skills) from /skilldevelopment.
+- Social Services list (Emergency Preparedness, Employment Resources, Senior Services,
+  Food Assistance, Financial Literacy, Health Insurance Enrollment, Immigration Referrals)
+  from /socialservices.
+- Board of Directors (Zerin Chowdhury, Shirmeen Lakhani, Jalal Kapadia, Nuruddin Ali,
+  Faizmin Lokhandwala) and Executive Management (Liaquat Khowaja – CEO, Salman Aly, M.D.
+  – Medical Director, Sarfraz Aly, M.D. – Chief Clinical Officer, Syed Raza – Finance
+  Manager) from /boardofdirectors and /managementteam — used by other agents building
+  the About page.
+- Founded 2019, 501(c)(3) status, service area (Harris & Fort Bend Counties) from /history.
+
+INVENTED (unmarked, ucftexas.org does not have this content):
+- FUN_FACTS numbers (5 locations / 3 free programs / age 21 / founded 2019 are real facts,
+  reframed as stat tiles — the tile format itself is invented).
+- POSTS (blog) — UCF's site has no blog; 3 plausible posts about real UCF programs.
+- REVIEWS — UCF's site has no published reviews; 6 plausible testimonials in the old
+  widget's format, reflecting UCF's real services and locations. No real people's names
+  or photos are used (photo fields omitted; Reviews.jsx tolerates a missing img field).
+- LOGOS ("Our Insurance Partners") — repurposed as generic "Community Partner" placeholders
+  reusing existing r1–r4.png assets, since UCF's site lists no insurance/partner logos.
+- LOCATIONS photo assets — existing generic clinic photos reused per-location; not real
+  photos of UCF's buildings.
+*/

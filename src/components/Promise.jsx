@@ -28,7 +28,7 @@ export default function Promise() {
             <div className="gv-col promise-right">
               <div className="gv-col-wrap">
                 <Subhead tag="Our Promise" sub="With Excellence & Integrity" center={false} onWhite />
-                <h2 className="gv-h2 left">Dedicated to Your Health, Every Step of the Way</h2>
+                <h2 className="gv-h2 left">Bridging the Gap in Access to Essential Care</h2>
 
                 <div className="promise-sub">
                   <div className="gv-col gv-anim" data-anim="fadeInDown" style={{ '--delay': '0.15s' }}>

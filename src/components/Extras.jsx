@@ -6,13 +6,13 @@ export function Gallery() {
       <div className="gal-inner">
         <div className="gal-head">
           <p className="gal-eyebrow">Gallery</p>
-          <h2>Inside Our Clinic</h2>
-          <p className="gal-lead">A look at our team, our patients, and the everyday care we provide.</p>
+          <h2>Our Community at Work</h2>
+          <p className="gal-lead">A look at our care teams, our locations, and the families we serve across Harris and Fort Bend counties.</p>
         </div>
         <div className="gal-grid">
           {GALLERY.map((g) => (
             <a className="gal-item" key={g} href={`/img/${g}`} target="_blank" rel="noopener">
-              <img src={`/img/${g}`} alt="Community Health & Life Center — clinic photo" loading="lazy" />
+              <img src={`/img/${g}`} alt="United Community Foundation — community photo" loading="lazy" />
             </a>
           ))}
         </div>
@@ -24,10 +24,10 @@ export function Gallery() {
 export function PortalCta() {
   return (
     <section className="chlc-portal-cta">
-      <h2>Manage Your Care Online</h2>
-      <p>View your records, message our team, and request appointments anytime through our secure Patient Portal.</p>
+      <h2>Need Help? We're Here for You</h2>
+      <p>Whether you need free or low-cost medical, dental, or social services, our team can help you find the right program and location — or you can support our mission with a donation.</p>
       <div className="wp-buttons">
-        <a className="wp-btn" href={SITE.portal} target="_blank" rel="noopener">Open the Patient Portal</a>
+        <a className="wp-btn" href={SITE.portal}>Request Services</a>
         <a className="wp-btn outline" href={SITE.phoneHref}>Call {SITE.phone}</a>
       </div>
     </section>
@@ -37,11 +37,11 @@ export function PortalCta() {
 export function Instagram() {
   return (
     <section className="chlc-instagram">
-      <p className="eyebrow">Instagram</p>
-      <h2>Follow Our Journey</h2>
-      <p className="lead">Health tips, team moments, and updates from Community Health &amp; Life Center — see our latest on Instagram.</p>
+      <p className="eyebrow">Community</p>
+      <h2>Follow Our Work</h2>
+      <p className="lead">Program updates, community events, and stories from United Community Foundation — follow along on Facebook.</p>
       <div className="wp-buttons">
-        <a className="wp-btn" href={SITE.instagram} target="_blank" rel="noopener">Follow @chlc.health</a>
+        <a className="wp-btn" href={SITE.facebook} target="_blank" rel="noopener">Follow on Facebook</a>
       </div>
     </section>
   );

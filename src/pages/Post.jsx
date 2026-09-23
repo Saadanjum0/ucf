@@ -13,7 +13,7 @@ const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString('en-US', { year:
 export default function Post({ path }) {
   const post = POSTS.find((p) => p.path === path);
   if (!post) return <NotFound />;
-  const url = encodeURIComponent(`https://communityhealthandlifecenter.com${post.path}/`);
+  const url = encodeURIComponent(`https://ucftexas.org${post.path}/`);
   const recent = POSTS.slice(0, 3);
   return (
     <>
