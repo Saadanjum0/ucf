@@ -55,7 +55,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   margin: 0;
@@ -65,7 +65,6 @@ body {
   line-height: 1.7;
   color: var(--gv-text-secondary);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 
 img { max-width: 100%; height: auto; display: inline; }
@@ -276,9 +275,10 @@ button { font: inherit; cursor: pointer; }
   z-index: 1000;
   list-style: none;
   width: 200px;
-  padding: 8px;
-  margin: 15px 0 0 5px;
+  padding: 23px 8px 8px;
+  margin: 0 0 0 5px;
   background: #ffffff;
+  background-clip: padding-box;
   border-radius: 16px;
   box-shadow: 0 10px 30px 0 rgba(45, 45, 45, 0.2);
   opacity: 0;
@@ -1064,10 +1064,12 @@ button { font: inherit; cursor: pointer; }
   border-radius: 10px;
   cursor: pointer;
 }
-.fcard .icon-box .ib-icon { margin: 0 15px 0 0; }
+.fcard .icon-box .ib-icon { margin: 0 15px 0 0; transition: filter .3s; }
+.fcard:hover .icon-box .ib-icon { filter: brightness(0) saturate(100%) invert(70%) sepia(30%) saturate(500%) hue-rotate(35deg); }
 .fcard .ib-title { margin: 10px 0 0; font-size: var(--fs-feature2); font-weight: 500; line-height: 1em; color: var(--gv-text); }
-.fcard .chev { width: 34px; height: 34px; margin-top: 8px; }
+.fcard .chev { width: 34px; height: 34px; margin-top: 8px; transition: transform .3s; }
 .fcard .chev svg { width: 34px; height: 34px; fill: var(--gv-text); }
+.fcard:hover .chev { transform: translateX(4px); }
 
 .footer-main { width: 100%; padding: 20px; }
 .footer-panel { padding: 20px; background: var(--gv-bg-secondary); border-radius: 10px; }
@@ -1228,6 +1230,8 @@ main.inner { font-family: var(--font-ps); }
 .media-text { display: grid; grid-template-columns: 50% 50%; margin-top: 19.2px; }
 .media-text-media { margin: 0; }
 .media-text-media img { display: block; width: 100%; height: auto; }
+.media-text-avatar { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 4 / 3; background: var(--gv-bg-primary, #0f5c56); border-radius: 8px; }
+.media-text-avatar span { font-family: var(--font-ps); font-size: 64px; font-weight: 600; letter-spacing: .02em; color: #ffffff; }
 .media-text-content { align-self: center; padding: 0 8%; }
 .media-text-content p { margin: 0 0 19.2px; }
 .media-text-content p:last-child { margin-bottom: 0; }
@@ -1292,7 +1296,9 @@ main.inner { font-family: var(--font-ps); }
   line-height: 1.5em;
   color: var(--gv-text);
   outline: none;
+  transition: box-shadow .2s;
 }
+.gv-input:focus, .gv-input:focus-visible { box-shadow: inset 0 0 0 2px var(--gv-accent); }
 .gv-input::placeholder { color: rgba(17, 17, 17, 0.3); }
 select.gv-input { height: 50px; border: 1px solid var(--gv-border); background: #ffffff; appearance: none; color: rgba(17, 17, 17, 0.3); }
 select.gv-input:valid { color: var(--gv-text); }
@@ -1418,12 +1424,14 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 }
 
 .dept-schedule { padding: 0 var(--section-x) 0; }
-.dept-schedule-inner { display: flex; width: 100%; padding: 40px; border-radius: 10px; }
+.dept-schedule-inner { display: flex; width: 100%; padding: 40px; border-radius: 10px; background: var(--gv-bg-primary); }
+.dept-schedule-inner .half:first-child { background: url("/img/meeting-team-of-doctor-and-medical-staff-consultant.webp") center / cover no-repeat; border-radius: 10px; min-height: 480px; }
 .dept-schedule-inner .half:last-child .gv-col-wrap { }
 .dept-schedule .schedule-card { background: #ffffff; }
 @media (max-width: 1024px) {
   .dept-schedule-inner { flex-direction: column; padding: 16px; }
   .dept-schedule-inner .half { width: 100%; }
+  .dept-schedule-inner .half:first-child { min-height: 260px; margin-bottom: 16px; }
   .dept-schedule .schedule-card { padding: 20px; }
 }
 

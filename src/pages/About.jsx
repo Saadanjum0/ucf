@@ -19,10 +19,10 @@ const FACTS = [
 ];
 
 const STEPS = [
-  { n: '01', title: 'Intake & Eligibility', desc: 'We start with a simple screening to understand your household and connect you to the right free or low-cost program.' },
-  { n: '02', title: 'Connect to Care', desc: 'We coordinate medical, dental, and social services across our team so nothing falls through the cracks.' },
-  { n: '03', title: 'Ongoing Care', desc: 'Free and low-cost preventive, primary, and dental care for the whole family, at any of our five locations.' },
-  { n: '04', title: 'Community Education', desc: 'Financial literacy, job training, and health education that build lasting stability beyond the visit.' },
+  { n: '01', title: 'Intake & Eligibility', desc: 'We start with a simple screening to understand your household and connect you to the right free or low-cost program, including Title V, the PHC Program, and the Family Planning Program.' },
+  { n: '02', title: 'Preventive & Chronic Care', desc: 'General and mental health screenings, vaccinations, and chronic disease management — including diabetes, hypertension, and access to affordable medications — coordinated across our clinical team.' },
+  { n: '03', title: 'Ongoing Care', desc: 'Free and low-cost preventive, primary, and dental care for the whole family, delivered with the same standard of care we would expect for our own families, at any of our five locations.' },
+  { n: '04', title: 'Community Education', desc: 'Mentorship, vocational training, scholarship referrals, and skill-building programs that help students and adults from low-income backgrounds pursue their goals beyond the visit.' },
 ];
 
 const LEADERSHIP = [
@@ -108,7 +108,7 @@ export default function About() {
                   </div>
                   <div className="gv-col vision-text-col">
                     <div className="gv-col-wrap">
-                      <p className="gv-p vision-p">Founded in 2019 as a 501(c)(3) nonprofit, United Community Foundation strives to empower individuals and families who face barriers due to socioeconomic challenges, lack of insurance, or limited access to quality care. Our goal is simple yet powerful: to ensure that every person, regardless of background or financial circumstances, can lead a healthy and fulfilling life.</p>
+                      <p className="gv-p vision-p">Founded in 2019 as a 501(c)(3) nonprofit, United Community Foundation strives to empower individuals and families who face barriers due to socioeconomic challenges, lack of insurance, or limited access to quality care. Over the past five years, we've partnered with local organizations across Harris and Fort Bend counties so that every person, regardless of background or financial circumstances, can lead a healthy and fulfilling life.</p>
                       <div className="vm-box gv-anim" data-anim="fadeInLeft" style={{ '--delay': '0.05s' }}>
                         <div className="vm-box-wrap">
                           <div className="ib-icon plain50"><img src="/img/insurance-icon-replace.webp" alt="our vision icon" /></div>

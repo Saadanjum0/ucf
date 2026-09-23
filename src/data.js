@@ -9,8 +9,8 @@ export const SITE = {
   phone: '(281) 853-5555',
   phoneHref: 'tel:+12818535555',
   email: 'info@ucftexas.org',
-  address: '4114 Avenue H, Rosenberg, TX 77471',
-  mapsHref: 'https://www.google.com/maps/search/?api=1&query=4114+Avenue+H%2C+Rosenberg%2C+TX+77471',
+  address: '12425 West Airport Blvd, Unit 205, Sugar Land, TX 77478',
+  mapsHref: 'https://www.google.com/maps/search/?api=1&query=12425+West+Airport+Blvd%2C+Unit+205%2C+Sugar+Land%2C+TX+77478',
   facebook: 'https://www.facebook.com/ucftexas',
   twitter: 'https://www.twitter.com/ucf_tx',
   // UCF has no Instagram or patient portal on the live site — Extras.jsx (owned by
@@ -84,7 +84,7 @@ export const TECH = [
   { icon: 'medical-kit-icon-replace.webp', title: 'Qualified Care Team', desc: 'Experienced physicians, nurse practitioners, and management staff.' },
   { icon: 'blood-pressure-icon-replace.webp', title: 'Free Title V Program', desc: 'Free medical & dental services for uninsured and underinsured children under 21 (eligibility required).' },
   { icon: 'syringe-icon-replace.webp', title: 'Walk-Ins Welcome', desc: 'Most locations accept walk-in patients alongside scheduled appointments.' },
-  { icon: 'cardiogram-icon-replace.webp', title: 'Major Insurance Accepted', desc: 'We accept major medical insurances and offer options for the uninsured.' },
+  { icon: 'cardiogram-icon-replace.webp', title: 'Free & Low-Cost Care', desc: 'Quality medical, dental, and program support regardless of income or insurance status.' },
 ];
 
 // UCF's live site does not list insurance/partner logos. Reusing existing
@@ -150,7 +150,7 @@ export const FOOTER_LINKS = {
   ],
   contact: [
     { label: 'Main Location: Mon–Fri 9:00am–2:00pm', href: '#' },
-    { label: '4114 Avenue H, Rosenberg, TX 77471', href: SITE.mapsHref },
+    { label: '12425 West Airport Blvd, Unit 205, Sugar Land, TX 77478', href: SITE.mapsHref },
     { label: 'info@ucftexas.org', href: 'mailto:info@ucftexas.org' },
     { label: '(281) 853-5555', href: SITE.phoneHref },
   ],
@@ -159,8 +159,19 @@ export const FOOTER_LINKS = {
 /*
 BUILD NOTES — real vs. invented content
 
+CORRECTED 2026-09-23 (fresh verification pass): SITE.address was previously set to the
+Rosenberg clinic address (4114 Avenue H, Rosenberg, TX 77471). ucftexas.org's own
+site-wide footer "Contact Us" block (present on every crawled page, including home,
+aboutus, locations, medical, dental, history, boardofdirectors, managementteam) actually
+lists the org's contact/mailing address as 12425 West Airport Blvd, Unit 205, Sugar Land,
+TX 77478 — a different address from any single clinic location. SITE.address, mapsHref,
+and FOOTER_LINKS.contact now use the verified Sugar Land address; the Rosenberg address
+remains correct as LOCATIONS[0] ("Main Location", a real distinct clinic).
+
 REAL (crawled from ucftexas.org and subpages on 2026-09-23):
 - Org name, phone, email, Facebook, Twitter/X, Donate (PayPal) link — as given.
+- Org contact/mailing address: 12425 West Airport Blvd, Unit 205, Sugar Land, TX 77478 —
+  from the site-wide footer contact block.
 - Nav structure: Home / About Us (History, Board of Directors, Executive Management) /
   Services (Medical, Dental, Educational Programs, Social Services, Free Programs) /
   Notice of Privacy / Locations / Contact Us / Donate.

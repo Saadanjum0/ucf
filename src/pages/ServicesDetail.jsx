@@ -11,7 +11,7 @@ const EXPECT = [
 
 const FAQ = [
   { q: 'What should I expect at a medical consultation?', a: 'Your visit includes a review of your health history, a consultation with our medical staff, any needed health screenings, and a clear explanation of next steps — including referrals or lab work if recommended.' },
-  { q: 'Do I need insurance for a medical consultation?', a: 'No. We accept major insurance, and uninsured or underinsured patients may qualify for free or low-cost care through our Title V, PHC, or Family Planning programs.' },
+  { q: 'Do I need insurance for a medical consultation?', a: 'No. Uninsured or underinsured patients may qualify for free or low-cost care through our Title V, PHC, or Family Planning programs, and our team can talk through options with you regardless of insurance status.' },
   { q: 'How do I get a specialist referral?', a: 'If our medical team recommends specialist care, we coordinate the referral for you as part of your visit, along with any lab tests or imaging needed beforehand.' },
 ];
 

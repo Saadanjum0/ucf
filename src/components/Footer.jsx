@@ -53,7 +53,7 @@ export default function Footer() {
                 <h3>Stay Connected with {SITE.name}</h3>
                 <p className="gv-p gv-p-white">Get the latest program updates, community news, and health tips from {SITE.name}.</p>
                 <form className="news-form" onSubmit={(e) => { e.preventDefault(); setSent(true); }}>
-                  <input type="email" placeholder="" aria-label="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                  <input type="email" name="input-email" id="footer-newsletter-email" placeholder="Enter Your Email" aria-label="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                   <button type="submit" aria-label="Subscribe"><SendIcon /></button>
                   {sent && <span className="gv-p gv-p-white" style={{ width: '100%', marginTop: 8 }}>Thank you.</span>}
                 </form>

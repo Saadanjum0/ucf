@@ -2,6 +2,10 @@ import { PageBanner } from '../components/inner/Common';
 import { PortalCta } from '../components/Extras';
 import { SITE } from '../data';
 
+function initials(name) {
+  return name.split(' ').filter((w) => /^[A-Za-z]/.test(w)).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+}
+
 /* ---------------- Patient Center ---------------- */
 export function PatientCenter() {
   return (
@@ -16,14 +20,14 @@ export function PatientCenter() {
           <h2>Free Title V Program &amp; Eligibility</h2>
           <p>Our Title V Child Health and Dental Program provides free medical and dental care to uninsured and underinsured children and adolescents under 21 from low-income households. Eligibility is based on household size and income — bring proof of income and residency in Harris or Fort Bend County to your first visit, and our care coordinators will help you determine which of our free or low-cost programs fits your family, including the Primary Health Care (PHC) Program and the Family Planning Program (FPP).</p>
           <h2>Insurance &amp; Billing</h2>
-          <p>We accept major medical insurance plans and offer reduced-cost self-pay options for patients without insurance. Lab and imaging services are available at reduced cost through our referral network. Call <a href={SITE.phoneHref}>{SITE.phone}</a> for current accepted plans and pricing.</p>
-          <p>We verify insurance before every visit. All office fees are payable at the time of service; patients are responsible for co-payments, deductibles, and any non-covered services. No family is turned away from Title V services due to inability to pay.</p>
+          <p>Insurance is not required to receive care at UCF. Through our Title V, Primary Health Care (PHC), and Family Planning (FPP) programs, we offer free and low-cost, sliding-scale services regardless of income or insurance status, plus reduced-cost laboratory and imaging services through our referral network. Call <a href={SITE.phoneHref}>{SITE.phone}</a> for current pricing.</p>
+          <p>All office fees are payable at the time of service; patients are responsible for any applicable co-payments or non-covered services under low-cost programs. No eligible family is turned away from Title V services due to inability to pay.</p>
           <h2>What to Expect at Your Visit</h2>
           <p>After a brief eligibility screening, our team connects you to the right service — medical, dental, or social services — and coordinates any follow-up care or referrals you need. Many families are seen the same day at our walk-in-friendly locations.</p>
           <h2>Office Policies</h2>
           <p>Questions about appointments, eligibility, or records? Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
           <h2>Health &amp; Community Resources</h2>
-          <p>Beyond clinical care, UCF connects families to food assistance, employment resources, health insurance enrollment help, and free educational programs like financial literacy and job-skills training.</p>
+          <p>Beyond clinical care, UCF's social services team connects families with emergency preparedness and response resources, employment resources, senior services, food assistance and nutrition, financial literacy classes, health insurance enrollment help, and immigration referrals.</p>
           <p><strong>Please note:</strong> our Patient Center should not be used for urgent medical concerns. If you need prompt assistance, call your nearest location directly. For a medical emergency, call 911.</p>
           <PortalCta />
         </main>
@@ -36,7 +40,7 @@ export function PatientCenter() {
 const EXECUTIVES = [
   {
     name: 'Liaquat Khowaja', role: 'Chief Executive Officer',
-    bio: 'Liaquat Khowaja leads United Community Foundation\u2019s operations and strategy, guiding the organization\u2019s growth across Harris and Fort Bend counties since its founding in 2019. He works closely with the Board of Directors to keep UCF\u2019s free and low-cost programs accessible to the families who need them most.',
+    bio: 'Liaquat Khowaja leads United Community Foundation\u2019s operations and strategy, guiding the organization\u2019s growth across Harris and Fort Bend counties. He works closely with the Board of Directors to keep UCF\u2019s free and low-cost programs accessible to the families who need them most.',
   },
   {
     name: 'Salman Aly, M.D.', role: 'Medical Director',
@@ -72,6 +76,9 @@ export function Doctors() {
           {EXECUTIVES.map((p, i) => (
             <div key={p.name}>
               <div className="media-text">
+                <div className="media-text-media">
+                  <div className="media-text-avatar"><span aria-hidden="true">{initials(p.name)}</span></div>
+                </div>
                 <div className="media-text-content">
                   <h3>{p.name}</h3>
                   <p><strong>{p.role}</strong></p>
@@ -84,10 +91,10 @@ export function Doctors() {
           <h2>Board of Directors</h2>
           <p>Our Board of Directors provides governance and community oversight for UCF's programs and clinics:</p>
           <ul>
-            {BOARD.map((b) => <li key={b.name}>{b.name} \u2014 {b.role}</li>)}
+            {BOARD.map((b) => <li key={b.name}>{b.name} — {b.role}</li>)}
           </ul>
           <h2>Clinical &amp; Support Staff</h2>
-          <p>Across our five locations, our physicians, nurse practitioners, dental providers, and front-desk and clinical support staff work together to make sure every visit runs smoothly \u2014 from eligibility screening and scheduling to ongoing care and follow-up.</p>
+          <p>Across our five locations, our physicians, nurse practitioners, dental providers, and front-desk and clinical support staff work together to make sure every visit runs smoothly — from eligibility screening and scheduling to ongoing care and follow-up.</p>
           <h2>Contact Our Team</h2>
           <p>Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> to reach our leadership team or ask about our programs.</p>
           <PortalCta />

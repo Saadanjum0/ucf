@@ -29,7 +29,7 @@ const STEPS = [
 
 const FAQ = [
   { q: 'What services does United Community Foundation provide?', a: 'We provide Medical Services, Dental Services, Educational Programs, Social Services, and Free Programs for uninsured and underinsured families across Harris and Fort Bend Counties.' },
-  { q: 'Do I need insurance to be seen?', a: 'No. We accept major insurance, and we also offer free and low-cost programs — including the Title V Child Health & Dental Program and the PHC Program — for patients without insurance.' },
+  { q: 'Do I need insurance to be seen?', a: 'No. We offer free and low-cost programs — including the Title V Child Health & Dental Program and the PHC Program — for patients without insurance, regardless of ability to pay.' },
   { q: 'How do I schedule a visit?', a: 'Call us at (281) 853-5555 or use the Contact page. Most of our locations also welcome walk-ins.' },
 ];
 
@@ -44,7 +44,7 @@ export default function Services() {
           <div className="promise-row">
             <div className="gv-col promise-left">
               <div className="gv-col-wrap">
-                <ServiceCard img="ucf-healthy-living.png" title="Medical Services" desc="Medical consultations, specialist consultation, mental health evaluation, lab tests, referrals, health screenings, health education, and immunizations." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
+                <ServiceCard img="ucf-healthy-living.png" title="Medical Services" desc="Primary healthcare: medical consultations, specialist consultation, mental health evaluation, lab tests, and referrals. Preventive healthcare: health screenings, health education, and immunizations." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
                 <ServiceCard img="ucf-dental.png" title="Dental Services" desc="Dental exam & X-ray, hygiene education, cleanings, and dental procedures for every member of the family." height={520} anim="fadeInDown" delay="0.25s" />
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Services() {
                   <div className="gv-col">
                     <div className="gv-col-wrap">
                       <ServiceCard img="group-of-doctors-talking-about-corona-virus-on-conference.webp" title="Educational Programs" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
-                      <ServiceCard img="pre-oxygenation-for-general-anesthesia-surgery.webp" title="Social Services" desc="Emergency preparedness, employment resources, senior services, food assistance, and health insurance enrollment help." height={470} anim="fadeInLeft" delay="0.3s" />
+                      <ServiceCard img="pre-oxygenation-for-general-anesthesia-surgery.webp" title="Social Services" desc="Emergency preparedness, employment and training referrals, senior services, food assistance, health insurance enrollment, and immigration referrals." height={470} anim="fadeInLeft" delay="0.3s" />
                     </div>
                   </div>
                   <div className="gv-col">
