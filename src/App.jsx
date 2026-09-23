@@ -24,6 +24,8 @@ import { PatientCenter, Doctors } from './pages/SimplePages';
 import { BlogListing, TermListing } from './pages/Listing';
 import Post from './pages/Post';
 import { WpTemplatePage, NotFound } from './pages/WpPages';
+import ContentPage from './pages/ContentPage';
+import { CONTENT_PAGES } from './contentPages';
 import { POSTS, WP_PAGES, CATEGORIES, TAGS } from './wpData';
 
 function Home() {
@@ -73,6 +75,7 @@ function resolve(path) {
     return { title: (post ? post.title : 'Page not found') + SITE_SUFFIX, el: <Post path={path} /> };
   }
   const slug = path.replace(/^\//, '');
+  if (CONTENT_PAGES[slug]) return { title: CONTENT_PAGES[slug].hero.title + SITE_SUFFIX, el: <ContentPage slug={slug} /> };
   if (WP_PAGES[slug]) return { title: WP_PAGES[slug].title + SITE_SUFFIX, el: <WpTemplatePage slug={slug} /> };
   return { title: 'Page not found' + SITE_SUFFIX, el: <NotFound />, notFound: true };
 }

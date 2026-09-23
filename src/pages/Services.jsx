@@ -2,11 +2,11 @@ import { PageHero, LineAccordion, GreyAccordion, ProcessList } from '../componen
 import { Subhead } from '../components/Departments';
 import { PortalCta } from '../components/Extras';
 
-function ServiceCard({ img, title, desc, height, anim, delay, TitleTag = 'h3' }) {
+function ServiceCard({ img, title, desc, href = '/services-detail/', height, anim, delay, TitleTag = 'h3' }) {
   return (
     <div className="photo-card svc-card gv-anim" data-anim={anim} style={{ '--delay': delay, backgroundImage: `url(/img/${img})`, height }}>
       <div className="glass">
-        <TitleTag><a href="/services-detail/">{title}</a></TitleTag>
+        <TitleTag><a href={href}>{title}</a></TitleTag>
         <p>{desc}</p>
       </div>
     </div>
@@ -44,8 +44,8 @@ export default function Services() {
           <div className="promise-row">
             <div className="gv-col promise-left">
               <div className="gv-col-wrap">
-                <ServiceCard img="ucf-healthy-living.png" title="Medical Services" desc="Primary healthcare: medical consultations, specialist consultation, mental health evaluation, lab tests, and referrals. Preventive healthcare: health screenings, health education, and immunizations." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
-                <ServiceCard img="ucf-dental.png" title="Dental Services" desc="Dental exam & X-ray, hygiene education, cleanings, and dental procedures for every member of the family." height={520} anim="fadeInDown" delay="0.25s" />
+                <ServiceCard img="ucf-healthy-living.png" title="Medical Services" href="/services/medical/" desc="Primary healthcare: medical consultations, specialist consultation, mental health evaluation, lab tests, and referrals. Preventive healthcare: health screenings, health education, and immunizations." height={520} anim="fadeInLeft" delay="0.05s" TitleTag="h2" />
+                <ServiceCard img="ucf-dental.png" title="Dental Services" href="/services/dental/" desc="Dental exam & X-ray, hygiene education, cleanings, and dental procedures for every member of the family." height={520} anim="fadeInDown" delay="0.25s" />
               </div>
             </div>
             <div className="gv-col promise-right">
@@ -55,15 +55,15 @@ export default function Services() {
                 <div className="promise-sub">
                   <div className="gv-col">
                     <div className="gv-col-wrap">
-                      <ServiceCard img="shot-of-a-group-of-scientists-giving-each-other-a-toss.webp" title="Educational Programs" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
-                      <ServiceCard img="balance-exercise-with-bosu-ball-woman-and-doctor.webp" title="Social Services" desc="Emergency preparedness, employment and training referrals, senior services, food assistance, health insurance enrollment, and immigration referrals." height={470} anim="fadeInLeft" delay="0.3s" />
+                      <ServiceCard img="shot-of-a-group-of-scientists-giving-each-other-a-toss.webp" title="Educational Programs" href="/services/educational-programs/" desc="Mental health first aid training, dental assistant training, financial literacy, language classes, and basic computer skills." height={470} anim="fadeInDown" delay="0.1s" />
+                      <ServiceCard img="balance-exercise-with-bosu-ball-woman-and-doctor.webp" title="Social Services" href="/services/social-services/" desc="Emergency preparedness, employment and training referrals, senior services, food assistance, health insurance enrollment, and immigration referrals." height={470} anim="fadeInLeft" delay="0.3s" />
                     </div>
                   </div>
                   <div className="gv-col">
                     <div className="gv-col-wrap">
                       <p className="gv-p">Every program is shaped around our community's needs, delivered with equity, dignity, and excellence.</p>
-                      <ServiceCard img="ucf-titlev.png" title="Free Programs" desc="Title V Child Health & Dental Program, the PHC Program, and the Family Planning Program for uninsured families." height={485} anim="fadeInDown" delay="0.2s" />
-                      <ServiceCard img="ucf-labs.png" title="Low-Cost Lab & Imaging" desc="Preventive and primary care backed by a referral network for affordable laboratory and imaging services." height={485} anim="fadeInDown" delay="0.4s" />
+                      <ServiceCard img="ucf-titlev.png" title="Free Programs" href="/services/free-programs/" desc="Title V Child Health & Dental Program, the PHC Program, and the Family Planning Program for uninsured families." height={485} anim="fadeInDown" delay="0.2s" />
+                      <ServiceCard img="ucf-labs.png" title="Low-Cost Lab & Imaging" href="/services/medical/" desc="Preventive and primary care backed by a referral network for affordable laboratory and imaging services." height={485} anim="fadeInDown" delay="0.4s" />
                     </div>
                   </div>
                 </div>

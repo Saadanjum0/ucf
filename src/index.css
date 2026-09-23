@@ -1864,3 +1864,66 @@ textarea.gv-input { height: 175px; border: 1px solid var(--gv-border); backgroun
 .nf-box p { width: 441px; max-width: 100%; margin: 0 0 30px; font-size: 16px; line-height: 1.5em; color: var(--gv-text-white-secondary); }
 .nf-btn { margin-right: 0; }
 @media (max-width: 767px) { .nf-section { min-height: 600px; padding: 20px; } .nf-box h1 { font-size: 150px; } }
+
+/* =================================================================
+   RICH CONTENT PAGES (services/*, about-us/*, locations)
+   ================================================================= */
+
+.cp-intro { padding: 120px var(--section-x); }
+.cp-intro .gv-container { align-items: flex-start; }
+.cp-intro-left { width: 42%; }
+.cp-intro-right { width: 58%; }
+.cp-intro-right .gv-col-wrap { margin-left: 30px; }
+.cp-h2 { width: 100%; }
+.cp-p { margin-bottom: 22px; }
+.cp-p:last-child { margin-bottom: 0; }
+.cp-list { margin-top: 28px; }
+
+.cp-cards { background: var(--gv-bg-secondary); padding: 120px var(--section-x); }
+.cp-cards-h2 { width: 700px; max-width: 100%; margin-bottom: 56px; }
+.cp-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; width: 100%; }
+.cp-card-grid .gv-col { width: 100%; }
+.cp-card-grid .gv-col-wrap { margin: 0; height: 100%; }
+.cp-card-grid .dept-box, .cp-card-grid .dept-box-wrap { height: 100%; }
+.cp-card-grid .dept-box-wrap { background: #ffffff; }
+.cp-card-grid .dept-box-wrap .ib-icon { margin-bottom: 28px; }
+.cp-card-grid .readmore { display: none; }
+
+.cp-faq { padding: 120px var(--section-x); }
+.cp-faq-h2 { width: 700px; max-width: 100%; margin-bottom: 56px; }
+.cp-faq-acc { width: 840px; max-width: 100%; }
+
+.cp-closing { background: var(--gv-bg-secondary); padding: 100px var(--section-x); }
+.cp-closing-h2 { width: 640px; max-width: 100%; }
+.cp-closing-p { width: 620px; max-width: 100%; margin: 20px 0 36px; }
+.cp-closing-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.cp-closing-btns .btn-primary { margin-right: 0; }
+.btn-outline {
+  padding: 15px 30px 16px;
+  background: transparent;
+  border: 2px solid var(--gv-bg-primary);
+  border-radius: 100px;
+}
+.btn-outline span { font-size: 18px; font-weight: 600; color: var(--gv-text); }
+.btn-outline:hover { background: var(--gv-bg-primary); }
+.btn-outline:hover span { color: #ffffff; }
+
+@media (max-width: 1024px) {
+  .cp-intro, .cp-cards, .cp-faq { padding: 80px 20px; }
+  .cp-closing { padding: 72px 20px; }
+  .cp-intro .gv-container { flex-direction: column; }
+  .cp-intro-left, .cp-intro-right { width: 100%; }
+  .cp-intro-right .gv-col-wrap { margin: 28px 0 0; }
+  .cp-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 767px) {
+  .cp-card-grid { grid-template-columns: minmax(0, 1fr); }
+  .cp-closing-btns { flex-direction: column; align-items: stretch; }
+}
+
+/* Content-page cards have no hover photo, so keep text readable on hover
+   instead of inheriting the white-on-white treatment from .dept-box. */
+.cp-card-grid .dept-box:hover .dept-box-wrap { background-image: none; background: #ffffff; }
+.cp-card-grid .dept-box:hover .ib-title { color: var(--gv-text); }
+.cp-card-grid .dept-box:hover .ib-desc { color: var(--gv-text-secondary); }

@@ -6,12 +6,12 @@ import { PortalCta } from '../components/Extras';
 const LIST = ['Title V Child Health & Dental Program', 'Primary Health Care (PHC) Program', 'Family Planning Program', 'Specialist Referrals', 'Mental Health Evaluation', 'Low-Cost Lab & Imaging'];
 
 const CARDS = [
-  { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.1s' },
-  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
-  { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.2s' },
-  { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
-  { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'female-doctor-hugging-her-little-male-patient.webp', delay: '0.2s' },
-  { icon: 'sanitary-pad-icon-replace.webp', title: 'Family Planning & PHC Programs', desc: 'Free and low-cost primary and reproductive health services for qualifying families.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', delay: '0.25s' },
+  { icon: 'heart-icon-replace.webp', title: 'Preventive & Primary Medical Care', href: '/services/medical/', desc: 'Medical consultations, health screenings, immunizations & health education.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.1s' },
+  { icon: 'bone-icon-replace.webp', title: 'Specialist Consultation & Referrals', href: '/services/medical/', desc: 'Coordinated referrals to specialists when your care needs a closer look.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
+  { icon: 'microscope-icon-replace.webp', title: 'Lab Tests & Low-Cost Imaging', href: '/services/medical/', desc: 'Diagnostics through our referral network at a reduced cost.', hover: 'shot-of-a-group-of-scientists-giving-each-other-a-toss.webp', delay: '0.2s' },
+  { icon: 'dna-icon-replace.webp', title: 'Preventive & Primary Dental Care', href: '/services/dental/', desc: 'Exams & X-rays, cleanings, hygiene education & dental procedures.', hover: 'balance-exercise-with-bosu-ball-woman-and-doctor.webp', delay: '0.15s' },
+  { icon: 'pacifier-icon-replace.webp', title: 'Title V Child Health & Dental', href: '/services/free-programs/', desc: 'Free medical and dental care for uninsured and underinsured children under 21.', hover: 'female-doctor-hugging-her-little-male-patient.webp', delay: '0.2s' },
+  { icon: 'sanitary-pad-icon-replace.webp', title: 'Family Planning & PHC Programs', href: '/services/free-programs/', desc: 'Free and low-cost primary and reproductive health services for qualifying families.', hover: 'female-receptionist-working-at-desk-in-clinic.webp', delay: '0.25s' },
 ];
 
 const SPECIALISTS = [
@@ -70,7 +70,7 @@ export default function Departments() {
                                 <div className="ib-body">
                                   <h2 className="ib-title">{c.title}</h2>
                                   <p className="ib-desc">{c.desc}</p>
-                                  <a className="readmore" href="/services-detail/"><span>Read More</span><ArrowRightIcon /></a>
+                                  <a className="readmore" href={c.href || "/services/"}><span>Read More</span><ArrowRightIcon /></a>
                                 </div>
                               </div>
                             </div>

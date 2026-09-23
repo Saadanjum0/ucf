@@ -28,13 +28,13 @@ export const SITE = {
 
 export const NAV = [
   { label: 'Home', href: '/' },
-  { label: 'About Us', href: '#', children: [
+  { label: 'About Us', href: '/about-us/', children: [
     { label: 'About Us', href: '/about-us/' },
     { label: 'History', href: '/about-us/history/' },
     { label: 'Board of Directors', href: '/about-us/board-of-directors/' },
     { label: 'Executive Management', href: '/about-us/executive-management/' },
   ] },
-  { label: 'Services', href: '#', children: [
+  { label: 'Services', href: '/services/', children: [
     { label: 'Medical', href: '/services/medical/' },
     { label: 'Dental', href: '/services/dental/' },
     { label: 'Educational Programs', href: '/services/educational-programs/' },
